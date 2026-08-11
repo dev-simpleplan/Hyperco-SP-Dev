@@ -1,0 +1,289 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 0
+      }
+    },
+    "1659987918ee12be92": {
+      "type": "rich-text",
+      "blocks": {
+        "1659987917d025cac4-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>FAQ</p>",
+            "heading_size": "h1"
+          }
+        },
+        "1659987917d025cac4-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "1659987917d025cac4-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1659987917d025cac4-0",
+        "1659987917d025cac4-1",
+        "1659987917d025cac4-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 28,
+        "padding_bottom": 0
+      }
+    },
+    "1c627d71-a102-4d03-b499-b80965c8825f": {
+      "type": "image-banner",
+      "blocks": {
+        "template--15341715587208__1c627d71-a102-4d03-b499-b80965c8825f-1682974676a4ddd474-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "FAQ",
+            "heading_size": "h1"
+          }
+        },
+        "template--15341715587208__1c627d71-a102-4d03-b499-b80965c8825f-1682974676a4ddd474-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--15341715587208__1c627d71-a102-4d03-b499-b80965c8825f-1682974676a4ddd474-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15341715587208__1c627d71-a102-4d03-b499-b80965c8825f-1682974676a4ddd474-0",
+        "template--15341715587208__1c627d71-a102-4d03-b499-b80965c8825f-1682974676a4ddd474-1",
+        "template--15341715587208__1c627d71-a102-4d03-b499-b80965c8825f-1682974676a4ddd474-2"
+      ],
+      "custom_css": [
+        ".banner {margin-top: 30px;}",
+        ".banner__box {background-color: transparent;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/goalies-outdoors-hyperco.png",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "16599875987c11d331": {
+      "type": "collapsible-content",
+      "blocks": {
+        "ee288821-bfbe-434d-91d8-fc73fff5a4fb": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What's your turnaround time?",
+            "icon": "none",
+            "row_content": "<p>After you place your order, we'll deliver you a digital proof within roughly 2 business days. Once we get your approval, the production + shipping times are as follows:</p><p><strong>HOCKEY:</strong></p><ul><li>Sublimated: 4-5 weeks </li><li>Embroidered Tackle Twill: 5-6 weeks </li></ul><p><strong>BASKETBALL:</strong></p><ul><li>3-4 weeks</li></ul><p><strong>SOCCER:</strong></p><ul><li>3-4 weeks</li></ul>",
+            "page": ""
+          }
+        },
+        "165998759750b4f253-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What's the order process?",
+            "icon": "none",
+            "row_content": "<p><span style=\"text-decoration:underline\"><strong>Step 1</strong></span><strong><br/></strong>Create your perfect jerseys using our highly customizable jersey builder, or <a href=\"/pages/contact\" target=\"_blank\" title=\"Contact\">contact us</a> to get started.</p><p><span style=\"text-decoration:underline\"><strong>Step 2</strong></span><strong><br/></strong>Finalize and approve your order details through our proofing portal. We'll send you a link when it's ready.</p><p><span style=\"text-decoration:underline\"><strong>Step 3</strong></span><strong><br/></strong>Track your order. From approval to shipping, we'll send you updates as we work on your team's unis.</p>",
+            "page": ""
+          }
+        },
+        "165998759750b4f253-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What's your minimum order quantity?",
+            "icon": "none",
+            "row_content": "<p>Currently, our minimum order quantity is 5 jerseys/kits per order.</p>",
+            "page": ""
+          }
+        },
+        "dfc4e2dc-c161-4d0a-90f1-7d035c23c8e0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How much is shipping, and where all do you ship to?",
+            "icon": "none",
+            "row_content": "<p>We'll ship anywhere! Currently, we offer <strong>$20 worldwide flat rate</strong> shipping for all orders. </p>",
+            "page": ""
+          }
+        },
+        "fcf02578-f9b9-439c-9e45-32c26d3ce7d7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How can I reorder one jersey from a previously placed team order?",
+            "icon": "none",
+            "row_content": "<p>Whether you have a new teammate or you just need a new jersey for yourself, simply visit our <a href=\"/pages/reorder\" target=\"_blank\" title=\"Reorder\">Reorder</a> page and fill out the form. We'll get back to you as soon as possible with an invoice and proof.</p>",
+            "page": ""
+          }
+        },
+        "165998759750b4f253-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you have a size chart?",
+            "icon": "none",
+            "row_content": "<p>Yep!</p><p><a href=\"/pages/hockey-jersey-socks-size-charts\" target=\"_blank\" title=\"Hockey Jersey & Socks Size Charts\">Hockey Jersey & Sock Size Chart<br/><br/></a>Soccer Size Chart (Coming Soon)<br/><br/>Basketball Size Chart (Coming Soon)</p>",
+            "page": ""
+          }
+        },
+        "4561e452-3182-4e06-9c00-1804836c466c": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you offer youth and adult sizes?",
+            "icon": "none",
+            "row_content": "<p>Yes, we offer youth and adult sizes for all all products. <br/><br/>See our full <a href=\"/pages/hockey-jersey-socks-size-charts\" target=\"_blank\" title=\"Hockey Jersey & Sock Size Charts\">size chart here</a>, and select your sizes in the Roster tab of the jersey builder for whichever jersey product you customize.</p>",
+            "page": ""
+          }
+        },
+        "6cdc6b2e-a36a-4523-ba1f-01de30fb7987": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What if I can't build the jersey I want on your builder?",
+            "icon": "none",
+            "row_content": "<p>No problem! Just visit our <a href=\"/pages/contact\" target=\"_blank\" title=\"Contact\">Contact</a> page, select Custom Order in the Contact Reason dropdown, and fill in your details. We'll get back to you once we review everything.</p>",
+            "page": ""
+          }
+        },
+        "c4365e67-02a0-48f1-9bf3-3fc6f2383d1d": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you offer socks?",
+            "icon": "none",
+            "row_content": "<p>We currently only offer hockey socks. Within the jersey builder for either of the two Ice Hockey Jersey products, you have the option to add & design socks.</p><p>Our socks are made of performance polyester, just like the jerseys.</p>",
+            "page": ""
+          }
+        },
+        "3ea063eb-07db-496e-9bf2-ebdddf28047d": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are your jerseys printed or stitched?",
+            "icon": "none",
+            "row_content": "<p>We offer both! </p><ul><li>Sublimated: All over printing</li><li>Embroidered: Sewn-on logos, names, and numbers</li></ul>",
+            "page": ""
+          }
+        },
+        "b8b0fa53-3535-4870-9764-17fff00b33b7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are logos and names on the back extra?",
+            "icon": "none",
+            "row_content": "<p>Nope! The price you see includes logos, names, numbers, and whichever jersey pattern you select within the jersey builder.</p>",
+            "page": ""
+          }
+        },
+        "f290994f-d798-4e30-8ee1-e80d0f731b88": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can you make me a custom logo?",
+            "icon": "none",
+            "row_content": "<p>If you need a custom logo, just <a href=\"/pages/contact\" target=\"_blank\" title=\"Contact\">reach out to us</a> and we'll gather details from you before supplying a quote.</p>",
+            "page": ""
+          }
+        },
+        "1efef090-9068-4d66-a358-b0ff4925c112": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What's your return policy?",
+            "icon": "none",
+            "row_content": "<p>All custom orders are final and aren't returnable. However, if there's something wrong with your uniforms or you're unhappy for any reason, please <a href=\"/pages/contact\" title=\"Contact\">reach out to us</a> and we'll make it right!</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "ee288821-bfbe-434d-91d8-fc73fff5a4fb",
+        "165998759750b4f253-2",
+        "165998759750b4f253-0",
+        "dfc4e2dc-c161-4d0a-90f1-7d035c23c8e0",
+        "fcf02578-f9b9-439c-9e45-32c26d3ce7d7",
+        "165998759750b4f253-3",
+        "4561e452-3182-4e06-9c00-1804836c466c",
+        "6cdc6b2e-a36a-4523-ba1f-01de30fb7987",
+        "c4365e67-02a0-48f1-9bf3-3fc6f2383d1d",
+        "3ea063eb-07db-496e-9bf2-ebdddf28047d",
+        "b8b0fa53-3535-4870-9764-17fff00b33b7",
+        "f290994f-d798-4e30-8ee1-e80d0f731b88",
+        "1efef090-9068-4d66-a358-b0ff4925c112"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "165998902488df5f1f": {
+      "type": "rich-text",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1659987918ee12be92",
+    "1c627d71-a102-4d03-b499-b80965c8825f",
+    "16599875987c11d331",
+    "165998902488df5f1f"
+  ]
+}

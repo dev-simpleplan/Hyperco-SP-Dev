@@ -1,0 +1,115 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1659735380f464e020": {
+      "type": "rich-text",
+      "blocks": {
+        "16597353802d32037a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>MIHL Uniform Packages</p>",
+            "heading_size": "h1"
+          }
+        },
+        "text_CjPJjB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>To get started on your custom uniforms, fill out the form below and we'll be in touch with next steps!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "16597353802d32037a-0",
+        "text_CjPJjB"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 28,
+        "padding_bottom": 8
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "47919602-af80-4399-b377-50d152b4416c": {
+      "type": "image-banner",
+      "blocks": {
+        "template--15056847896712__47919602-af80-4399-b377-50d152b4416c-1682974676a4ddd474-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "CONTACT",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--15056847896712__47919602-af80-4399-b377-50d152b4416c-1682974676a4ddd474-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/Screenshot_2023-04-30_at_7.59.16_PM.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "16597352495769ea39": {
+      "type": "apps",
+      "blocks": {
+        "powerful_form_builder_app_block_W7PcPL": {
+          "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"MTI5MDk0\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "powerful_form_builder_app_block_W7PcPL"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "16012ef5-1376-46e6-b400-9254d9adc44f": {
+      "type": "contact-form",
+      "disabled": true,
+      "settings": {
+        "heading": "Contact form",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "1659735380f464e020",
+    "main",
+    "47919602-af80-4399-b377-50d152b4416c",
+    "16597352495769ea39",
+    "16012ef5-1376-46e6-b400-9254d9adc44f"
+  ]
+}

@@ -1,0 +1,225 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "47226501-38e9-4171-ac60-fcab56640872": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15349091106952__47226501-38e9-4171-ac60-fcab56640872-1673900061f6d2a0d4-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>BASKETBALL</p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--15349091106952__47226501-38e9-4171-ac60-fcab56640872-1673900061f6d2a0d4-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "template--15349091106952__47226501-38e9-4171-ac60-fcab56640872-1673900061f6d2a0d4-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15349091106952__47226501-38e9-4171-ac60-fcab56640872-1673900061f6d2a0d4-0",
+        "template--15349091106952__47226501-38e9-4171-ac60-fcab56640872-1673900061f6d2a0d4-1",
+        "template--15349091106952__47226501-38e9-4171-ac60-fcab56640872-1673900061f6d2a0d4-2"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image-banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_TCWf7f": {
+          "type": "heading",
+          "settings": {
+            "heading": "BASKETBALL",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "heading_TCWf7f"
+      ],
+      "custom_css": [],
+      "settings": {
+        "image": "shopify://shop_images/hyperco-basketball.png",
+        "image_overlay_opacity": 40,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": false,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
+      }
+    },
+    "rich_text_c4pTJr": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_AHLyw4": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h2>BUILD YOUR UNIFORM. OWN THE COURT.</h2>",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_AHLyw4"
+      ],
+      "custom_css": [],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "custom_css": [
+        "ul#product-grid {justify-content: center;}",
+        ".flex-price {justify-content: center;}"
+      ],
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 2,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "enable_filtering": false,
+        "filter_type": "drawer",
+        "enable_sorting": false,
+        "columns_mobile": "1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_UYUeae": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_ka4q6F": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/basketball-laser-beast.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_UEgh63": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/dallas-bball-hyperco.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_WNK8Uj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/mamba-basketball-hyperco.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_JUWkgy": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/showtime-basketball-hyperco.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_ka4q6F",
+        "column_UEgh63",
+        "column_WNK8Uj",
+        "column_JUWkgy"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 60
+      }
+    },
+    "1710526644235ce297": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "47226501-38e9-4171-ac60-fcab56640872",
+    "image-banner",
+    "banner",
+    "rich_text_c4pTJr",
+    "product-grid",
+    "multicolumn_UYUeae",
+    "1710526644235ce297"
+  ]
+}

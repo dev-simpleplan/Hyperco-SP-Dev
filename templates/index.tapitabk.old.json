@@ -1,0 +1,292 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1659630318bfb0fb2e": {
+      "type": "image-banner",
+      "blocks": {
+        "1659630318eb99d9fd-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "1659630318eb99d9fd-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "1659630318eb99d9fd-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1659630318eb99d9fd-0",
+        "1659630318eb99d9fd-1",
+        "1659630318eb99d9fd-2"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Hero-03.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "16596374116b29d898": {
+      "type": "rich-text",
+      "blocks": {
+        "16596374114f087cc1-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "// PRICING",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "16596374114f087cc1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>$50 JERSEYS</p>",
+            "heading_size": "hxl"
+          }
+        },
+        "1e74803e-c0be-4d5c-be8c-1345f470dbda": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>$25 SOCKS</p>",
+            "heading_size": "hxl"
+          }
+        },
+        "22b5a04f-3017-45de-a3e1-914d80504980": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>$69 SET</p>",
+            "heading_size": "hxl"
+          }
+        },
+        "16596374114f087cc1-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>* 4-6 WEEK TURNAROUND AFTER DESIGN APPROVAL</p>"
+          }
+        }
+      },
+      "block_order": [
+        "16596374114f087cc1-2",
+        "16596374114f087cc1-0",
+        "1e74803e-c0be-4d5c-be8c-1345f470dbda",
+        "22b5a04f-3017-45de-a3e1-914d80504980",
+        "16596374114f087cc1-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "accent-1",
+        "full_width": true,
+        "padding_top": 28,
+        "padding_bottom": 52
+      }
+    },
+    "16596379464cc681f3": {
+      "type": "rich-text",
+      "blocks": {
+        "1659637946deedecb6-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>1. DESIGN</p>",
+            "heading_size": "hxl"
+          }
+        },
+        "3952943f-d3d2-4bc5-84e8-96676c023716": {
+          "type": "caption",
+          "settings": {
+            "caption": "Let's work together to make something you're proud of",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
+          }
+        },
+        "957838b5-e361-4d80-87e9-7fd3eae41bb4": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>2. WAIT</p>",
+            "heading_size": "hxl"
+          }
+        },
+        "dd9eb22b-f1a7-47d2-9eab-bf4e8ba2f8ff": {
+          "type": "caption",
+          "settings": {
+            "caption": "Great things happen to those who wait... 4-6 weeks",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
+          }
+        },
+        "f7f91ee2-8339-47eb-9c7d-9e8e74219228": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>3. PLAY</p>",
+            "heading_size": "hxl"
+          }
+        },
+        "47432bc2-dd26-4899-8a41-2557a47a33f1": {
+          "type": "caption",
+          "settings": {
+            "caption": "Look good, feel good, play good",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
+          }
+        },
+        "1659637946deedecb6-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "1659637946deedecb6-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Let's work together to make something you're proud of</p>"
+          }
+        }
+      },
+      "block_order": [
+        "1659637946deedecb6-0",
+        "3952943f-d3d2-4bc5-84e8-96676c023716",
+        "957838b5-e361-4d80-87e9-7fd3eae41bb4",
+        "dd9eb22b-f1a7-47d2-9eab-bf4e8ba2f8ff",
+        "f7f91ee2-8339-47eb-9c7d-9e8e74219228",
+        "47432bc2-dd26-4899-8a41-2557a47a33f1",
+        "1659637946deedecb6-2",
+        "1659637946deedecb6-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "165964855964f9b631": {
+      "type": "image-with-text",
+      "blocks": {
+        "1659648559d3e0b245-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "1. DESIGN",
+            "heading_size": "h1"
+          }
+        },
+        "1659648559d3e0b245-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          }
+        },
+        "1659648559d3e0b245-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "000ef0f5-9837-41f1-b244-2a5d47ea3d36": {
+          "type": "caption",
+          "disabled": true,
+          "settings": {
+            "caption": "Add a tagline",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "1659648559d3e0b245-0",
+        "1659648559d3e0b245-1",
+        "1659648559d3e0b245-2",
+        "000ef0f5-9837-41f1-b244-2a5d47ea3d36"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Full-Uniform.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16596292662ac43246": {
+      "type": "apps",
+      "blocks": {
+        "0b8d5305-e868-422d-ac12-352b8c875283": {
+          "type": "shopify://apps/form-builder-with-file-upload/blocks/form-block/b6b8dd14-356b-4725-a4ed-77232212b3c3",
+          "settings": {
+            "form_uuid": "IUMzlDkqJoonqCQWJlHPfA"
+          }
+        }
+      },
+      "block_order": [
+        "0b8d5305-e868-422d-ac12-352b8c875283"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "pagefly-home": {
+      "type": "pagefly-home",
+      "settings": {}
+    }
+  },
+  "order": [
+    "1659630318bfb0fb2e",
+    "16596374116b29d898",
+    "16596379464cc681f3",
+    "165964855964f9b631",
+    "16596292662ac43246",
+    "pagefly-home"
+  ]
+}

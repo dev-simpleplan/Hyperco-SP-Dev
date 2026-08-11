@@ -1,0 +1,169 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 60
+      }
+    },
+    "16599888666134ac86": {
+      "type": "rich-text",
+      "blocks": {
+        "16599888660ef125ff-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Featured Designs</p><p></p>",
+            "heading_size": "h1"
+          }
+        },
+        "b52a3932-f435-472e-89bb-2ea419b3619a": {
+          "type": "text",
+          "settings": {
+            "text": "<h6>Each month we feature designs submitted by you! If you'd like to use this design as a starting point for your own uniforms, simply click the desired product below to load the design.</h6>"
+          }
+        }
+      },
+      "block_order": [
+        "16599888660ef125ff-0",
+        "b52a3932-f435-472e-89bb-2ea419b3619a"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "165998902488df5f1f": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "1659989024ef7c8365-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Talk about your brand</p>",
+            "heading_size": "h1"
+          }
+        },
+        "1659989024ef7c8365-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "1659989024ef7c8365-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "GET STARTED",
+            "button_link": "shopify://pages/contact",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1659989024ef7c8365-0",
+        "1659989024ef7c8365-1",
+        "1659989024ef7c8365-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
+    "2eb03da9-794f-44b6-aa54-94d0a2854b0e": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15408919838856__2eb03da9-794f-44b6-aa54-94d0a2854b0e-1680890415c51af50d-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/kasper-sports-7280746233992-OIHR3M-WVrVrGDx9maAGYDjB.png",
+            "title": "Bisons",
+            "text": "<h6>Ontario, CA</h6><h6><a href=\"/products/ice-hockey-jersey-2\" target=\"_blank\" title=\"Ice Hockey Jersey\">Roller Hockey</a><br/><a href=\"/products/ice-hockey-jersey-2\" target=\"_blank\" title=\"Ice Hockey Jersey\">Standard Ice Hockey<br/></a><a href=\"/pages/contact\" title=\"Contact\">Premium Ice Hockey</a></h6>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "3ec68ac2-94dc-49a0-a820-001275a9da95": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/kasper-sports-7280746233992-OIHR3M-WVrVrGDx9maAGYDjB.png",
+            "title": "Bisons",
+            "text": "<h6>Ontario, CA</h6><h6><a href=\"/products/ice-hockey-jersey-2\" target=\"_blank\" title=\"Ice Hockey Jersey\">Roller Hockey</a><br/><a href=\"/products/ice-hockey-jersey-2\" target=\"_blank\" title=\"Ice Hockey Jersey\">Standard Ice Hockey<br/></a><a href=\"/pages/contact\" title=\"Contact\">Premium Ice Hockey</a></h6>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "53d84b08-8686-47e7-93d2-aabf9e516e61": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/kasper-sports-7280746233992-OIHR3M-WVrVrGDx9maAGYDjB.png",
+            "title": "Bisons",
+            "text": "<h6>Ontario, CA</h6><h6><a href=\"/products/ice-hockey-jersey-2\" target=\"_blank\" title=\"Ice Hockey Jersey\">Roller Hockey</a><br/><a href=\"/products/ice-hockey-jersey-2\" target=\"_blank\" title=\"Ice Hockey Jersey\">Standard Ice Hockey<br/></a><a href=\"/pages/contact\" title=\"Contact\">Premium Ice Hockey</a></h6>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "d9c477d2-fb0c-411d-86d9-2bc36739915d": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/kasper-sports-7280746233992-OIHR3M-WVrVrGDx9maAGYDjB.png",
+            "title": "Bisons",
+            "text": "<h6>Ontario, CA</h6><h6><a href=\"/products/ice-hockey-jersey-2\" target=\"_blank\" title=\"Ice Hockey Jersey\">Roller Hockey</a><br/><a href=\"/products/ice-hockey-jersey-2\" target=\"_blank\" title=\"Ice Hockey Jersey\">Standard Ice Hockey<br/></a><a href=\"/pages/contact\" title=\"Contact\">Premium Ice Hockey</a></h6>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15408919838856__2eb03da9-794f-44b6-aa54-94d0a2854b0e-1680890415c51af50d-0",
+        "3ec68ac2-94dc-49a0-a820-001275a9da95",
+        "53d84b08-8686-47e7-93d2-aabf9e516e61",
+        "d9c477d2-fb0c-411d-86d9-2bc36739915d"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16599888666134ac86",
+    "165998902488df5f1f",
+    "2eb03da9-794f-44b6-aa54-94d0a2854b0e"
+  ]
+}

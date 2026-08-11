@@ -1,0 +1,22 @@
+
+        .spb-item.type_product_scroll .grid {
+            overflow: auto !important;
+            display: flex !important;
+            flex-wrap: nowrap !important;
+            flex-direction: row;
+        }
+        .type_product_scroll .product-grid{display:flex;overflow:auto;scrollbar-width:none;-ms-overflow-style:none;flex-direction: row;max-height: 500px;}.type_product_scroll .product-grid::-webkit-scrollbar{display:none}.type_product_scroll .product-grid>.grid__item{min-width:25rem;padding-right:1rem}
+        @media screen and (max-width:749px){.type_product_scroll .product-grid>.grid__item{min-width:15rem;max-width: 15rem;}}
+        .spb-item .control-position-box{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        }
+        .spb-item .control-position-box button{
+        border: none;
+        padding: 5px;
+        margin: 5px;
+        background: none;
+        font-size: 2rem;
+        cursor: pointer;
+        }

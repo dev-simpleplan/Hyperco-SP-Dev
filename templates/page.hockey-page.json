@@ -1,0 +1,201 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 60
+      }
+    },
+    "1659987918ee12be92": {
+      "type": "rich-text",
+      "blocks": {
+        "1659987917d025cac4-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>PRODUCTS</p>",
+            "heading_size": "h1"
+          }
+        },
+        "1659987917d025cac4-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "1659987917d025cac4-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1659987917d025cac4-0",
+        "1659987917d025cac4-1",
+        "1659987917d025cac4-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 28,
+        "padding_bottom": 0
+      }
+    },
+    "365a8ca0-f73d-4670-8717-872a32ea3fde": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15478066774152__365a8ca0-f73d-4670-8717-872a32ea3fde-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/C3E46D12-6E81-4D3B-B790-74198C6040E2.png",
+            "title": "HOCKEY",
+            "text": "<p>Our custom hockey jerseys feature lightweight, breathable fabric and dual-layered texture shoulders. Sublimated and embroidered options available.</p>",
+            "link_label": "Build Now",
+            "link": "shopify://collections/hockey"
+          }
+        },
+        "template--15478066774152__365a8ca0-f73d-4670-8717-872a32ea3fde-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/92CEE29E-DE23-4C0B-BA7F-0B54C6AD786B.png",
+            "title": "BASKETBALL",
+            "text": "<p>Stand out on the court with our selection of retro league-inspired patterns or one of our originals. Custom shorts available as well.</p>",
+            "link_label": "Start Order",
+            "link": ""
+          }
+        },
+        "template--15478066774152__365a8ca0-f73d-4670-8717-872a32ea3fde-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/869EEFAC-FA10-4AF3-9349-8BC734C9B3CE.png",
+            "title": "SOCCER",
+            "text": "<p>Give your team an edge with our full suite of custom soccer kits. Make it unique by choosing from an assortment of collar styles. </p>",
+            "link_label": "Start Order",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15478066774152__365a8ca0-f73d-4670-8717-872a32ea3fde-column-1",
+        "template--15478066774152__365a8ca0-f73d-4670-8717-872a32ea3fde-column-2",
+        "template--15478066774152__365a8ca0-f73d-4670-8717-872a32ea3fde-column-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_product_BHMqep": {
+      "type": "featured-product",
+      "blocks": {
+        "text_iyq84d": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_iycEUX": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "text_Nycqt3": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "price_7tgMVR": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_k4LdFD": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector_FchUC4": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_8TDfMF": {
+          "type": "buy_buttons",
+          "disabled": true,
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "share_aKR8H7": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_iyq84d",
+        "title_iycEUX",
+        "text_Nycqt3",
+        "price_7tgMVR",
+        "variant_picker_k4LdFD",
+        "quantity_selector_FchUC4",
+        "buy_buttons_8TDfMF",
+        "share_aKR8H7"
+      ],
+      "settings": {
+        "product": "inline-hockey-jersey",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1659987918ee12be92",
+    "365a8ca0-f73d-4670-8717-872a32ea3fde",
+    "featured_product_BHMqep"
+  ]
+}

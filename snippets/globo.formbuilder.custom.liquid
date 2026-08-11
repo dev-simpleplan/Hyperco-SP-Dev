@@ -1,0 +1,14 @@
+<script>
+  document.addEventListener('globo.formbuilder.form.beforeSubmit', e => {
+    if (e.detail.formId == "125183") {
+      var q = e.detail.form.querySelector('input[name="quantity-1"]')
+
+      if (q && q.value < 5 && !q.disabled) {
+        var r = q.closest('.globo-form-control');
+        r.classList.add("has-error");
+        r.querySelector(".messages").innerHTML = "<p class='help-block error'>5 player minimum</p>";
+        q.closest('.block-container').classList.add("errors");
+      }
+    }
+  })
+</script>

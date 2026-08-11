@@ -1,0 +1,334 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 24
+      }
+    },
+    "image_banner_CR64ec": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_G7jVDg": {
+          "type": "heading",
+          "settings": {
+            "heading": "ANNUAL UGLIES CONTEST",
+            "heading_size": "h1"
+          }
+        },
+        "text_TpKwJY": {
+          "type": "text",
+          "settings": {
+            "text": "Ugliest team gets 50% off",
+            "text_style": "body"
+          }
+        },
+        "buttons_GBjMWk": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_G7jVDg",
+        "text_TpKwJY",
+        "buttons_GBjMWk"
+      ],
+      "custom_css": [
+        ".banner {margin-top: 30px;}",
+        ".banner__box.content-container.content-container--full-width-mobile.color-background-1.gradient {background-color: transparent;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/hockey-in-the-snow.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "accent-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_WNnpCC": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_WMnzhH": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_e3hW39": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<h3>Submit your uglies today! Winning team gets 50% off</h3>"
+          }
+        },
+        "button_dphwBX": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_WMnzhH",
+        "text_e3hW39",
+        "button_dphwBX"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "accent-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "1659987918ee12be92": {
+      "type": "rich-text",
+      "blocks": {
+        "1659987917d025cac4-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Annual Uglies Content</p>",
+            "heading_size": "h1"
+          }
+        },
+        "text_L89BG6": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<h3>Submit your uglies today! Winning team gets 50% off</h3>"
+          }
+        },
+        "1659987917d025cac4-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>It's time to bench your old sweaters and gear up for a major redesign power play.</h3><p>Enter our annual Uglies Contest for a chance to win a fully new uniform design and logo(s) from our expert design team.</p><p>The winning team will also get <strong>50% off</strong> their total order!</p><p>The contest closes on April 1, 2024 at 11pm CST, and a winner will be announced on April 12.</p>"
+          }
+        },
+        "1659987917d025cac4-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1659987917d025cac4-0",
+        "text_L89BG6",
+        "1659987917d025cac4-1",
+        "1659987917d025cac4-2"
+      ],
+      "custom_css": [
+        "strong {color: #e3fc02;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 28,
+        "padding_bottom": 0
+      }
+    },
+    "1707429432ec77c0cf": {
+      "type": "apps",
+      "blocks": {
+        "profy_banner_countdown_timer_app_block_hT3D4J": {
+          "type": "shopify://apps/profy-banner-countdown-timer/blocks/app_block/243a639f-ca73-4afe-b6aa-3a23277fb424",
+          "settings": {
+            "banner_id": "efafa455-c6cc-11ee-b619-4a3169df64e8"
+          }
+        }
+      },
+      "block_order": [
+        "profy_banner_countdown_timer_app_block_hT3D4J"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "16599875987c11d331": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_3TkTFR": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How is a winner chosen?",
+            "icon": "none",
+            "row_content": "<p>Our team will review all of the submissions and hand pick the team we feel is the most deserving of a full uniform redesign.</p>",
+            "page": ""
+          }
+        },
+        "165998759750b4f253-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What all do I win if my team is selected?",
+            "icon": "none",
+            "row_content": "<p>We'll work with you to redesign your whole team's look from head to toe, including brand new professional logos, eye-catching jersey patterns, and <strong>50% OFF</strong> your total order!</p>",
+            "page": ""
+          }
+        },
+        "f85ae623-e7ab-4b49-acad-e3d5e00553e8": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Who is eligible to enter?",
+            "icon": "none",
+            "row_content": "<p>All age groups and skill levels are welcome to enter our contest. The only requirement is that you provide a photo or two of your current uniforms (ideally a team photo).</p>",
+            "page": ""
+          }
+        },
+        "165998759750b4f253-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long does the contest run for?",
+            "icon": "none",
+            "row_content": "<p>We will close submissions at 11pm CST on April 1, 2024 and announce a winner via email and our <a href=\"https://www.instagram.com/kaspersports/\" target=\"_blank\" title=\"Instagram\">Instagram account</a> on April 12, 2024.</p>",
+            "page": ""
+          }
+        },
+        "165998759750b4f253-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I enter?",
+            "icon": "none",
+            "row_content": "<p>Fill out the form at the bottom of this page!</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_3TkTFR",
+        "165998759750b4f253-0",
+        "f85ae623-e7ab-4b49-acad-e3d5e00553e8",
+        "165998759750b4f253-3",
+        "165998759750b4f253-2"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16599888666134ac86": {
+      "type": "rich-text",
+      "blocks": {
+        "16599888660ef125ff-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>NOMINATE YOUR TEAM</p>",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "16599888660ef125ff-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 32
+      }
+    },
+    "170742588039459a77": {
+      "type": "apps",
+      "blocks": {
+        "hulk_form_builder_form_block_nYwWwb": {
+          "type": "shopify://apps/hulk-form-builder/blocks/form-block/b6b8dd14-356b-4725-a4ed-77232212b3c3",
+          "settings": {
+            "form_uuid": "dMBzv7KU0O8PUy5hB1-ypQ",
+            "form_settings": false,
+            "font_color": "#000000",
+            "size": 14,
+            "input_background_color": "#ffffff",
+            "input_background_color_focus": "#f4dada",
+            "input_border_radius": 1,
+            "input_border_color": "#ebe9e9",
+            "input_border_color_focus": "#2d2727",
+            "input_font_color": "#3d3131",
+            "input_size": 14,
+            "border_color": "#121212",
+            "border_radius": 2,
+            "border": 1,
+            "fill_color": "#ebe9e9",
+            "padding": 35,
+            "form_width": 600,
+            "btn_text": "Submit",
+            "sub_btn_txt_color": "#f3f3f3",
+            "sub_btn_bg_color": "#3f3333",
+            "sub_btn_font_size": 14,
+            "sub_btn_bdr_color": "#ffffff",
+            "sub_btn_bdr_rad": 3,
+            "sub_btn_bdr_width": 1,
+            "fonts": "Times New Roman"
+          }
+        }
+      },
+      "block_order": [
+        "hulk_form_builder_form_block_nYwWwb"
+      ],
+      "custom_css": [],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_CR64ec",
+    "rich_text_WNnpCC",
+    "1659987918ee12be92",
+    "1707429432ec77c0cf",
+    "16599875987c11d331",
+    "16599888666134ac86",
+    "170742588039459a77"
+  ]
+}

@@ -1,0 +1,244 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 0
+      }
+    },
+    "1659987918ee12be92": {
+      "type": "rich-text",
+      "blocks": {
+        "1659987917d025cac4-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>SOCCER PACKAGE DEALS</p>",
+            "heading_size": "h1"
+          }
+        },
+        "1659987917d025cac4-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our package deals are perfect for teams, clubs, and organizations needing a full suite of custom gear to outfit their team. Fill out the form below to get started!</p>"
+          }
+        },
+        "1659987917d025cac4-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1659987917d025cac4-0",
+        "1659987917d025cac4-1",
+        "1659987917d025cac4-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 28,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_6EYByn": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_rfpW8n": {
+          "type": "heading",
+          "settings": {
+            "heading": "HOCKEY PACKAGES",
+            "heading_size": "h1"
+          }
+        },
+        "text_iFNgzT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our package deals are perfect for teams, clubs, and organizations needing a full suite of custom gear to outfit their team. </p><h2>PRICING</h2><h3>Standard Package: </h3><ul><li>Home + Away Jerseys (Pro): $75/each</li><li>Home + Away Socks (Pro): $20/pair</li><li>Shells (1 pair): $40</li><li><strong>Total Per Player: $230</strong></li></ul><p></p><h3>Premium Package: </h3><ul><li>Home + Away Jerseys (Pro): $75/each</li><li>Home + Away Socks (Pro): $20/pair</li><li>Shells (1 pair): $40</li><li>Custom Hockey Bag: $75</li><li><strong>Total Per Player: $305</strong></li></ul><p></p><p>Minimum Player Quantity: 15</p><p></p>",
+            "text_style": "body"
+          }
+        },
+        "button_6gi7VT": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact Us",
+            "button_link": "shopify://pages/contact"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rfpW8n",
+        "text_iFNgzT",
+        "button_6gi7VT"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "strong {color: #47bda0;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/hockey-test.png",
+        "height": "large",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_F4Gxnc": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_m7dqV9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/soccer-package-mocks-platinum-2.png",
+            "title": "Platinum Package",
+            "text": "<ul><li>Home + Away Jerseys, Shorts, & Socks</li><li>Long Sleeve Jersey</li><li>Hoodie</li><li>Choice of Duffle Bag or Backpack</li><li>15 players minimum</li><li><strong>Total Per Player: $225</strong></li></ul>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_UKihN7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/soccer-package-mocks-gold-2.png",
+            "title": "Gold Package",
+            "text": "<ul><li>Home + Away Jerseys, Shorts, & Socks</li><li>Choice of Duffle Bag or Backpack</li><li>Choice of Long Sleeve Jersey or Hoodie</li><li>15 players minimum</li><li><strong>Total Per Player: $180</strong></li></ul>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_LANrjf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/soccer-package-mocks-silver_991dd614-551c-4631-a88a-8e1ff35daf30.png",
+            "title": "Silver Package",
+            "text": "<ul><li>Home + Away Jerseys, Shorts, & Socks</li><li>Choice of Duffle Bag or Backpack</li><li>15 players minimum</li><li><strong>Total Per Player: $140</strong></li></ul>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_m7dqV9",
+        "column_UKihN7",
+        "column_LANrjf"
+      ],
+      "custom_css": [
+        "strong {color: #47bda0;}",
+        ".multicolumn.background-primary .multicolumn-card {background: #1a2d36;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_dzpifC": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_rXUtrY": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h1>GET STARTED</h1>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rXUtrY"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    },
+    "172038478375dac8b4": {
+      "type": "apps",
+      "blocks": {
+        "hulk_form_builder_form_block_JXK7re": {
+          "type": "shopify://apps/hulk-form-builder/blocks/form-block/b6b8dd14-356b-4725-a4ed-77232212b3c3",
+          "settings": {
+            "form_uuid": "hZFVKELfCaqeGpqw56wWIQ",
+            "form_settings": false,
+            "font_color": "#000000",
+            "size": 14,
+            "input_background_color": "#ffffff",
+            "input_background_color_focus": "#f4dada",
+            "input_border_radius": 1,
+            "input_border_color": "#ebe9e9",
+            "input_border_color_focus": "#2d2727",
+            "input_font_color": "#3d3131",
+            "input_size": 14,
+            "border_color": "#121212",
+            "border_radius": 2,
+            "border": 1,
+            "fill_color": "#ebe9e9",
+            "padding": 35,
+            "form_width": 600,
+            "btn_text": "Submit",
+            "sub_btn_txt_color": "#f3f3f3",
+            "sub_btn_bg_color": "#3f3333",
+            "sub_btn_font_size": 14,
+            "sub_btn_bdr_color": "#ffffff",
+            "sub_btn_bdr_rad": 3,
+            "sub_btn_bdr_width": 1,
+            "fonts": "Times New Roman"
+          }
+        }
+      },
+      "block_order": [
+        "hulk_form_builder_form_block_JXK7re"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1659987918ee12be92",
+    "image_with_text_6EYByn",
+    "multicolumn_F4Gxnc",
+    "rich_text_dzpifC",
+    "172038478375dac8b4"
+  ]
+}

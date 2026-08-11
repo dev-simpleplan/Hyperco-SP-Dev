@@ -1,0 +1,284 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "166016125605ec1b2d": {
+      "type": "apps",
+      "blocks": {
+        "25f4fda3-679e-4d37-b07d-ca40f095c404": {
+          "type": "shopify://apps/cpb-custom-product-builder/blocks/customproductbuilder-dawn/b7770087-aa6d-4fd6-8268-128702bb3d67",
+          "settings": {
+            "personalize_it": true,
+            "personalizeit-button-text": "Customize & Add To Cart",
+            "builder-version": "4.12.1",
+            "builder-server": ""
+          }
+        }
+      },
+      "block_order": [
+        "25f4fda3-679e-4d37-b07d-ca40f095c404"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "customproductbuilder": {
+      "type": "customproductbuilder",
+      "settings": {}
+    },
+    "17368971121f040fa8": {
+      "type": "apps",
+      "blocks": {
+        "profy_banner_timer_app_block_mDbBG7": {
+          "type": "shopify://apps/profy-banner-timer/blocks/app_block/243a639f-ca73-4afe-b6aa-3a23277fb424",
+          "settings": {
+            "banner_id": "5616225e-8c54-11f1-997e-52631a84efe6"
+          }
+        }
+      },
+      "block_order": [
+        "profy_banner_timer_app_block_mDbBG7"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "caption": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "THIS IS A PREORDER ITEM",
+            "text_style": "subtitle"
+          }
+        },
+        "product-rating": {
+          "type": "rating",
+          "disabled": true,
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "judgeme_preview_badge_product_page_93d74f85": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "dropdown"
+          }
+        },
+        "globo_product_option_app_block_Y4qA6P": {
+          "type": "shopify://apps/globo-product-options/blocks/app-block/fdc9fad5-1a0f-4bd4-9c8a-1af6a6eef6b8",
+          "settings": {
+            "product": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "caption",
+        "vendor",
+        "product-rating",
+        "price",
+        "judgeme_preview_badge_product_page_93d74f85",
+        "variant_picker",
+        "globo_product_option_app_block_Y4qA6P",
+        "quantity_selector",
+        "buy_buttons",
+        "description",
+        "share"
+      ],
+      "custom_css": [
+        ".product__text {color: #47bda0;}",
+        "p.product__text.subtitle {border: 2px solid; border-radius: 7px; padding: 9px 12px; text-align: center;}"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "gallery_layout": "thumbnail",
+        "media_size": "medium",
+        "mobile_thumbnails": "hide",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "judgeme_section_review_widget_5e60": {
+      "type": "apps",
+      "blocks": {
+        "judgeme_review_widget_267c5650": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
+          }
+        }
+      },
+      "block_order": [
+        "judgeme_review_widget_267c5650"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "collapsible-content": {
+      "type": "collapsible-content",
+      "blocks": {
+        "row-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "DETAILS",
+            "icon": "lightning_bolt",
+            "row_content": "<p>Provide details like specifications, materials, or measurements.</p><p>Add an image in your Collapsible content settings for more visual interest.</p>",
+            "page": ""
+          }
+        },
+        "row-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "TIPS",
+            "icon": "check_mark",
+            "row_content": "<p>Share expert tips on how to use this product or pair it with other items.</p>",
+            "page": ""
+          }
+        },
+        "row-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "SHIPPING",
+            "icon": "truck",
+            "row_content": "<p>List the details of your shipping policy.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "row-1",
+        "row-2",
+        "row-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "layout": "row",
+        "color_scheme": "background-1",
+        "container_color_scheme": "accent-1",
+        "open_first_collapsible_row": true,
+        "image_ratio": "large",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "heading": "YOU MAY ALSO LIKE",
+        "heading_size": "h1",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "SUBSCRIBE TO OUR EMAILS",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.</p>"
+          }
+        },
+        "email-form": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email-form"
+      ],
+      "settings": {
+        "color_scheme": "accent-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    }
+  },
+  "order": [
+    "166016125605ec1b2d",
+    "customproductbuilder",
+    "17368971121f040fa8",
+    "main",
+    "judgeme_section_review_widget_5e60",
+    "collapsible-content",
+    "product-recommendations",
+    "newsletter"
+  ]
+}

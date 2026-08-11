@@ -1,0 +1,235 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_y9wwAC": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_kA4R7J": {
+          "type": "heading",
+          "settings": {
+            "heading": "SOCCER",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_kA4R7J"
+      ],
+      "custom_css": [
+        ".banner__box {background-color: transparent;}",
+        "h2 {background: rgba(0, 0, 0, 0.7);}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/soccer-hero_c703e9fc-a446-49d3-97d1-61a94aa1733e.png",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "multicolumn_fyTVCF": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_e4aM8Y": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CC1DB927-A3FB-4E5A-B535-4A8F22B53FA1.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Hdn9T4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/BC6824C1-0C70-47FF-A6A4-D61B1ADAB2D6.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_jGCVDj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/9FD8D9BC-F666-489C-AE53-F2756BBA89E0.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_WbnxkG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/E838FDFB-536A-4085-B876-697AD6031D36.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_e4aM8Y",
+        "column_Hdn9T4",
+        "column_jGCVDj",
+        "column_WbnxkG"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "47226501-38e9-4171-ac60-fcab56640872": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15349091106952__47226501-38e9-4171-ac60-fcab56640872-1673900061f6d2a0d4-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h2>Fully Custom Soccer Kits</h2>",
+            "heading_size": "h1"
+          }
+        },
+        "template--15349091106952__47226501-38e9-4171-ac60-fcab56640872-1673900061f6d2a0d4-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>While our soccer kit builder is still in the works, we are excited to work with you and bring your dream kits to life! Simply fill out the form below and we'll contact you shortly.</p><p>For club packages, visit our <a href=\"/pages/soccer-package-deals\" target=\"_blank\" title=\"Soccer Package Deals\">Soccer Package Deals page</a>!</p>"
+          }
+        },
+        "template--15349091106952__47226501-38e9-4171-ac60-fcab56640872-1673900061f6d2a0d4-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15349091106952__47226501-38e9-4171-ac60-fcab56640872-1673900061f6d2a0d4-0",
+        "template--15349091106952__47226501-38e9-4171-ac60-fcab56640872-1673900061f6d2a0d4-1",
+        "template--15349091106952__47226501-38e9-4171-ac60-fcab56640872-1673900061f6d2a0d4-2"
+      ],
+      "custom_css": [
+        "a {color: #47bda0;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 4,
+        "padding_bottom": 28
+      }
+    },
+    "1710526644235ce297": {
+      "type": "apps",
+      "blocks": {
+        "hulk_form_builder_form_block_rzxQ7f": {
+          "type": "shopify://apps/hulk-form-builder/blocks/form-block/b6b8dd14-356b-4725-a4ed-77232212b3c3",
+          "settings": {
+            "form_uuid": "l6xSxqHMnBwBqFMgCh8FnA",
+            "form_settings": false,
+            "font_color": "#000000",
+            "size": 14,
+            "input_background_color": "#ffffff",
+            "input_background_color_focus": "#f4dada",
+            "input_border_radius": 1,
+            "input_border_color": "#ebe9e9",
+            "input_border_color_focus": "#2d2727",
+            "input_font_color": "#3d3131",
+            "input_size": 14,
+            "border_color": "#121212",
+            "border_radius": 2,
+            "border": 1,
+            "fill_color": "#ebe9e9",
+            "padding": 35,
+            "form_width": 600,
+            "btn_text": "Submit",
+            "sub_btn_txt_color": "#f3f3f3",
+            "sub_btn_bg_color": "#3f3333",
+            "sub_btn_font_size": 14,
+            "sub_btn_bdr_color": "#ffffff",
+            "sub_btn_bdr_rad": 3,
+            "sub_btn_bdr_width": 1,
+            "fonts": "Times New Roman"
+          }
+        }
+      },
+      "block_order": [
+        "hulk_form_builder_form_block_rzxQ7f"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": false,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "disabled": true,
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 4,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "enable_filtering": false,
+        "filter_type": "drawer",
+        "enable_sorting": false,
+        "columns_mobile": "1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "image_banner_y9wwAC",
+    "multicolumn_fyTVCF",
+    "47226501-38e9-4171-ac60-fcab56640872",
+    "1710526644235ce297",
+    "banner",
+    "product-grid"
+  ]
+}

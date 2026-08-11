@@ -1,0 +1,231 @@
+{% raw %}
+  <script type="html/template" id="globo-formbuilder-template">
+    <div class="globo-form {{configs.appearance.layout}}-form globo-form-id-{{formId}}">
+<style>{{ null | renderElement : dynamicCSS,configs }}</style>
+<div class="globo-form-app {{configs.appearance.layout}}-layout">
+    <div class="header dismiss {% unless configs.appearance.layout == 'float' %}hidden{%endunless%}" onclick="{% unless configs.appearance.layout == 'float' %}Globo.FormBuilder.closeModalForm(this){% else %}Globo.FormBuilder.hideFloatingForm(this){%endunless%}">
+        <svg viewBox="0 0 20 20" class="" focusable="false" aria-hidden="true"><path d="M11.414 10l4.293-4.293a.999.999 0 1 0-1.414-1.414L10 8.586 5.707 4.293a.999.999 0 1 0-1.414 1.414L8.586 10l-4.293 4.293a.999.999 0 1 0 1.414 1.414L10 11.414l4.293 4.293a.997.997 0 0 0 1.414 0 .999.999 0 0 0 0-1.414L11.414 10z" fill-rule="evenodd"></path></svg>
+    </div>
+    <form class="g-container" novalidate action="{{Globo.FormBuilder.url}}/api/front/form/{{formId}}/send" method="POST" enctype="multipart/form-data" data-id={{formId}}>
+        {% if configs.header.active %}
+        <div class="header">
+            <h3 class="title globo-heading">{{configs.header.title}}</h3>
+            {% if configs.header.description != '' and configs.header.description != '<p><br></p>' %}
+            <div class="description globo-description">{{configs.header.description}}</div>
+            {% endif %}
+        </div>
+        {% endif %}
+        {% if configs.isStepByStepForm %}
+            <div class="globo-formbuilder-wizard" data-id={{formId}}>
+                <div class="wizard__content">
+                    <header class="wizard__header">
+                        <div class="wizard__steps">
+                        <nav class="steps hidden">
+                            {% for element in configs.elements %}
+                                {% assign dataAttr = "" %}
+                                {% assign dataClass = "" %}
+                                {% if element.conditionalFieldForAllElements and element.onlyShowIf and element.onlyShowIf != false and element.onlyShowIf != "false" %}
+                                    {% assign escapeConnectedValue = element[element.onlyShowIf] | escapeHtml %}
+                                    {% assign dataAttr = dataAttr | append : " data-connected-id='" | append : element.onlyShowIf | append : "'" %}
+                                    {% assign dataAttr = dataAttr | append : " data-connected-value='" | append : escapeConnectedValue | append : "'" %}
+                                    {% assign dataClass = "hidden" %}
+                                {% endif %}
+                                <div class="step last {{dataClass}}" {{dataAttr}} data-step="{{forloop.index0}}">
+                                    <div class="step__content">
+                                        <p class="step__number"></p>
+                                        <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                                            <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none"/>
+                                            <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+                                        </svg>
+                                        <div class="lines">
+                                            {% if forloop.first == true %}
+                                                <div class="line -start"></div>
+                                            {% endif %}
+                                            <div class="line -background">
+                                            </div>
+                                            <div class="line -progress">
+                                            </div>
+                                        </div>  
+                                    </div>
+                                </div>
+                            {% endfor %}
+                        </nav>
+                        </div>
+                    </header>
+                    <div class="panels">
+                        {% for element in configs.elements %}
+                        {% assign dataAttr = "" %}
+                        {% assign dataClass = "" %}
+                        {% if element.conditionalFieldForAllElements and element.onlyShowIf and element.onlyShowIf != false and element.onlyShowIf != "false" %}
+                            {% assign escapeConnectedValue = element[element.onlyShowIf] | escapeHtml %}
+                            {% assign dataAttr = dataAttr | append : " data-connected-id='" | append : element.onlyShowIf | append : "'" %}
+                            {% assign dataAttr = dataAttr | append : " data-connected-value='" | append : escapeConnectedValue | append : "'" %}
+                            {% assign dataClass = "hidden" %}
+                        {% endif %}
+                        <div class="panel {{dataClass}}" data-id={{formId}} {{dataAttr}} data-step="{{forloop.index0}}">
+                            {% if element.type != "group" %}
+                                {{ element | renderElement : partialElement , configs }}
+                            {% else %}
+                                {% for el in element.elements %}
+                                    {{ el | renderElement : partialElement , configs }}
+                                {% endfor %}
+                            {% endif %}
+                            {% if forloop.last == true %}
+                                {% if configs.reCaptcha.enable == true %}
+                                    {% if Globo.FormBuilder.shop.settings.reCaptcha.recaptchaType and Globo.FormBuilder.shop.settings.reCaptcha.recaptchaType == 'v3' %}
+                                    <div class="globo-form-control" style="padding:0;margin:0;">    
+                                        <input type="hidden" class="globo-g-recaptchav3" name="recaptcha_response" id="recaptchaResponse_{{formId}}" data-sitekey="{{Globo.FormBuilder.shop.settings.reCaptcha.siteKey}}" />
+                                        <small class="messages"></small>
+                                    </div>
+                                    {% else %}
+                                    <div class="globo-form-control">
+                                        <div class="globo-g-recaptcha" data-globo-sitekey="{{Globo.FormBuilder.shop.settings.reCaptcha.siteKey}}"></div>
+                                        <input type="hidden" name="reCaptcha" id="reCaptcha">
+                                        <small class="messages"></small>
+                                    </div>
+                                    {% endif %}
+                                {% endif %}
+                            {% endif %}
+                        </div>
+                        {% endfor %}
+                    </div>
+                    {% if Globo.FormBuilder.shop.pricing.features.removeCopyright == false %}
+                        {% unless Globo.FormBuilder.shop.settings.hideWaterMark == true or configs.contactUs.hideWaterMark == true %}
+                            <p style="text-align: right;font-size:small;display: block !important;">{{ Globo.FormBuilder.shop.settings.copyright }}</p>
+                        {% endunless %}
+                    {% endif %}
+                    <div class="message error" data-other-error="{{configs.errorMessage.otherError}}">
+                        <div class="content"></div>
+                        <div class="dismiss" onclick="Globo.FormBuilder.dismiss(this)">
+                            <svg viewBox="0 0 20 20" class="" focusable="false" aria-hidden="true"><path d="M11.414 10l4.293-4.293a.999.999 0 1 0-1.414-1.414L10 8.586 5.707 4.293a.999.999 0 1 0-1.414 1.414L8.586 10l-4.293 4.293a.999.999 0 1 0 1.414 1.414L10 11.414l4.293 4.293a.997.997 0 0 0 1.414 0 .999.999 0 0 0 0-1.414L11.414 10z" fill-rule="evenodd"></path></svg>
+                        </div>
+                    </div>
+                    {% unless configs.afterSubmit.message == "" %}
+                    <div class="message success">
+                        <div class="content">{{configs.afterSubmit.message}}</div>
+                        <div class="dismiss" onclick="Globo.FormBuilder.dismiss(this)">
+                            <svg viewBox="0 0 20 20" class="" focusable="false" aria-hidden="true"><path d="M11.414 10l4.293-4.293a.999.999 0 1 0-1.414-1.414L10 8.586 5.707 4.293a.999.999 0 1 0-1.414 1.414L8.586 10l-4.293 4.293a.999.999 0 1 0 1.414 1.414L10 11.414l4.293 4.293a.997.997 0 0 0 1.414 0 .999.999 0 0 0 0-1.414L11.414 10z" fill-rule="evenodd"></path></svg>
+                        </div>
+                    </div>
+                    {% endunless %}
+                    <div class="footer wizard__footer">
+                        {% if configs.footer.description != '' and configs.footer.description != '<p><br></p>' %}
+                        <div class="description globo-description">{{configs.footer.description}}</div>
+                        {% endif %}
+                        <button type="button" class="action previous hidden {{configs.appearance.style}}-button">{{configs.footer.previousText}}</button>
+                        <button type="button" class="action next submit {{configs.appearance.style}}-button" data-submitting-text="{{configs.footer.submittingText}}" data-submit-text='<span class="spinner"></span>{{configs.footer.submitText}}' data-next-text="{{configs.footer.nextText}}" ><span class="spinner"></span>{{configs.footer.nextText}}</button>
+                        {% if configs.footer.resetButton %}
+                            <button class="action reset {{configs.appearance.style}}-button" type="button" onclick="Globo.FormBuilder.handleResetForm(this)">{{configs.footer.resetButtonText}}</button>
+                        {% endif %}
+                        <h1 class="wizard__congrats-message"></h1>
+                    </div>
+                </div>
+            </div>
+        {% else %}
+            <div class="content flex-wrap block-container" data-id={{formId}}>
+                {% for element in configs.elements %}
+                    {% if element.type != "group" and element.type != "groupV1" %}
+                        {{ element | renderElement : partialElement , configs }}
+                    {% else %}
+                        {% if element.type == 'groupV1' %}
+                            {% assign columnWidth = element.columnWidth | parseInt %}
+                            {% assign columnWidthClass = "layout-" | append : columnWidth | append : "-column" %}
+                            <div class="globo-form-group-v1 globo-form-control {{columnWidthClass}}">
+                        {% endif %}
+                        {% for el in element.elements %}
+                            {{ el | renderElement : partialElement , configs }}
+                        {% endfor %}
+                        {% if element.type == 'groupV1' %}
+                            </div>
+                        {% endif %}
+                    {% endif %}
+                {% endfor %}
+                {% if configs.reCaptcha.enable == true %}
+                    {% if Globo.FormBuilder.shop.settings.reCaptcha.recaptchaType and Globo.FormBuilder.shop.settings.reCaptcha.recaptchaType == 'v3' %}
+                    <div class="globo-form-control" style="padding:0;margin:0;">
+                        <input type="hidden"  class="globo-g-recaptchav3"  name="recaptcha_response" id="recaptchaResponse_{{formId}}" data-sitekey="{{Globo.FormBuilder.shop.settings.reCaptcha.siteKey}}" />
+                        <small class="messages"></small>
+                    </div>
+                    {% else %}
+                    <div class="globo-form-control">
+                        <div class="globo-g-recaptcha" data-globo-sitekey="{{Globo.FormBuilder.shop.settings.reCaptcha.siteKey}}"></div>
+                        <input type="hidden" name="reCaptcha" id="reCaptcha">
+                        <small class="messages"></small>
+                    </div>
+                    {% endif %}
+                {% endif %}
+            </div>
+            {% if Globo.FormBuilder.shop.pricing.features.removeCopyright == false %}
+                {% unless Globo.FormBuilder.shop.settings.hideWaterMark == true or configs.contactUs.hideWaterMark == true %}
+                    <p style="text-align: right;font-size:small;display: block !important;">{{ Globo.FormBuilder.shop.settings.copyright }}</p>
+                {% endunless %}
+            {% endif %}
+            <div class="message error" data-other-error="{{configs.errorMessage.otherError}}">
+                <div class="content"></div>
+                <div class="dismiss" onclick="Globo.FormBuilder.dismiss(this)">
+                    <svg viewBox="0 0 20 20" class="" focusable="false" aria-hidden="true"><path d="M11.414 10l4.293-4.293a.999.999 0 1 0-1.414-1.414L10 8.586 5.707 4.293a.999.999 0 1 0-1.414 1.414L8.586 10l-4.293 4.293a.999.999 0 1 0 1.414 1.414L10 11.414l4.293 4.293a.997.997 0 0 0 1.414 0 .999.999 0 0 0 0-1.414L11.414 10z" fill-rule="evenodd"></path></svg>
+                </div>
+            </div>
+            <div class="message warning" data-other-error="{{configs.errorMessage.otherError}}">
+                <div class="content"></div>
+                <div class="dismiss" onclick="Globo.FormBuilder.dismiss(this)">
+                    <svg viewBox="0 0 20 20" class="" focusable="false" aria-hidden="true"><path d="M11.414 10l4.293-4.293a.999.999 0 1 0-1.414-1.414L10 8.586 5.707 4.293a.999.999 0 1 0-1.414 1.414L8.586 10l-4.293 4.293a.999.999 0 1 0 1.414 1.414L10 11.414l4.293 4.293a.997.997 0 0 0 1.414 0 .999.999 0 0 0 0-1.414L11.414 10z" fill-rule="evenodd"></path></svg>
+                </div>
+            </div>
+            <div class="footer">
+                {% if configs.footer.description != '' and configs.footer.description != '<p><br></p>' %}
+                <div class="description globo-description">{{configs.footer.description}}</div>
+                {% endif %}
+                {% if configs.formType != 'cartForm' %}
+                    <button class="action submit {{configs.appearance.style}}-button"><span class="spinner"></span>{{configs.footer.submitText}}</button>
+                    {% if configs.footer.resetButton %}
+                        <button class="action reset {{configs.appearance.style}}-button" type="button" onclick="Globo.FormBuilder.handleResetForm(this)">{{configs.footer.resetButtonText}}</button>
+                    {% endif %}
+                {% else %}
+                    <button class="action checkout {{configs.appearance.style}}-button" disabled>Checkout</button>
+                {% endif %}
+            </div>
+            {% unless configs.afterSubmit.message == "" %}
+              <div class="message success">
+                  <div class="content">{{configs.afterSubmit.message}}</div>
+                  <div class="dismiss" onclick="Globo.FormBuilder.dismiss(this)">
+                      <svg viewBox="0 0 20 20" class="" focusable="false" aria-hidden="true"><path d="M11.414 10l4.293-4.293a.999.999 0 1 0-1.414-1.414L10 8.586 5.707 4.293a.999.999 0 1 0-1.414 1.414L8.586 10l-4.293 4.293a.999.999 0 1 0 1.414 1.414L10 11.414l4.293 4.293a.997.997 0 0 0 1.414 0 .999.999 0 0 0 0-1.414L11.414 10z" fill-rule="evenodd"></path></svg>
+                  </div>
+              </div>
+              {% endunless %}
+        {% endif %}
+        <input type="hidden" value="{{Globo.FormBuilder.customer.id}}" name="customer[id]">
+        <input type="hidden" value="{{Globo.FormBuilder.customer.email}}" name="customer[email]">
+        <input type="hidden" value="{{Globo.FormBuilder.customer.name}}" name="customer[name]">
+        <input type="hidden" value="{{Globo.FormBuilder.page.title}}" name="page[title]">
+        <input type="hidden" value="{{Globo.FormBuilder.page.href}}" name="page[href]">
+        <input type="hidden" value="" name="_keyLabel">
+    </form>
+    {% unless configs.afterSubmit.message == "" %}
+    <div class="message success">
+        <div class="content">{{configs.afterSubmit.message}}</div>
+        <div class="dismiss" onclick="Globo.FormBuilder.dismiss(this)">
+            <svg viewBox="0 0 20 20" class="" focusable="false" aria-hidden="true"><path d="M11.414 10l4.293-4.293a.999.999 0 1 0-1.414-1.414L10 8.586 5.707 4.293a.999.999 0 1 0-1.414 1.414L8.586 10l-4.293 4.293a.999.999 0 1 0 1.414 1.414L10 11.414l4.293 4.293a.997.997 0 0 0 1.414 0 .999.999 0 0 0 0-1.414L11.414 10z" fill-rule="evenodd"></path></svg>
+        </div>
+    </div>
+    {% endunless %}
+</div>
+{% if configs.appearance.layout == 'float'  %}
+{% if configs.appearance.floatingIcon != '' or configs.appearance.floatingText != '' %}
+{% if configs.appearance.floatingText != '' and configs.appearance.floatingText != null %}
+{% assign circle = '' %}
+{% else %}
+{% assign circle = 'circle' %}
+{% endif %}
+<div class="floating-button {{circle}} {{configs.appearance.position}}" onclick="Globo.FormBuilder.showFloatingForm(this)">
+    <div class="fabLabel">
+        {{configs.appearance.floatingIcon}}
+        {{configs.appearance.floatingText}}
+    </div>
+</div>
+{% endif %}
+<div class="overlay" onclick="Globo.FormBuilder.hideFloatingForm(this)"></div>
+{% endif %}
+</div>
+  </script>
+  {% endraw %}

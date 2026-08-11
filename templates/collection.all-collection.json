@@ -1,0 +1,511 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "47226501-38e9-4171-ac60-fcab56640872": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15349091106952__47226501-38e9-4171-ac60-fcab56640872-1673900061f6d2a0d4-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>HOCKEY</p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--15349091106952__47226501-38e9-4171-ac60-fcab56640872-1673900061f6d2a0d4-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "template--15349091106952__47226501-38e9-4171-ac60-fcab56640872-1673900061f6d2a0d4-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15349091106952__47226501-38e9-4171-ac60-fcab56640872-1673900061f6d2a0d4-0",
+        "template--15349091106952__47226501-38e9-4171-ac60-fcab56640872-1673900061f6d2a0d4-1",
+        "template--15349091106952__47226501-38e9-4171-ac60-fcab56640872-1673900061f6d2a0d4-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_banner_xFgbJq": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_VmyrgL": {
+          "type": "heading",
+          "settings": {
+            "heading": "UNRIVALED CUSTOM TEAMWEAR",
+            "heading_size": "h0"
+          }
+        },
+        "text_7Q68cV": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "buttons_9dgbnE": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_VmyrgL",
+        "text_7Q68cV",
+        "buttons_9dgbnE"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/hyperco-kodiaks.png",
+        "image_overlay_opacity": 40,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "rich_text_ctdtfz": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_nmitmD": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h2>PICK YOUR SPORT. START BUILDING.</h2>",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nmitmD"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "collection_list_fhtNEW": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_qAxkmx": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hockey"
+          }
+        },
+        "featured_collection_rVPwFV": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "basketball"
+          }
+        },
+        "featured_collection_eiiEb6": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "golf"
+          }
+        },
+        "featured_collection_RNQq3J": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "team-gear"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_qAxkmx",
+        "featured_collection_rVPwFV",
+        "featured_collection_eiiEb6",
+        "featured_collection_RNQq3J"
+      ],
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 2,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": false,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "disabled": true,
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 3,
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "enable_filtering": false,
+        "filter_type": "drawer",
+        "enable_sorting": false,
+        "columns_mobile": "2",
+        "padding_top": 48,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_y6ygtn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_KNNYpr": {
+          "type": "column",
+          "settings": {
+            "title": "Low Minimums",
+            "text": "<p>Big-league quality, even for small squads. While most brands make you hit 10, 15, or more—we get it done with just 5.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_yJYtra": {
+          "type": "column",
+          "settings": {
+            "title": "High Quality Finish",
+            "text": "<p><strong>Precision you can see. </strong>We use industry-best Japanese embroidery machines for sharp, durable detail that holds up under pressure.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_CxcQBf": {
+          "type": "column",
+          "settings": {
+            "title": "No Reorder Minimums",
+            "text": "<p>Need just one more? No problem. Reorder a single item at the same price you paid—no markups, no hassle, no minimums.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_KNNYpr",
+        "column_yJYtra",
+        "column_CxcQBf"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 72,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_QFM9YL": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_hyeiJj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/laser-beast-hyperco.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_krkGDn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/rutgers-player-hyperco.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_rAbQxa": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/custom-roller-hockey-uniforms.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_X9mCDH": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/squawks-team.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_hyeiJj",
+        "column_krkGDn",
+        "column_rAbQxa",
+        "column_X9mCDH"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_HMt9Di": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_eB8gTm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/snowcones-hyperco.png",
+            "title": "Pro Tackle Twill Embroidery",
+            "text": "<p>Our Pro Embroidered hockey jerseys are durable, high quality, and sure to turn heads on the ice.</p><ul><li>Minimum: 5 jerseys</li><li>Reorder minimum: 1 jersey</li><li>Cut & sewn stripes</li><li>Starting price: $99</li></ul>",
+            "link_label": "Start Building",
+            "link": "shopify://products/pro-ice-hockey-jersey"
+          }
+        },
+        "column_mEYDAH": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/pink-rink-jersey-hanging.jpg",
+            "title": "Elite Sublimation",
+            "text": "<p>Our Elite ice hockey jerseys are a more cost effective option without sacrificing durability and quality. </p><ul><li>Minimum: 5 jerseys</li><li>Reorder minimum: 1 jersey</li><li>Starting price: $63</li></ul>",
+            "link_label": "Start Building",
+            "link": "shopify://products/elite-ice-hockey-jersey"
+          }
+        },
+        "column_RDcBDD": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/blazer.png",
+            "title": "Inline Hockey",
+            "text": "<p>Deck out your inline hockey team in fully custom jerseys and pants, featuring our lightweight and durable Flex Pro Pant. </p><ul><li>Minimum: 5 jerseys</li><li>Reorder minimum: 1 jersey</li><li>Starting price: $58</li><li>Flex Pro Pant: $63*</li></ul><p></p><p>*Contact us to order pants</p>",
+            "link_label": "Start Building",
+            "link": "shopify://products/inline-hockey-jersey"
+          }
+        },
+        "column_n4NTBc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ushl.png",
+            "title": "Official Supplier of the USHL",
+            "text": "<p>From full home & away kits to specialty theme nights, tune in to the USHL to see our uniforms in action.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_pGjMBX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/rutgers.jpg",
+            "title": "Trusted by Colleges",
+            "text": "<p>Our Hockey Package Deals are perfect for your collegiate team or club.</p>",
+            "link_label": "View Hockey Bundles",
+            "link": "shopify://pages/hockey-package-deals"
+          }
+        }
+      },
+      "block_order": [
+        "column_eB8gTm",
+        "column_mEYDAH",
+        "column_RDcBDD",
+        "column_n4NTBc",
+        "column_pGjMBX"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_iVBA6R": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_NA4iwB": {
+          "type": "heading",
+          "settings": {
+            "heading": "An Official Supplier of the USHL",
+            "heading_size": "h1"
+          }
+        },
+        "text_URyrF8": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_QHMqEe": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_NA4iwB",
+        "text_URyrF8",
+        "button_QHMqEe"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "image": "shopify://shop_images/USHL-rubber-badge.png",
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_YTHfX3": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qQXYMG": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Real Reviews From Real Customers</p>",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qQXYMG"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "173402820398eef0c9": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_featured_carousel_4QJ4yQ": {
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1000
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_featured_carousel_4QJ4yQ"
+      ],
+      "custom_css": [
+        ".jdgm-carousel--vertical-theme .jdgm-carousel-item__review-wrapper {background-color: #2b2746; border-radius: 16px;}"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "47226501-38e9-4171-ac60-fcab56640872",
+    "image_banner_xFgbJq",
+    "rich_text_ctdtfz",
+    "collection_list_fhtNEW",
+    "banner",
+    "product-grid",
+    "multicolumn_y6ygtn",
+    "multicolumn_QFM9YL",
+    "multicolumn_HMt9Di",
+    "image_with_text_iVBA6R",
+    "rich_text_YTHfX3",
+    "173402820398eef0c9"
+  ]
+}

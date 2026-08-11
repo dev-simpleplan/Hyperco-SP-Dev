@@ -1,0 +1,27 @@
+{% comment %} == BEGIN CUSTOM PRODUCT BUILDER GENERATED CODE. DO NOT EDIT OR REMOVE. == {% endcomment %}
+
+{% if product.type == 'cpb_product' %}
+
+
+    <div id="cpb-custom-email-form">
+      <button class="cpb-custom-email-form__close">&#10060;</button>
+      <div class="globo-formbuilder" data-id="OTI3MDk="></div>
+    </div>
+    <div id="cpbc-app"></div>
+
+  
+    {{ 'customproductbuilder.css' | asset_url | stylesheet_tag }} 
+    {{ 'customWholesale.css' | asset_url | stylesheet_tag }} 
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>    
+    {{ 'customproductbuilder.js' | asset_url | script_tag }}
+    {{ 'customWholesale.js' | asset_url | script_tag }}
+{% endif %}
+
+{% comment %} == END CUSTOM PRODUCT BUILDER GENERATED CODE. DO NOT EDIT OR REMOVE. == {% endcomment %}
+
+{% schema %}
+  {
+    "name": "customproductbuilder",
+    "settings": []
+  }
+{% endschema %}

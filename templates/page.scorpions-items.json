@@ -1,0 +1,314 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_zVcBfR": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_LyRPrD": {
+          "type": "heading",
+          "settings": {
+            "heading": "Texas Scorpions Uniform & Apparel",
+            "heading_size": "h2"
+          }
+        },
+        "text_ePpEcC": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "buttons_bAqPN6": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_LyRPrD",
+        "text_ePpEcC",
+        "buttons_bAqPN6"
+      ],
+      "custom_css": [
+        ".banner__box.content-container.content-container--full-width-mobile.color-background-1.gradient {background-color: rgba(55, 16, 82, 0.7);}"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/scorpions-banner.png",
+        "image_overlay_opacity": 20,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "1659735380f464e020": {
+      "type": "rich-text",
+      "blocks": {
+        "16597353802d32037a-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Interest Form</p>",
+            "heading_size": "h1"
+          }
+        },
+        "text_CjPJjB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Select which items you're wanting below. All items will be placed as a group order when we have enough submissions. Money will be collected upon placing the group orders. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "16597353802d32037a-0",
+        "text_CjPJjB"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 28,
+        "padding_bottom": 8
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "47919602-af80-4399-b377-50d152b4416c": {
+      "type": "image-banner",
+      "blocks": {
+        "template--15056847896712__47919602-af80-4399-b377-50d152b4416c-1682974676a4ddd474-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "CONTACT",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--15056847896712__47919602-af80-4399-b377-50d152b4416c-1682974676a4ddd474-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/Screenshot_2023-04-30_at_7.59.16_PM.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "16597352495769ea39": {
+      "type": "apps",
+      "blocks": {
+        "0ba496df-2841-404a-83de-f3ca4fcdcde6": {
+          "type": "shopify://apps/hulk-form-builder/blocks/form-block/b6b8dd14-356b-4725-a4ed-77232212b3c3",
+          "disabled": true,
+          "settings": {
+            "form_uuid": "IUMzlDkqJoonqCQWJlHPfA",
+            "form_settings": false,
+            "font_color": "#000000",
+            "size": 14,
+            "input_background_color": "#ffffff",
+            "input_background_color_focus": "#f4dada",
+            "input_border_radius": 1,
+            "input_border_color": "#ebe9e9",
+            "input_border_color_focus": "#2d2727",
+            "input_font_color": "#3d3131",
+            "input_size": 14,
+            "border_color": "#121212",
+            "border_radius": 2,
+            "border": 1,
+            "fill_color": "#ebe9e9",
+            "padding": 35,
+            "form_width": 600,
+            "btn_text": "Submit",
+            "sub_btn_txt_color": "#f3f3f3",
+            "sub_btn_bg_color": "#3f3333",
+            "sub_btn_font_size": 14,
+            "sub_btn_bdr_color": "#ffffff",
+            "sub_btn_bdr_rad": 3,
+            "sub_btn_bdr_width": 1,
+            "fonts": "Times New Roman"
+          }
+        }
+      },
+      "block_order": [
+        "0ba496df-2841-404a-83de-f3ca4fcdcde6"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "16012ef5-1376-46e6-b400-9254d9adc44f": {
+      "type": "contact-form",
+      "disabled": true,
+      "settings": {
+        "heading": "Contact form",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "174016696219af55b4": {
+      "type": "apps",
+      "blocks": {
+        "powerful_form_builder_app_block_rpHFgg": {
+          "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"MTI5MDk0\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "powerful_form_builder_app_block_rpHFgg"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "multicolumn_yztTbm": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_Fy6Baf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Texas_Scorpions_-_purple.png",
+            "title": "Purple Game Jersey",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_U3ztay": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Texas_Scorpions_-_white.png",
+            "title": "White Game Jersey",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_XytPVP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/scoprions-purple.png",
+            "title": "Game Pants",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_xhNyEU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Texas_Scorpions_Bag.png",
+            "title": "Gear Bag",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_fhQC4n": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/scoprions-hat-purple.png",
+            "title": "Snapback Hat",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_UgDDG7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Scorpions_-_Tracksuit_-_1.png",
+            "title": "Tracksuit",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_PXrNPe": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Scorpions_Gloves_-_Top_View.png",
+            "title": "Gloves",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_Fy6Baf",
+        "column_U3ztay",
+        "column_XytPVP",
+        "column_xhNyEU",
+        "column_fhQC4n",
+        "column_UgDDG7",
+        "column_PXrNPe"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "image_banner_zVcBfR",
+    "1659735380f464e020",
+    "main",
+    "47919602-af80-4399-b377-50d152b4416c",
+    "16597352495769ea39",
+    "16012ef5-1376-46e6-b400-9254d9adc44f",
+    "174016696219af55b4",
+    "multicolumn_yztTbm"
+  ]
+}

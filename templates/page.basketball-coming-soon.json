@@ -1,0 +1,130 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "483a1cf9-787b-4dcf-95ea-8c4b8b04c9dc": {
+      "type": "image-banner",
+      "blocks": {
+        "template--15349094350984__483a1cf9-787b-4dcf-95ea-8c4b8b04c9dc-1682974676a4ddd474-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "BASKETBALL",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--15349094350984__483a1cf9-787b-4dcf-95ea-8c4b8b04c9dc-1682974676a4ddd474-0"
+      ],
+      "custom_css": [
+        ".banner {margin-top: 30px;}",
+        ".banner__box.content-container.content-container--full-width-mobile.color-background-1.gradient {background-color: transparent;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/basketball-net-from-below.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "ec886138-6a3a-420b-8d0e-6eecbc576385": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15477800337544__ec886138-6a3a-420b-8d0e-6eecbc576385-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Need basketball jerseys? We got you!</p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--15477800337544__ec886138-6a3a-420b-8d0e-6eecbc576385-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>While our basketball jersey builder is still in the works, we are excited to work with you and bring your dream uniforms to life! Simply fill out the form below and we'll be in touch within 1-2 business days.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15477800337544__ec886138-6a3a-420b-8d0e-6eecbc576385-heading-1",
+        "template--15477800337544__ec886138-6a3a-420b-8d0e-6eecbc576385-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "16597352495769ea39": {
+      "type": "apps",
+      "blocks": {
+        "0ba496df-2841-404a-83de-f3ca4fcdcde6": {
+          "type": "shopify://apps/hulk-form-builder/blocks/form-block/b6b8dd14-356b-4725-a4ed-77232212b3c3",
+          "settings": {
+            "form_uuid": "96xsxlT4qKbIge6qpsD28A",
+            "form_settings": false,
+            "font_color": "#000000",
+            "size": 14,
+            "input_background_color": "#ffffff",
+            "input_background_color_focus": "#f4dada",
+            "input_border_radius": 1,
+            "input_border_color": "#ebe9e9",
+            "input_border_color_focus": "#2d2727",
+            "input_font_color": "#3d3131",
+            "input_size": 14,
+            "border_color": "#121212",
+            "border_radius": 2,
+            "border": 1,
+            "fill_color": "#ebe9e9",
+            "padding": 35,
+            "form_width": 600,
+            "btn_text": "Submit",
+            "sub_btn_txt_color": "#f3f3f3",
+            "sub_btn_bg_color": "#3f3333",
+            "sub_btn_font_size": 14,
+            "sub_btn_bdr_color": "#ffffff",
+            "sub_btn_bdr_rad": 3,
+            "sub_btn_bdr_width": 1,
+            "fonts": "Times New Roman"
+          }
+        }
+      },
+      "block_order": [
+        "0ba496df-2841-404a-83de-f3ca4fcdcde6"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "483a1cf9-787b-4dcf-95ea-8c4b8b04c9dc",
+    "ec886138-6a3a-420b-8d0e-6eecbc576385",
+    "16597352495769ea39"
+  ]
+}

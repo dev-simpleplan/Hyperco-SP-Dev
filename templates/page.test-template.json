@@ -1,0 +1,232 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 0
+      }
+    },
+    "1659987918ee12be92": {
+      "type": "rich-text",
+      "blocks": {
+        "1659987917d025cac4-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>// TEST</p>",
+            "heading_size": "h1"
+          }
+        },
+        "1659987917d025cac4-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "1659987917d025cac4-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1659987917d025cac4-0",
+        "1659987917d025cac4-1",
+        "1659987917d025cac4-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 28,
+        "padding_bottom": 0
+      }
+    },
+    "16599875987c11d331": {
+      "type": "collapsible-content",
+      "blocks": {
+        "165998759750b4f253-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What's your minimum order quantity?",
+            "icon": "lightning_bolt",
+            "row_content": "<p>Currently, our minimum order quantity is 5 jerseys/kits per order.</p>",
+            "page": ""
+          }
+        },
+        "165998759750b4f253-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How can I place an order?",
+            "icon": "lightning_bolt",
+            "row_content": "<p>Our order process is listed further down on this page. Please contact us at hello@kaspersports.com with any questions!</p>",
+            "page": ""
+          }
+        },
+        "165998759750b4f253-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you have a size chart?",
+            "icon": "lightning_bolt",
+            "row_content": "<p>Yes we do! </p>",
+            "page": ""
+          }
+        },
+        "ee288821-bfbe-434d-91d8-fc73fff5a4fb": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What's your turnaround time?",
+            "icon": "lightning_bolt",
+            "row_content": "<p>We will deliver your in 4-6 weeks from the time your invoice is paid. <br/></p><p>Please see the order process below for more information on how to place an order.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "165998759750b4f253-0",
+        "165998759750b4f253-2",
+        "165998759750b4f253-3",
+        "ee288821-bfbe-434d-91d8-fc73fff5a4fb"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16599888666134ac86": {
+      "type": "rich-text",
+      "blocks": {
+        "16599888660ef125ff-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>// HOW TO ORDER</p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "16599888660ef125ff-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 32
+      }
+    },
+    "1659986521192b3a12": {
+      "type": "rich-text",
+      "blocks": {
+        "16599865216bbfeac3-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>How To Order</p>",
+            "heading_size": "h2"
+          }
+        },
+        "16599865216bbfeac3-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>1. Use our <a href=\"/pages/contact\" title=\"Contact\">order form</a> to start a conversation or <a href=\"mailto:hello@kaspersports.com\" title=\"mailto:hello@kaspersports.com\">email</a> us a design you have in mind (include your team name, colors, logo, and full roster list). If you need anything custom, let us know and we will work with you!</p><p>2. Our design team will email you within 24 hours to hammer out any details needed before drafting up your <span style=\"text-decoration:underline\">free</span> uniform mock-up.</p><p></p><p>3. Once the design mock-up is approved, we'll finalize your full roster with names/numbers/sizes for all, and send you an invoice to easily pay for your gear. </p><p></p><p>4. We'll get your order in production, and will have them in your hands in 4-6 weeks based on current demand.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "16599865216bbfeac3-0",
+        "16599865216bbfeac3-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 16
+      }
+    },
+    "165998902488df5f1f": {
+      "type": "rich-text",
+      "blocks": {
+        "1659989024ef7c8365-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Talk about your brand</p>",
+            "heading_size": "h1"
+          }
+        },
+        "1659989024ef7c8365-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "1659989024ef7c8365-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "GET STARTED",
+            "button_link": "shopify://pages/contact",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1659989024ef7c8365-0",
+        "1659989024ef7c8365-1",
+        "1659989024ef7c8365-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1659987918ee12be92",
+    "16599875987c11d331",
+    "16599888666134ac86",
+    "1659986521192b3a12",
+    "165998902488df5f1f"
+  ]
+}

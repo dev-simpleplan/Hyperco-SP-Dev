@@ -1,0 +1,54 @@
+
+.globo-formbuilder button.submit:hover {
+    background-color: #5cd3b6 !important;
+    box-shadow: none !important;
+    filter: brightness(100%) !important;
+  color: black !important;
+}
+
+.jdgm-rev__replier-wrapper {
+  display: none; !important
+}
+
+.jdgm-rev__reply-content:before {
+    content: "Kasper Sports replied:"; !important
+}
+
+.jdgm-rev__buyer-badge-wrapper {
+  display: none !important;
+}
+
+.jdgm-rev__rating {
+  -webkit-text-stroke-width: 1px !important;
+  -webkit-text-stroke-color: #1F1F21 !important;
+}
+
+.g-container {
+    /* background-color: white !important; */
+}
+
+/* .wizard__footer>button{
+  color: white !important;
+} */
+
+span.break-word {
+    color: white !important;
+}
+
+.gpo-group.gpo-form__group.gpo-col-12 {
+    background-color: #221F35 !important;
+}
+
+.card-information {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.border-box {
+    border: 1px solid yellow;
+    color: #9effe7;
+    border-radius: 10px;
+    padding: 20px !important;
+}

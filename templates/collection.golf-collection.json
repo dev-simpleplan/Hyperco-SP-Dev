@@ -1,0 +1,303 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image-banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_TCWf7f": {
+          "type": "heading",
+          "settings": {
+            "heading": "GOLF",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_TCWf7f"
+      ],
+      "custom_css": [
+        "h2 {background: rgba(0, 0, 0, 0.7);}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/golf-group_fd926e07-3d51-432f-af8b-5a01526a0800.png",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": false,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
+      }
+    },
+    "multicolumn_UYUeae": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_JUWkgy": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/51c353b023c39485184026dbcb9e25ad.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_UEgh63": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ben.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_ka4q6F": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/IMG_4974.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_6Wndym": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/swing_ca12e008-f621-49ff-b09f-3b8d2903dc97.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_WNK8Uj": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_JUWkgy",
+        "column_UEgh63",
+        "column_ka4q6F",
+        "column_6Wndym",
+        "column_WNK8Uj"
+      ],
+      "custom_css": [
+        ".multicolumn-card__image {border-radius: 6px;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "portrait",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_cmTrA9": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_DematP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/golf_package_-_par_3d23872a-ed89-4795-bd65-575debb6fc1a.png",
+            "title": "Par Package",
+            "text": "<ul><li>Embroidered Hat</li><li>Printed Golf Towel</li><li>Printed Polo</li><li>8 people minimum</li><li><strong>Total Per Player: $124</strong></li></ul>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_BCGCpw": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_FECwJ7": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_DematP",
+        "column_BCGCpw",
+        "column_FECwJ7"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "47226501-38e9-4171-ac60-fcab56640872": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15349091106952__47226501-38e9-4171-ac60-fcab56640872-1673900061f6d2a0d4-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Custom Golf Packages</p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--15349091106952__47226501-38e9-4171-ac60-fcab56640872-1673900061f6d2a0d4-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our fully custom golf packages are perfect for bachelor parties, annual golf trips, and team events! <br/>While our online golf package builder is still in the works, simply fill out the form below to get started!</p>"
+          }
+        },
+        "template--15349091106952__47226501-38e9-4171-ac60-fcab56640872-1673900061f6d2a0d4-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15349091106952__47226501-38e9-4171-ac60-fcab56640872-1673900061f6d2a0d4-0",
+        "template--15349091106952__47226501-38e9-4171-ac60-fcab56640872-1673900061f6d2a0d4-1",
+        "template--15349091106952__47226501-38e9-4171-ac60-fcab56640872-1673900061f6d2a0d4-2"
+      ],
+      "custom_css": [],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "disabled": true,
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 2,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "enable_filtering": false,
+        "filter_type": "drawer",
+        "enable_sorting": false,
+        "columns_mobile": "1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "1710526644235ce297": {
+      "type": "apps",
+      "blocks": {
+        "hulk_form_builder_form_block_gFPfKM": {
+          "type": "shopify://apps/hulk-form-builder/blocks/form-block/b6b8dd14-356b-4725-a4ed-77232212b3c3",
+          "settings": {
+            "form_uuid": "JOyutrUmp6lZJfaluJyqGg",
+            "form_settings": false,
+            "font_color": "#000000",
+            "size": 14,
+            "input_background_color": "#ffffff",
+            "input_background_color_focus": "#f4dada",
+            "input_border_radius": 1,
+            "input_border_color": "#ebe9e9",
+            "input_border_color_focus": "#2d2727",
+            "input_font_color": "#3d3131",
+            "input_size": 14,
+            "border_color": "#121212",
+            "border_radius": 2,
+            "border": 1,
+            "fill_color": "#ebe9e9",
+            "padding": 35,
+            "form_width": 600,
+            "btn_text": "Submit",
+            "sub_btn_txt_color": "#f3f3f3",
+            "sub_btn_bg_color": "#3f3333",
+            "sub_btn_font_size": 14,
+            "sub_btn_bdr_color": "#ffffff",
+            "sub_btn_bdr_rad": 3,
+            "sub_btn_bdr_width": 1,
+            "fonts": "Times New Roman"
+          }
+        }
+      },
+      "block_order": [
+        "hulk_form_builder_form_block_gFPfKM"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "image-banner",
+    "banner",
+    "multicolumn_UYUeae",
+    "multicolumn_cmTrA9",
+    "47226501-38e9-4171-ac60-fcab56640872",
+    "product-grid",
+    "1710526644235ce297"
+  ]
+}

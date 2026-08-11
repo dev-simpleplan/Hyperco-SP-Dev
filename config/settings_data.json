@@ -1,0 +1,476 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "current": {
+    "colors_solid_button_labels": "#ffffff",
+    "colors_accent_1": "#632bc6",
+    "gradient_accent_1": "",
+    "colors_accent_2": "#ffffff",
+    "gradient_accent_2": "",
+    "colors_text": "#ffffff",
+    "colors_outline_button_labels": "#ffffff",
+    "colors_background_1": "#221f35",
+    "gradient_background_1": "",
+    "colors_background_2": "#161520",
+    "gradient_background_2": "",
+    "type_header_font": "barlow_condensed_i4",
+    "heading_scale": 150,
+    "type_body_font": "abel_n4",
+    "body_scale": 120,
+    "page_width": 1100,
+    "spacing_sections": 0,
+    "spacing_grid_horizontal": 20,
+    "spacing_grid_vertical": 20,
+    "buttons_border_thickness": 3,
+    "buttons_border_opacity": 100,
+    "buttons_radius": 4,
+    "buttons_shadow_opacity": 0,
+    "buttons_shadow_horizontal_offset": 0,
+    "buttons_shadow_vertical_offset": 0,
+    "buttons_shadow_blur": 5,
+    "variant_pills_border_thickness": 1,
+    "variant_pills_border_opacity": 55,
+    "variant_pills_radius": 40,
+    "variant_pills_shadow_opacity": 0,
+    "variant_pills_shadow_horizontal_offset": 0,
+    "variant_pills_shadow_vertical_offset": 4,
+    "variant_pills_shadow_blur": 5,
+    "inputs_border_thickness": 1,
+    "inputs_border_opacity": 55,
+    "inputs_radius": 0,
+    "inputs_shadow_opacity": 0,
+    "inputs_shadow_horizontal_offset": 0,
+    "inputs_shadow_vertical_offset": 4,
+    "inputs_shadow_blur": 5,
+    "card_style": "card",
+    "card_image_padding": 0,
+    "card_text_alignment": "center",
+    "card_color_scheme": "background-2",
+    "card_border_thickness": 0,
+    "card_border_opacity": 55,
+    "card_corner_radius": 8,
+    "card_shadow_opacity": 0,
+    "card_shadow_horizontal_offset": 0,
+    "card_shadow_vertical_offset": 4,
+    "card_shadow_blur": 5,
+    "text_boxes_border_thickness": 0,
+    "text_boxes_border_opacity": 10,
+    "text_boxes_radius": 16,
+    "text_boxes_shadow_opacity": 0,
+    "text_boxes_shadow_horizontal_offset": 0,
+    "text_boxes_shadow_vertical_offset": 4,
+    "text_boxes_shadow_blur": 5,
+    "media_border_thickness": 0,
+    "media_border_opacity": 10,
+    "media_radius": 0,
+    "media_shadow_opacity": 0,
+    "media_shadow_horizontal_offset": 0,
+    "media_shadow_vertical_offset": 4,
+    "media_shadow_blur": 5,
+    "popup_border_thickness": 1,
+    "popup_border_opacity": 10,
+    "popup_corner_radius": 0,
+    "popup_shadow_opacity": 0,
+    "popup_shadow_horizontal_offset": 0,
+    "popup_shadow_vertical_offset": 4,
+    "popup_shadow_blur": 5,
+    "drawer_border_thickness": 1,
+    "drawer_border_opacity": 10,
+    "drawer_shadow_opacity": 0,
+    "drawer_shadow_horizontal_offset": 0,
+    "drawer_shadow_vertical_offset": 4,
+    "drawer_shadow_blur": 5,
+    "badge_position": "bottom left",
+    "badge_corner_radius": 40,
+    "sale_badge_color_scheme": "accent-2",
+    "sold_out_badge_color_scheme": "background-1",
+    "accent_icons": "text",
+    "social_twitter_link": "",
+    "social_facebook_link": "https://www.facebook.com/hypercosports/",
+    "social_pinterest_link": "",
+    "social_instagram_link": "https://instagram.com/hypercosports",
+    "social_tiktok_link": "https://www.tiktok.com/@hypercosports",
+    "social_tumblr_link": "",
+    "social_snapchat_link": "",
+    "social_youtube_link": "",
+    "social_vimeo_link": "",
+    "predictive_search_enabled": true,
+    "predictive_search_show_vendor": false,
+    "predictive_search_show_price": false,
+    "favicon": "shopify://shop_images/favicon-hyperco_a2389882-2a2c-41e6-b5e6-3fc08b681998.png",
+    "currency_code_enabled": true,
+    "cart_type": "page",
+    "show_vendor": false,
+    "show_cart_note": false,
+    "cart_drawer_collection": "",
+    "checkout_logo_image": "shopify://shop_images/Kasper-Lettermark-Black.png",
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "announcement-bar-0": {
+            "type": "announcement",
+            "disabled": true,
+            "settings": {
+              "text": "FREE HAT with purchase of any Hyperco Apparel item. No code necessary, add both items to cart.",
+              "color_scheme": "accent-1",
+              "link": "shopify://collections/shop"
+            }
+          }
+        },
+        "block_order": [
+          "announcement-bar-0"
+        ],
+        "settings": {}
+      },
+      "header": {
+        "type": "header",
+        "custom_css": [
+          "summary.list-menu__item {padding-right: 28px;}"
+        ],
+        "settings": {
+          "color_scheme": "background-1",
+          "logo": "shopify://shop_images/hyperco-logo.png",
+          "logo_width": 220,
+          "logo_position": "middle-left",
+          "menu": "sports-top-nav",
+          "menu_type_desktop": "dropdown",
+          "show_line_separator": false,
+          "enable_sticky_header": true,
+          "margin_bottom": 0,
+          "padding_top": 12,
+          "padding_bottom": 12
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "link-list": {
+            "type": "link_list",
+            "disabled": true,
+            "settings": {
+              "heading": "ABOUT US",
+              "menu": "footer"
+            }
+          },
+          "image": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "image_width": 70,
+              "alignment": "right"
+            }
+          },
+          "text": {
+            "type": "text",
+            "disabled": true,
+            "settings": {
+              "heading": "Subscribe",
+              "subtext": "<p>Be the first to know about new collections and exclusive offers.</p>"
+            }
+          },
+          "a02f424c-465d-4a8d-b732-7f8dcb659e6a": {
+            "type": "link_list",
+            "settings": {
+              "heading": "",
+              "menu": "footer-menu-v2"
+            }
+          },
+          "9b3bd85e-31d6-4efe-8b55-e7cd7f89ba79": {
+            "type": "link_list",
+            "disabled": true,
+            "settings": {
+              "heading": "",
+              "menu": "products"
+            }
+          }
+        },
+        "block_order": [
+          "link-list",
+          "image",
+          "text",
+          "a02f424c-465d-4a8d-b732-7f8dcb659e6a",
+          "9b3bd85e-31d6-4efe-8b55-e7cd7f89ba79"
+        ],
+        "settings": {
+          "color_scheme": "background-2",
+          "newsletter_enable": true,
+          "newsletter_heading": "Get first dibs on new drops, early access, and exclusive offers.",
+          "show_social": true,
+          "enable_country_selector": false,
+          "enable_language_selector": false,
+          "payment_enable": false,
+          "margin_top": 0,
+          "padding_top": 40,
+          "padding_bottom": 40
+        }
+      },
+      "main-password-header": {
+        "type": "main-password-header",
+        "settings": {
+          "logo": "{{ shop.brand.logo }}",
+          "logo_max_width": 100,
+          "color_scheme": "background-1"
+        }
+      },
+      "main-password-footer": {
+        "type": "main-password-footer",
+        "settings": {
+          "color_scheme": "background-1"
+        }
+      }
+    },
+    "content_for_index": [],
+    "blocks": {
+      "6279071938380501511": {
+        "type": "shopify://apps/powerful-contact-form-builder/blocks/app-embed/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+        "disabled": false,
+        "settings": {}
+      },
+      "judgeme_core_aec45861": {
+        "type": "shopify://apps/judge-me-product-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": false,
+        "settings": {}
+      },
+      "10534424223343191814": {
+        "type": "shopify://apps/customer-dashboard-pro/blocks/app-embed/f81081fd-cd04-43ee-897a-18ef0e5d9b04",
+        "disabled": false,
+        "settings": {}
+      },
+      "319724205969189013": {
+        "type": "shopify://apps/hulk-form-builder/blocks/app-embed/b6b8dd14-356b-4725-a4ed-77232212b3c3",
+        "disabled": false,
+        "settings": {}
+      },
+      "7555218208816688692": {
+        "type": "shopify://apps/rivo-popups-email-pop-ups/blocks/app-embed/48a5a3ef-b6ff-431f-842f-6f17862c4a63",
+        "disabled": false,
+        "settings": {}
+      },
+      "7860399670564181960": {
+        "type": "shopify://apps/profy-banner-countdown-timer/blocks/app_embed/243a639f-ca73-4afe-b6aa-3a23277fb424",
+        "disabled": false,
+        "settings": {}
+      },
+      "3720565183479497137": {
+        "type": "shopify://apps/globo-product-option/blocks/app-embed-block/fdc9fad5-1a0f-4bd4-9c8a-1af6a6eef6b8",
+        "disabled": false,
+        "settings": {}
+      },
+      "855628211100114053": {
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {}
+      }
+    }
+  },
+  "presets": {
+    "Default": {
+      "colors_solid_button_labels": "#1f1f21",
+      "colors_accent_1": "#e3fc02",
+      "gradient_accent_1": "",
+      "colors_accent_2": "#ffffff",
+      "gradient_accent_2": "",
+      "colors_text": "#ffffff",
+      "colors_outline_button_labels": "#e3fc02",
+      "colors_background_1": "#1f1f21",
+      "gradient_background_1": "",
+      "colors_background_2": "#1f1f21",
+      "gradient_background_2": "",
+      "type_header_font": "oswald_n5",
+      "heading_scale": 140,
+      "type_body_font": "avenir_next_n5",
+      "body_scale": 100,
+      "page_width": 1600,
+      "spacing_sections": 52,
+      "spacing_grid_horizontal": 40,
+      "spacing_grid_vertical": 40,
+      "buttons_border_thickness": 1,
+      "buttons_border_opacity": 100,
+      "buttons_radius": 0,
+      "buttons_shadow_opacity": 0,
+      "buttons_shadow_horizontal_offset": 0,
+      "buttons_shadow_vertical_offset": 4,
+      "buttons_shadow_blur": 5,
+      "variant_pills_border_thickness": 1,
+      "variant_pills_border_opacity": 55,
+      "variant_pills_radius": 40,
+      "variant_pills_shadow_opacity": 0,
+      "variant_pills_shadow_horizontal_offset": 0,
+      "variant_pills_shadow_vertical_offset": 4,
+      "variant_pills_shadow_blur": 5,
+      "inputs_border_thickness": 1,
+      "inputs_border_opacity": 55,
+      "inputs_radius": 0,
+      "inputs_shadow_opacity": 0,
+      "inputs_shadow_horizontal_offset": 0,
+      "inputs_shadow_vertical_offset": 4,
+      "inputs_shadow_blur": 5,
+      "card_style": "card",
+      "card_image_padding": 0,
+      "card_text_alignment": "left",
+      "card_color_scheme": "background-2",
+      "card_border_thickness": 0,
+      "card_border_opacity": 10,
+      "card_corner_radius": 0,
+      "card_shadow_opacity": 0,
+      "card_shadow_horizontal_offset": 0,
+      "card_shadow_vertical_offset": 4,
+      "card_shadow_blur": 5,
+      "text_boxes_border_thickness": 0,
+      "text_boxes_border_opacity": 10,
+      "text_boxes_radius": 0,
+      "text_boxes_shadow_opacity": 0,
+      "text_boxes_shadow_horizontal_offset": 0,
+      "text_boxes_shadow_vertical_offset": 4,
+      "text_boxes_shadow_blur": 5,
+      "media_border_thickness": 0,
+      "media_border_opacity": 10,
+      "media_radius": 0,
+      "media_shadow_opacity": 0,
+      "media_shadow_horizontal_offset": 0,
+      "media_shadow_vertical_offset": 4,
+      "media_shadow_blur": 5,
+      "popup_border_thickness": 1,
+      "popup_border_opacity": 10,
+      "popup_corner_radius": 0,
+      "popup_shadow_opacity": 0,
+      "popup_shadow_horizontal_offset": 0,
+      "popup_shadow_vertical_offset": 4,
+      "popup_shadow_blur": 5,
+      "drawer_border_thickness": 1,
+      "drawer_border_opacity": 10,
+      "drawer_shadow_opacity": 0,
+      "drawer_shadow_horizontal_offset": 0,
+      "drawer_shadow_vertical_offset": 4,
+      "drawer_shadow_blur": 5,
+      "badge_position": "bottom left",
+      "badge_corner_radius": 40,
+      "sale_badge_color_scheme": "accent-2",
+      "sold_out_badge_color_scheme": "background-1",
+      "accent_icons": "text",
+      "social_twitter_link": "",
+      "social_facebook_link": "",
+      "social_pinterest_link": "",
+      "social_instagram_link": "",
+      "social_tiktok_link": "",
+      "social_tumblr_link": "",
+      "social_snapchat_link": "",
+      "social_youtube_link": "",
+      "social_vimeo_link": "",
+      "predictive_search_enabled": true,
+      "predictive_search_show_vendor": false,
+      "predictive_search_show_price": false,
+      "currency_code_enabled": true,
+      "cart_type": "notification",
+      "show_vendor": false,
+      "show_cart_note": false,
+      "sections": {
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "blocks": {
+            "announcement-bar-0": {
+              "type": "announcement",
+              "settings": {
+                "text": "WELCOME TO OUR STORE",
+                "color_scheme": "accent-1",
+                "link": ""
+              }
+            }
+          },
+          "block_order": [
+            "announcement-bar-0"
+          ],
+          "settings": {}
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "color_scheme": "background-1",
+            "logo": "{{ shop.brand.logo }}",
+            "logo_width": 80,
+            "logo_position": "middle-left",
+            "menu": "main-menu",
+            "menu_type_desktop": "dropdown",
+            "show_line_separator": false,
+            "enable_sticky_header": true,
+            "margin_bottom": 0,
+            "padding_top": 20,
+            "padding_bottom": 20
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "link-list": {
+              "type": "link_list",
+              "settings": {
+                "heading": "ABOUT US",
+                "menu": "footer"
+              }
+            },
+            "image": {
+              "type": "image",
+              "settings": {
+                "image_width": 70,
+                "alignment": "right"
+              }
+            },
+            "text": {
+              "type": "text",
+              "settings": {
+                "heading": "",
+                "subtext": "<p>Share contact information, store details, and brand content with your customers.</p>"
+              }
+            }
+          },
+          "block_order": [
+            "link-list",
+            "image",
+            "text"
+          ],
+          "settings": {
+            "color_scheme": "background-2",
+            "newsletter_enable": false,
+            "newsletter_heading": "",
+            "show_social": true,
+            "enable_country_selector": false,
+            "enable_language_selector": false,
+            "payment_enable": true,
+            "margin_top": 0,
+            "padding_top": 40,
+            "padding_bottom": 40
+          }
+        },
+        "main-password-header": {
+          "type": "main-password-header",
+          "settings": {
+            "logo": "{{ shop.brand.logo }}",
+            "logo_max_width": 100,
+            "color_scheme": "background-1"
+          }
+        },
+        "main-password-footer": {
+          "type": "main-password-footer",
+          "settings": {
+            "color_scheme": "background-1"
+          }
+        }
+      }
+    }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      "/* Default hero header styling */.banner__heading {font-size: 90px; line-height: 1.1;}",
+      " /* Medium screens (tablet) */@media screen and (max-width: 1024px) {.banner__heading {font-size: 55px; }}",
+      " /* Small screens (mobile) */@media screen and (max-width: 640px) {.banner__heading {font-size: 55px; } .card__heading {font-size: 18px; }}"
+    ]
+  }
+}

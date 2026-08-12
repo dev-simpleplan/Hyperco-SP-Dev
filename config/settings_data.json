@@ -232,10 +232,10 @@
           "top-bar-0": {
             "type": "top_bar_item",
             "settings": {
-              "tb_text": "<p>Announce something here</p>",
+              "tb_text": "<p>Get first dibs on new drops</p>",
               "color_scheme": "accent-1",
-              "tb_button_text": "",
-              "tb_button_link": ""
+              "tb_button_text": "SHOP NOW!",
+              "tb_button_link": "shopify://collections/hockey"
             }
           }
         },

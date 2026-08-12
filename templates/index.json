@@ -9,6 +9,56 @@
  */
 {
   "sections": {
+    "home_banner_BaqTXz": {
+      "type": "home-banner",
+      "blocks": {
+        "hbin_item_LatrfV": {
+          "type": "hbin_item",
+          "settings": {
+            "hbin_top": "USHL",
+            "hbin_bottom": "Official supplier"
+          }
+        },
+        "hbin_item_A96qaL": {
+          "type": "hbin_item",
+          "settings": {
+            "hbin_top": "500+",
+            "hbin_bottom": "TEAMS OUTFITTED"
+          }
+        },
+        "hbin_item_igRYHk": {
+          "type": "hbin_item",
+          "settings": {
+            "hbin_top": "4.9★",
+            "hbin_bottom": "AVERAGE REVIEW"
+          }
+        },
+        "hbin_item_caNzfb": {
+          "type": "hbin_item",
+          "settings": {
+            "hbin_top": "Low",
+            "hbin_bottom": "Minimums"
+          }
+        }
+      },
+      "block_order": [
+        "hbin_item_LatrfV",
+        "hbin_item_A96qaL",
+        "hbin_item_igRYHk",
+        "hbin_item_caNzfb"
+      ],
+      "name": "Home banner",
+      "settings": {
+        "hb_image": "shopify://shop_images/860afe47b264a3323739095399315a087de92531_1.png",
+        "hb_heading": "PREMIUM TEAMWEAR,",
+        "hb_heading_colored": "BUILT YOUR WAY.",
+        "hb_text": "<p>Custom hockey jerseys and team uniforms, sublimated to pro-level detail. Work with a jersey expert from concept to delivery or design it yourself in our online builder.</p>",
+        "hb_button1_text": "GET EXPERT HELP",
+        "hb_button1_link": "",
+        "hb_button2_text": "DESIGN IT YOURSELF",
+        "hb_button2_link": ""
+      }
+    },
     "1659630318bfb0fb2e": {
       "type": "image-banner",
       "blocks": {
@@ -693,6 +743,7 @@
     }
   },
   "order": [
+    "home_banner_BaqTXz",
     "1659630318bfb0fb2e",
     "rich_text_UtDnAR",
     "collection_list_Lz9QBT",

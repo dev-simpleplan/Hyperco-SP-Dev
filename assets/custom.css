@@ -65,15 +65,40 @@ span.break-word {
     font-style: normal;
     color: #221F35;
     font-size: 22px;
+    text-transform: uppercase;
+}
+.button--primary.filled::before,
+.button--primary.filled::after {
+    border-radius: 4px;
 }
 .button--primary.filled::after {
-    box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset)) rgba(var(--color-button-text), var(--border-opacity)),
+    box-shadow: 0 0 0 calc(2px + var(--border-offset)) rgba(var(--color-button-text), var(--border-opacity)),
     0 0 0 var(--buttons-border-width) #35FFCB
 }
 .button--primary.filled:hover::after {
     box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset)) rgba(var(--color-button-text), var(--border-opacity)),
-    0 0 0 calc(var(--buttons-border-width) + 1px) #35FFCB!important};
+    0 0 0 calc(var(--buttons-border-width) + 1px) #35FFCB!important;
+}
+.button--secondary.line {
+    background-color: transparent;
+    font-weight: var(--font-heading-weight-bold);
+    font-family: var(--font-heading-family);
+    font-style: normal;
+    color: #fff;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.button--secondary.line::before,
+.button--secondary.line::after {
+    border-radius: 4px;
+}
 /* Buttons */
+
+/* Header CSS */
+header nav.header__inline-menu {
+    display: none!important;
+}
+/* Header CSS */
 
 /* Top Bar CSS */
 .top-bar {
@@ -84,13 +109,13 @@ span.break-word {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 24px;
+    gap: 18px;
 }
 .top-bar-in .tbi-text {
     font-family: var(--font-heading-family);
-    font-size: 27px;
+    font-size: 18px;
     font-weight: 400;
-    font-style: italic;
+    font-style: var(--font-heading-style-italic);
     letter-spacing: 0.9px;
     color: #fff;
 }
@@ -100,9 +125,9 @@ span.break-word {
 }
 .tbi-button a {
     font-family: var(--font-heading-family);
-    font-size: 27px;
+    font-size: 18px;
     font-weight: 400;
-    font-style: italic;
+    font-style: var(--font-heading-style-italic);
     letter-spacing: 1.9px;
     color: #fff;
     text-decoration: none;
@@ -162,8 +187,9 @@ span.break-word {
     gap: 18px;
 }
 .hbit-first h1 {
+    font-family: var(--font-heading-family);
     font-weight: var(--font-heading-weight-bold);
-    font-style: italic;
+    font-style: var(--font-heading-style-italic);
     font-size: 86px;
     letter-spacing: 2.17px;
     line-height: 84px;
@@ -186,6 +212,17 @@ span.break-word {
     align-items: flex-start;
     justify-content: flex-start;
     gap: 50px;
+    position: relative;
+    width: max-content;
+}
+.hbin-bottom::after {
+    content: '';
+    position: absolute;
+    top: -30px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: rgba(255,255,255,0.4);
 }
 .hbin-item {
     display: flex;
@@ -193,16 +230,26 @@ span.break-word {
     gap: 10px;
 }
 .hbinitem-top {
-    font-family: var(--font-heading-weight-bold);
-    font-style: italic;
+    font-family: var(--font-heading-family);
+    font-weight: var(--font-heading-weight-bold);
+    font-style: var(--font-heading-style-italic);
     font-size: 32px;
     color: #fff;
+    letter-spacing: 2px;
+    line-height: 34px;
 }
 .hbit-buttons {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     gap: 12px;
+}
+.hbinitem-bottom p {
+    font-weight: 300;
+    font-size: 12px;
+    color: rgba(255,255,255,0.75);
+    letter-spacing: 0.72px;
+    text-transform: uppercase;
 }
 /* Home Banner CSS */
 

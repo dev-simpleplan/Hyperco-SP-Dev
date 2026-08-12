@@ -1,0 +1,89 @@
+{%- for block in section.blocks -%}
+  {%- case block.type -%}
+    {%- when 'top_bar_item' -%}
+      <div class="top-bar color-{{ block.settings.color_scheme }} gradient" {{ block.shopify_attributes }}>
+        <div class="page-width-desktop">
+          <div class="top-bar-in">
+            {%- if block.settings.tb_text != blank -%}
+              <div class="tbi-text">
+                {{ block.settings.tb_text }}
+              </div>
+              {%- if block.settings.tb_button_text != blank and block.settings.tb_button_link != blank -%}
+                <div class="tbi-button">
+                  <a href="{{ block.settings.tb_button_link }}">{{ block.settings.tb_button_text }}</a>
+                </div>
+              {%- endif -%}
+            {%- endif -%}
+          </div>
+        </div>
+      </div>
+  {%- endcase -%}
+{%- endfor -%}
+
+{% schema %}
+{
+  "name": "Top bar",
+  "max_blocks": 12,
+  "blocks": [
+    {
+      "type": "top_bar_item",
+      "name": "Top bar item",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "tb_text",
+          "label": "Text",
+          "default": "<p>Announce something here</p>"
+        },
+        {
+          "type": "select",
+          "id": "color_scheme",
+          "options": [
+            {
+              "value": "accent-1",
+              "label": "t:sections.all.colors.accent_1.label"
+            },
+            {
+              "value": "accent-2",
+              "label": "t:sections.all.colors.accent_2.label"
+            },
+            {
+              "value": "background-1",
+              "label": "t:sections.all.colors.background_1.label"
+            },
+            {
+              "value": "background-2",
+              "label": "t:sections.all.colors.background_2.label"
+            },
+            {
+              "value": "inverse",
+              "label": "t:sections.all.colors.inverse.label"
+            }
+          ],
+          "default": "accent-1",
+          "label": "t:sections.all.colors.label"
+        },
+        {
+          "type": "text",
+          "id": "tb_button_text",
+          "label": "Button label",
+          "info": "Only shows if a button link is also set"
+        },
+        {
+          "type": "url",
+          "id": "tb_button_link",
+          "label": "Button link",
+          "info": "Only shows if a button label is also set"
+        }
+      ]
+    }
+  ],
+  "default": {
+    "blocks": [
+      {
+        "type": "top_bar_item"
+      }
+    ]
+  }
+}
+{% endschema %}

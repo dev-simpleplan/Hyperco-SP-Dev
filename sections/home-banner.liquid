@@ -1,0 +1,151 @@
+<section class="home-banner">
+    {%- if section.settings.hb_image != blank -%}
+        <div class="hb-image">
+            <img src="{{ section.settings.hb_image | image_url: width: 2000 }}" alt="{{ section.settings.hb_image.alt | escape }}" loading="lazy" width="{{ section.settings.hb_image.width }}" height="{{ section.settings.hb_image.height }}">
+        </div>
+    {%- endif -%}
+    <div class="page-width-desktop">
+        <div class="hb-in">
+            <div class="hbin-top">
+                <div class="hbit-first">
+                    {%- if section.settings.hb_heading != blank -%}
+                        <h1>{{ section.settings.hb_heading }} <span>{{ section.settings.hb_heading_colored }}</span></h1>
+                    {%- endif -%}
+                    {%- if section.settings.hb_text != blank -%}
+                        {{ section.settings.hb_text }}
+                    {%- endif -%}
+                </div>
+                {%- if section.settings.hb_button1_text != blank or section.settings.hb_button2_text != blank -%}
+                    <div class="hbit-buttons">
+                        {%- if section.settings.hb_button1_text != blank -%}
+                            <a href="{{ section.settings.hb_button1_link }}" class="custom-button filled">{{ section.settings.hb_button1_text }}</a>
+                        {%- endif -%}
+                        {%- if section.settings.hb_button2_text != blank -%}
+                            <a href="{{ section.settings.hb_button2_link }}" class="custom-button line">{{ section.settings.hb_button2_text }}</a>
+                        {%- endif -%}
+                    </div>
+                {%- endif -%}
+            </div>
+            {%- if section.blocks.size > 0 -%}
+                <div class="hbin-bottom">
+                    {%- for block in section.blocks -%}
+                        {%- case block.type -%}
+                            {%- when 'hbin_item' -%}
+                                <div class="hbin-item" {{ block.shopify_attributes }}>
+                                    {%- if block.settings.hbin_top != blank -%}
+                                        <div class="hbinitem-top">
+                                            {{ block.settings.hbin_top }}
+                                        </div>
+                                    {%- endif -%}
+                                    {%- if block.settings.hbin_bottom != blank -%}
+                                        <div class="hbinitem-bottom">
+                                            <p>{{ block.settings.hbin_bottom }}</p>
+                                        </div>
+                                    {%- endif -%}
+                                </div>
+                        {%- endcase -%}
+                    {%- endfor -%}
+                </div>
+            {%- endif -%}
+        </div>
+    </div>
+</section>
+
+{% schema %}
+{
+  "name": "Home banner",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "hb_image",
+      "label": "Background image"
+    },
+    {
+      "type": "text",
+      "id": "hb_heading",
+      "label": "Heading",
+      "default": "Welcome to our store"
+    },
+    {
+      "type": "text",
+      "id": "hb_heading_colored",
+      "label": "Heading Colored",
+      "default": "Welcome to our store"
+    },
+    {
+      "type": "richtext",
+      "id": "hb_text",
+      "label": "Text",
+      "default": "<p>Add some subtext here</p>"
+    },
+    {
+      "type": "header",
+      "content": "Button 1"
+    },
+    {
+      "type": "text",
+      "id": "hb_button1_text",
+      "label": "Button label"
+    },
+    {
+      "type": "url",
+      "id": "hb_button1_link",
+      "label": "Button link"
+    },
+    {
+      "type": "header",
+      "content": "Button 2"
+    },
+    {
+      "type": "text",
+      "id": "hb_button2_text",
+      "label": "Button label"
+    },
+    {
+      "type": "url",
+      "id": "hb_button2_link",
+      "label": "Button link"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "hbin_item",
+      "name": "Stat item",
+      "settings": [
+        {
+          "type": "text",
+          "id": "hbin_top",
+          "label": "Value",
+          "default": "USHL"
+        },
+        {
+          "type": "text",
+          "id": "hbin_bottom",
+          "label": "Label",
+          "default": "Official supplier"
+        }
+      ]
+    }
+  ],
+  "max_blocks": 8,
+  "presets": [
+    {
+      "name": "Home banner",
+      "blocks": [
+        {
+          "type": "hbin_item"
+        },
+        {
+          "type": "hbin_item"
+        },
+        {
+          "type": "hbin_item"
+        },
+        {
+          "type": "hbin_item"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

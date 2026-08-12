@@ -52,3 +52,114 @@ span.break-word {
     border-radius: 10px;
     padding: 20px !important;
 }
+
+/*------ New SP CSS ------*/
+
+/* Top Bar CSS */
+.top-bar {
+    background-color: var(--color-base-accent-1);
+    padding: 12px 0;
+}
+.top-bar .top-bar-in {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+.top-bar-in .tbi-text {
+    font-family: var(--font-heading-family);
+    font-size: 27px;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 0.9px;
+    color: #fff;
+}
+.tbi-text p {
+    margin-bottom: 0;
+    display: flex;
+}
+.tbi-button a {
+    font-family: var(--font-heading-family);
+    font-size: 27px;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 1.9px;
+    color: #fff;
+    text-decoration: none;
+    transition: .3s ease all;
+    position: relative;
+    display: inline-block;
+}
+.tbi-button a::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    transition: .3s ease all;
+    bottom: 5px;
+    left: 0;
+}
+.tbi-button a:hover::before {
+    width: 100%;
+}
+/* Top Bar CSS */
+
+/* Home Banner CSS */
+.home-banner {
+    position: relative;
+}
+.home-banner .hb-image {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.hb-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: right;
+}
+.home-banner .hb-in {
+    position: relative;
+    z-index: 1;
+    padding: 95px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.hbin-top {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.hbit-first {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.hbit-first h1 {
+    font-weight: var(--font-heading-weight-bold);
+    font-style: italic;
+    font-size: 86px;
+    letter-spacing: 2.17px;
+    line-height: 84px;
+    color: #fff;
+    max-width: 20ch;
+}
+.hbit-first h1 span {
+    display: inline-block;
+    color: #35FFCB;
+}
+.hbit-first p {
+    font-weight: var(--font-body-weight-600);
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.72px;
+}
+/* Home Banner CSS */
+
+/*------ New SP CSS ------*/

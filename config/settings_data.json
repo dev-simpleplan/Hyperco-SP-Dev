@@ -22,9 +22,9 @@
     "gradient_background_2": "",
     "type_header_font": "barlow_condensed_i4",
     "heading_scale": 150,
-    "type_body_font": "abel_n4",
-    "body_scale": 120,
-    "page_width": 1100,
+    "type_body_font": "lexend_zetta_n4",
+    "body_scale": 100,
+    "page_width": 1300,
     "spacing_sections": 0,
     "spacing_grid_horizontal": 20,
     "spacing_grid_vertical": 20,
@@ -225,6 +225,24 @@
         "settings": {
           "color_scheme": "background-1"
         }
+      },
+      "top-bar": {
+        "type": "top-bar",
+        "blocks": {
+          "top-bar-0": {
+            "type": "top_bar_item",
+            "settings": {
+              "tb_text": "<p>Announce something here</p>",
+              "color_scheme": "accent-1",
+              "tb_button_text": "",
+              "tb_button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "top-bar-0"
+        ],
+        "settings": {}
       }
     },
     "content_for_index": [],

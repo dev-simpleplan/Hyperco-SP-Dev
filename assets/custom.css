@@ -1,4 +1,6 @@
-
+/* body {
+    letter-spacing: -4px!important;
+} */
 .globo-formbuilder button.submit:hover {
     background-color: #5cd3b6 !important;
     box-shadow: none !important;
@@ -11,7 +13,7 @@
 }
 
 .jdgm-rev__reply-content:before {
-    content: "Kasper Sports replied:"; !important
+    content: "Kasper Sports replied:" !important;
 }
 
 .jdgm-rev__buyer-badge-wrapper {
@@ -54,6 +56,24 @@ span.break-word {
 }
 
 /*------ New SP CSS ------*/
+
+/* Buttons */
+.button--primary.filled {
+    background-color: #35FFCB;
+    font-weight: var(--font-heading-weight-bold);
+    font-family: var(--font-heading-family);
+    font-style: normal;
+    color: #221F35;
+    font-size: 22px;
+}
+.button--primary.filled::after {
+    box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset)) rgba(var(--color-button-text), var(--border-opacity)),
+    0 0 0 var(--buttons-border-width) #35FFCB
+}
+.button--primary.filled:hover::after {
+    box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset)) rgba(var(--color-button-text), var(--border-opacity)),
+    0 0 0 calc(var(--buttons-border-width) + 1px) #35FFCB!important};
+/* Buttons */
 
 /* Top Bar CSS */
 .top-bar {
@@ -158,7 +178,31 @@ span.break-word {
     font-weight: var(--font-body-weight-600);
     font-size: 18px;
     line-height: 21px;
-    letter-spacing: 0.72px;
+    letter-spacing: 0;
+    max-width: 46ch;
+}
+.hbin-bottom {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 50px;
+}
+.hbin-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.hbinitem-top {
+    font-family: var(--font-heading-weight-bold);
+    font-style: italic;
+    font-size: 32px;
+    color: #fff;
+}
+.hbit-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
 }
 /* Home Banner CSS */
 

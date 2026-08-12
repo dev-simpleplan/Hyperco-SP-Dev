@@ -94,6 +94,7 @@
         "1659630318eb99d9fd-1",
         "1659630318eb99d9fd-2"
       ],
+      "disabled": true,
       "custom_css": [
         ".banner__box {background-color: transparent;}",
         ".banner__text {font-size: 2rem;}"

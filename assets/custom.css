@@ -186,12 +186,12 @@ header nav.header__inline-menu {
 .hbin-top {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 30px;
 }
 .hbit-first {
     display: flex;
     flex-direction: column;
-    gap: 18px;
+    gap: 12px;
 }
 .hbit-first h1 {
     font-family: var(--font-heading-family);
@@ -208,9 +208,9 @@ header nav.header__inline-menu {
     color: #35FFCB;
 }
 .hbit-first p {
-    font-weight: var(--font-body-weight-600);
+    font-weight: var(--font-body-weight);
     font-size: 18px;
-    line-height: 21px;
+    line-height: 150%;
     letter-spacing: 0;
     max-width: 46ch;
 }
@@ -283,7 +283,7 @@ header nav.header__inline-menu {
     font-family: var(--font-heading-family);
     font-weight: var(--font-heading-weight-600);
     font-size: 56px;
-    line-height: 120%;
+    line-height: 110%;
     letter-spacing: 2.17px;
     text-transform: uppercase;
 }
@@ -295,9 +295,9 @@ header nav.header__inline-menu {
     text-align: center;
 }
 .sp-heading p {
-    font-weight: var(--font-body-weight-600);
+    font-weight: var(--font-body-weight);
     font-size: 18px;
-    line-height: 21px;
+    line-height: 150%;
     letter-spacing: 0;
     max-width: 70ch;
 }
@@ -371,9 +371,9 @@ h3.card__heading {
     max-width: 14ch;
 }
 .sp-mcc-info .mcc-info-in p {
-    font-weight: var(--font-body-weight-600);
+    font-weight: var(--font-body-weight);
     font-size: 13px;
-    line-height: 16px;
+    line-height: 140%;
     letter-spacing: 0.72px;
 }
 .sp-multi-btn {
@@ -522,7 +522,7 @@ h3.card__heading {
 
 /* Review Grid */
 .jdgm-reviews-grid-widget {
-    padding-top: 10px!important;
+    padding-top: 5px!important;
 }
 .jdgm-reviews-grid-widget .jm-grid-header p {
     display: none;
@@ -530,5 +530,198 @@ h3.card__heading {
 .jdgm-reviews-grid-widget .jm-show-more-button {
     color: #fff!important;
 }
+.jdgm-reviews-grid-widget .jm-average-rating-display .jm-cluster > *{
+    color: #fff!important;
+}
+.jdgm-reviews-grid-widget .jm-average-rating-display .jm-cluster span {
+    color: #fff!important;
+}
+
+/* Image Gallery CSS */
+.ig-wrapper {
+    background-color: #000;
+}
+.ig {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+.ig-description {
+    color: rgba(255, 255, 255, 0.75);
+}
+.ig-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin-bottom: 0;
+}
+.ig-tile {
+    position: relative;
+    overflow: hidden;
+    aspect-ratio: 1 / 1;
+}
+.ig-tile--wide {
+    grid-column: span 3;
+    aspect-ratio: 21 / 9;
+}
+.ig-tile__button {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    border: 0;
+    background: none;
+    cursor: zoom-in;
+}
+.ig-tile__button img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+}
+.ig-tile__button:hover img {
+    transform: scale(1.04);
+}
+.ig-tile--card {
+    background-color: #6B4CF2;
+}
+.ig-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 14px;
+    height: 100%;
+    padding: 24px;
+    color: #fff;
+}
+.ig-card__heading {
+    font-family: var(--font-heading-family);
+    font-weight: var(--font-heading-weight-600);
+    font-size: 56px;
+    line-height: 50px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 0;
+}
+.ig-card__text {
+    font-size: 16px;
+    line-height: 23px;
+    color: rgba(255, 255, 255, 0.85);
+    margin-bottom: 0;
+}
+.ig-card__button {
+    margin-top: 8px;
+    width: max-content;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+.ig-card__button .icon-caret {
+    width: 14px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+.ig-card__button[aria-expanded="true"] .icon-caret {
+    transform: rotate(180deg);
+}
+
+@media screen and (min-width: 750px) {
+    .ig-grid-extra {
+        max-height: 0;
+        overflow: hidden;
+        opacity: 0;
+        transition: max-height 0.4s ease, opacity 0.25s ease;
+    }
+    .ig-grid-extra.expanded {
+        opacity: 1;
+        transition: max-height 0.4s ease, opacity 0.35s ease 0.15s;
+    }
+    .ig-grid-extra .ig-grid--extra {
+        padding-top: 16px;
+    }
+}
+
+@media screen and (max-width: 749px) {
+    .ig-grid {
+        display: flex;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        gap: 12px;
+        margin: 0 -1.5rem;
+        padding: 0 1.5rem;
+        scrollbar-width: none;
+    }
+    .ig-grid::-webkit-scrollbar {
+        display: none;
+    }
+    .ig-tile,
+    .ig-tile--wide {
+        flex: 0 0 78%;
+        scroll-snap-align: start;
+        aspect-ratio: 1 / 1;
+    }
+    .ig-grid-extra,
+    .ig-grid-extra .ig-grid--extra {
+        display: contents;
+    }
+}
+
+.ig-lightbox {
+    border: 0;
+    padding: 0;
+    background: transparent;
+    max-width: 92vw;
+    max-height: 92vh;
+    margin: auto;
+}
+.ig-lightbox::backdrop {
+    background: rgba(0, 0, 0, 0.85);
+}
+.ig-lightbox__image {
+    display: block;
+    max-width: 92vw;
+    max-height: 92vh;
+    object-fit: contain;
+}
+.ig-lightbox__close,
+.ig-lightbox__nav {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5);
+    border: 0;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+}
+.ig-lightbox__close {
+    top: 20px;
+    right: 20px;
+}
+.ig-lightbox__close svg {
+    width: 16px;
+    height: 16px;
+}
+.ig-lightbox__nav {
+    top: 50%;
+    transform: translateY(-50%);
+}
+.ig-lightbox__nav svg {
+    width: 14px;
+    height: 14px;
+}
+.ig-lightbox__nav--prev {
+    left: 20px;
+    transform: translateY(-50%) rotate(90deg);
+}
+.ig-lightbox__nav--next {
+    right: 20px;
+    transform: translateY(-50%) rotate(-90deg);
+}
+/* Image Gallery CSS */
 
 /*------ New SP CSS ------*/

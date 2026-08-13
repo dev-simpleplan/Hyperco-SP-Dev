@@ -1,0 +1,341 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="ig-wrapper">
+  <div class="ig page-width section-{{ section.id }}-padding" id="Gallery-{{ section.id }}">
+    {%- if section.settings.heading != blank or section.settings.heading_colored != blank or section.settings.description != blank -%}
+      <div class="sp-heading{% if section.settings.heading_alignment == 'center' %} center{% endif %}">
+        {%- if section.settings.heading != blank or section.settings.heading_colored != blank -%}
+          <h2>{{ section.settings.heading }} <span>{{ section.settings.heading_colored }}</span></h2>
+        {%- endif -%}
+        {%- if section.settings.description != blank -%}
+          <div class="ig-description rte">{{ section.settings.description }}</div>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+
+    {%- capture card_tile -%}
+      {%- if section.settings.card_heading != blank or section.settings.card_button_label != blank -%}
+        <li class="ig-tile ig-tile--card ig-tile--{{ section.settings.card_size }}">
+          <div class="ig-card">
+            {%- if section.settings.card_heading != blank -%}
+              <h2 class="ig-card__heading">{{ section.settings.card_heading }}</h2>
+            {%- endif -%}
+            {%- if section.settings.card_text != blank -%}
+              <p class="ig-card__text">{{ section.settings.card_text }}</p>
+            {%- endif -%}
+            {%- if section.settings.card_button_label != blank -%}
+              <button type="button" class="button button--primary filled ig-card__button" data-ig-toggle aria-expanded="false" aria-controls="IgExtra-{{ section.id }}">
+                <span data-ig-toggle-label>{{ section.settings.card_button_label }}</span>
+                {% render 'icon-caret' %}
+              </button>
+            {%- endif -%}
+          </div>
+        </li>
+      {%- endif -%}
+    {%- endcapture -%}
+
+    {%- assign visible_limit = 3 -%}
+    {%- assign tile_count = 0 -%}
+    {%- if card_tile != blank -%}
+      {%- assign tile_count = 1 -%}
+    {%- endif -%}
+    {%- assign primary_tiles = card_tile -%}
+    {%- assign extra_tiles = '' -%}
+
+    {%- assign image_index = 0 -%}
+    {%- for block in section.blocks -%}
+      {%- if block.settings.image != blank -%}
+        {%- assign image_index = image_index | plus: 1 -%}
+        {%- assign tile_count = tile_count | plus: 1 -%}
+        {%- capture tile_html -%}
+          <li class="ig-tile ig-tile--{{ block.settings.size }}" {{ block.shopify_attributes }}>
+            <button type="button" class="ig-tile__button" data-ig-open="{{ image_index }}" aria-label="Open image">
+              <img
+                srcset="{{ block.settings.image | image_url: width: 375 }} 375w, {{ block.settings.image | image_url: width: 750 }} 750w, {{ block.settings.image | image_url: width: 1100 }} 1100w"
+                src="{{ block.settings.image | image_url: width: 750 }}"
+                sizes="(min-width: 750px) 33vw, 80vw"
+                alt="{{ block.settings.image.alt | escape }}"
+                loading="lazy"
+                width="{{ block.settings.image.width }}"
+                height="{{ block.settings.image.height }}"
+              >
+            </button>
+          </li>
+        {%- endcapture -%}
+        {%- if tile_count <= visible_limit -%}
+          {%- assign primary_tiles = primary_tiles | append: tile_html -%}
+        {%- else -%}
+          {%- assign extra_tiles = extra_tiles | append: tile_html -%}
+        {%- endif -%}
+      {%- endif -%}
+    {%- endfor -%}
+
+    <ul class="ig-grid" id="IgGrid-{{ section.id }}" role="list">
+      {{ primary_tiles }}
+    </ul>
+    {%- if extra_tiles != blank -%}
+      <div class="ig-grid-extra" id="IgExtra-{{ section.id }}">
+        <ul class="ig-grid ig-grid--extra" role="list">
+          {{ extra_tiles }}
+        </ul>
+      </div>
+    {%- endif -%}
+  </div>
+
+  <dialog class="ig-lightbox" id="IgLightbox-{{ section.id }}">
+    <button type="button" class="ig-lightbox__close" data-ig-close aria-label="{{ 'accessibility.close' | t }}">{% render 'icon-close' %}</button>
+    <button type="button" class="ig-lightbox__nav ig-lightbox__nav--prev" data-ig-prev aria-label="{{ 'general.slider.previous_slide' | t }}">{% render 'icon-caret' %}</button>
+    <img class="ig-lightbox__image" data-ig-image src="" alt="">
+    <button type="button" class="ig-lightbox__nav ig-lightbox__nav--next" data-ig-next aria-label="{{ 'general.slider.next_slide' | t }}">{% render 'icon-caret' %}</button>
+  </dialog>
+</div>
+
+<script>
+  (function () {
+    var root = document.getElementById('Gallery-{{ section.id }}');
+    if (!root) return;
+
+    var toggle = root.querySelector('[data-ig-toggle]');
+    var extra = document.getElementById('IgExtra-{{ section.id }}');
+
+    if (toggle && extra) {
+      var toggleLabel = toggle.querySelector('[data-ig-toggle-label]');
+      var collapsedLabel = toggleLabel.textContent;
+      var expandedLabel = {{ section.settings.card_button_label_expanded | json }};
+
+      extra.style.maxHeight = '0px';
+
+      toggle.addEventListener('click', function () {
+        var isExpanded = extra.classList.toggle('expanded');
+        toggle.setAttribute('aria-expanded', isExpanded);
+        toggleLabel.textContent = isExpanded ? expandedLabel : collapsedLabel;
+        extra.style.maxHeight = isExpanded ? extra.scrollHeight + 'px' : '0px';
+      });
+
+      window.addEventListener('resize', function () {
+        if (extra.classList.contains('expanded')) {
+          extra.style.maxHeight = extra.scrollHeight + 'px';
+        }
+      });
+    }
+
+    var lightbox = document.getElementById('IgLightbox-{{ section.id }}');
+    var lightboxImage = lightbox.querySelector('[data-ig-image]');
+    var buttons = Array.prototype.slice.call(root.querySelectorAll('[data-ig-open]'));
+    var images = buttons.map(function (button) {
+      var img = button.querySelector('img');
+      return {
+        src: img.getAttribute('src').replace(/width=\d+/, 'width=1500'),
+        alt: img.getAttribute('alt')
+      };
+    });
+    var currentIndex = 0;
+
+    function show(index) {
+      currentIndex = (index + images.length) % images.length;
+      lightboxImage.src = images[currentIndex].src;
+      lightboxImage.alt = images[currentIndex].alt;
+    }
+
+    buttons.forEach(function (button, index) {
+      button.addEventListener('click', function () {
+        show(index);
+        if (typeof lightbox.showModal === 'function') {
+          lightbox.showModal();
+        } else {
+          lightbox.setAttribute('open', '');
+        }
+        document.body.classList.add('overflow-hidden');
+      });
+    });
+
+    function close() {
+      if (typeof lightbox.close === 'function') {
+        lightbox.close();
+      } else {
+        lightbox.removeAttribute('open');
+      }
+      document.body.classList.remove('overflow-hidden');
+    }
+
+    lightbox.querySelector('[data-ig-close]').addEventListener('click', close);
+    lightbox.querySelector('[data-ig-prev]').addEventListener('click', function () { show(currentIndex - 1); });
+    lightbox.querySelector('[data-ig-next]').addEventListener('click', function () { show(currentIndex + 1); });
+
+    lightbox.addEventListener('click', function (event) {
+      if (event.target === lightbox) close();
+    });
+
+    lightbox.addEventListener('close', function () {
+      document.body.classList.remove('overflow-hidden');
+    });
+
+    document.addEventListener('keydown', function (event) {
+      if (!lightbox.open) return;
+      if (event.key === 'ArrowLeft') show(currentIndex - 1);
+      if (event.key === 'ArrowRight') show(currentIndex + 1);
+    });
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Image gallery",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "From beer leagues "
+    },
+    {
+      "type": "text",
+      "id": "heading_colored",
+      "label": "Heading (colored)",
+      "default": "to the USHL"
+    },
+    {
+      "type": "select",
+      "id": "heading_alignment",
+      "label": "Heading alignment",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "center", "label": "Center" }
+      ],
+      "default": "left"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Description"
+    },
+    {
+      "type": "header",
+      "content": "First tile card"
+    },
+    {
+      "type": "text",
+      "id": "card_heading",
+      "label": "Card heading",
+      "default": "From beer leagues to the USHL"
+    },
+    {
+      "type": "text",
+      "id": "card_text",
+      "label": "Card text",
+      "default": "See what we've built for teams like yours"
+    },
+    {
+      "type": "text",
+      "id": "card_button_label",
+      "label": "Card button label",
+      "default": "See the full gallery"
+    },
+    {
+      "type": "text",
+      "id": "card_button_label_expanded",
+      "label": "Card button label (expanded)",
+      "default": "Show less",
+      "info": "Shown after the gallery has been expanded"
+    },
+    {
+      "type": "select",
+      "id": "card_size",
+      "label": "Card size",
+      "options": [
+        { "value": "normal", "label": "Normal" },
+        { "value": "wide", "label": "Wide" }
+      ],
+      "default": "normal"
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "options": [
+        { "value": "accent-1", "label": "t:sections.all.colors.accent_1.label" },
+        { "value": "accent-2", "label": "t:sections.all.colors.accent_2.label" },
+        { "value": "background-1", "label": "t:sections.all.colors.background_1.label" },
+        { "value": "background-2", "label": "t:sections.all.colors.background_2.label" },
+        { "value": "inverse", "label": "t:sections.all.colors.inverse.label" }
+      ],
+      "default": "background-1",
+      "label": "t:sections.all.colors.label"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 60
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image",
+      "name": "Image",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "select",
+          "id": "size",
+          "label": "Size",
+          "options": [
+            { "value": "normal", "label": "Normal" },
+            { "value": "wide", "label": "Wide" }
+          ],
+          "default": "normal"
+        }
+      ]
+    }
+  ],
+  "max_blocks": 12,
+  "presets": [
+    {
+      "name": "Image gallery",
+      "blocks": [
+        { "type": "image" },
+        { "type": "image" },
+        { "type": "image" },
+        { "type": "image", "settings": { "size": "wide" } },
+        { "type": "image" },
+        { "type": "image" }
+      ]
+    }
+  ]
+}
+{% endschema %}

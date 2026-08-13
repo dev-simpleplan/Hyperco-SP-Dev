@@ -152,6 +152,13 @@
       "footer": {
         "type": "footer",
         "blocks": {
+          "link_list_yEGQY3": {
+            "type": "link_list",
+            "settings": {
+              "heading": "",
+              "menu": "lp-menu"
+            }
+          },
           "link-list": {
             "type": "link_list",
             "disabled": true,
@@ -178,6 +185,7 @@
           },
           "a02f424c-465d-4a8d-b732-7f8dcb659e6a": {
             "type": "link_list",
+            "disabled": true,
             "settings": {
               "heading": "",
               "menu": "footer-menu-v2"
@@ -193,6 +201,7 @@
           }
         },
         "block_order": [
+          "link_list_yEGQY3",
           "link-list",
           "image",
           "text",

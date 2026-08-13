@@ -39,23 +39,19 @@
         </div>
       </div>
 
-      <div class="faq-image">
-        {%- for block in section.blocks -%}
-          <div class="faq-image-item{% if forloop.first %} active{% endif %}" data-faq-image="{{ block.id }}">
-            {%- if block.settings.image != blank -%}
-              <img
-                srcset="{{ block.settings.image | image_url: width: 550 }} 550w, {{ block.settings.image | image_url: width: 1100 }} 1100w"
-                src="{{ block.settings.image | image_url: width: 1100 }}"
-                sizes="(min-width: 750px) 40vw, 100vw"
-                alt="{{ block.settings.image.alt | escape }}"
-                loading="lazy"
-                width="{{ block.settings.image.width }}"
-                height="{{ block.settings.image.height }}"
-              >
-            {%- endif -%}
-          </div>
-        {%- endfor -%}
-      </div>
+      {%- if section.settings.image != blank -%}
+        <div class="faq-image">
+          <img
+            srcset="{{ section.settings.image | image_url: width: 550 }} 550w, {{ section.settings.image | image_url: width: 1100 }} 1100w"
+            src="{{ section.settings.image | image_url: width: 1100 }}"
+            sizes="(min-width: 750px) 40vw, 100vw"
+            alt="{{ section.settings.image.alt | escape }}"
+            loading="lazy"
+            width="{{ section.settings.image.width }}"
+            height="{{ section.settings.image.height }}"
+          >
+        </div>
+      {%- endif -%}
     </div>
   </div>
 </div>
@@ -87,8 +83,6 @@
     }
 
     function setActive(target) {
-      var blockId = target.getAttribute('data-faq-accordion');
-
       items.forEach(function (item) {
         var isActive = item === target;
         item.classList.toggle('active', isActive);
@@ -98,10 +92,6 @@
         } else {
           closePanel(item);
         }
-      });
-
-      grid.querySelectorAll('.faq-image-item').forEach(function (imageItem) {
-        imageItem.classList.toggle('active', imageItem.getAttribute('data-faq-image') === blockId);
       });
     }
 
@@ -157,6 +147,11 @@
       "label": "t:sections.all.colors.label"
     },
     {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
       "type": "header",
       "content": "t:sections.all.padding.section_padding_heading"
     },
@@ -196,17 +191,10 @@
           "type": "richtext",
           "id": "row_content",
           "label": "Answer"
-        },
-        {
-          "type": "image_picker",
-          "id": "image",
-          "label": "Image",
-          "info": "Shown when this row is expanded"
         }
       ]
     }
   ],
-  "max_blocks": 10,
   "presets": [
     {
       "name": "FAQ",

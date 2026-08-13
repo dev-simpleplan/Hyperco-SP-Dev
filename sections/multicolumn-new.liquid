@@ -36,7 +36,7 @@
         {%- endif -%}
       </div> {% endcomment %}
       <div class="sp-heading center">
-          <h2>{{ section.settings.title | escape }} <span>{{ section.settings.title_colored | escape }}</span></h2>
+          <h2>{{ section.settings.title }} <span>{{ section.settings.title_colored }}</span></h2>
           {%- if section.settings.description != blank or section.settings.show_description and section.settings.collection.description != empty -%}
           <div class="collection__description">{{ section.settings.description }}</div>
           {%- endif -%}

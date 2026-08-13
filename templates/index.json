@@ -246,7 +246,7 @@
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 0
+        "padding_bottom": 20
       }
     },
     "16596292662ac43246": {
@@ -372,15 +372,15 @@
         "heading_6UheeJ": {
           "type": "heading",
           "settings": {
-            "heading": "WE DON'T JUST MAKE UNIFORMS.",
-            "heading_colored": "WE BUILD TEAM IDENTITIES",
+            "heading": "We Don't Just Make Uniforms.",
+            "heading_colored": "We Build Team Identities.",
             "heading_size": "h1"
           }
         },
         "text_C8FFLF": {
           "type": "text",
           "settings": {
-            "text": "<p>Hyperco started as a hockey-only brand, built by people who understand what a jersey means to a team. Every design, every stitch, and every reorder is built on one idea: your uniform should feel like it was made for no one else.</p>",
+            "text": "<p>Hyperco started as a hockey-only brand. Built by people who get what a jersey means to a team. Every design, every stitch, and every reorder comes back to the same idea: your uniform should represent your identity and feel like it was made for no one else.</p>",
             "text_style": "body"
           }
         }
@@ -410,36 +410,63 @@
         "image_hDKmQm": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Southern-175_2_1.jpg",
             "size": "normal"
           }
         },
         "image_VW6C7g": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Frame_2147238065.jpg",
             "size": "normal"
           }
         },
         "image_L34Cqp": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Frame_2147238067.jpg",
             "size": "normal"
           }
         },
         "image_h9e8Q9": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Frame_2147238066.jpg",
             "size": "wide"
           }
         },
         "image_97fP6J": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Frame_2147238068.jpg",
             "size": "normal"
           }
         },
         "image_exwbWP": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Frame_2147238072.jpg",
+            "size": "wide"
+          }
+        },
+        "image_DANmKW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Frame_2147238070.jpg",
+            "size": "normal"
+          }
+        },
+        "image_mDFaX4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Frame_2147238069.jpg",
+            "size": "normal"
+          }
+        },
+        "image_xT9Kri": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Frame_2147238071.jpg",
             "size": "normal"
           }
         }
@@ -450,7 +477,10 @@
         "image_L34Cqp",
         "image_h9e8Q9",
         "image_97fP6J",
-        "image_exwbWP"
+        "image_exwbWP",
+        "image_DANmKW",
+        "image_mDFaX4",
+        "image_xT9Kri"
       ],
       "name": "Image gallery",
       "settings": {
@@ -458,8 +488,8 @@
         "heading_colored": "",
         "heading_alignment": "left",
         "description": "",
-        "card_heading": "From beer leagues to the USHL",
-        "card_text": "See what we've built for teams like yours",
+        "card_heading": "Teams That Trust Hyperco",
+        "card_text": "From beer leagues to the USHL, see what we've built.",
         "card_button_label": "See the full gallery",
         "card_button_label_expanded": "Show less",
         "card_size": "normal",
@@ -468,104 +498,29 @@
         "padding_bottom": 60
       }
     },
-    "rich_text_UtDnAR": {
-      "type": "rich-text",
+    "rich_text_new_GrWyXB": {
+      "type": "rich-text-new",
       "blocks": {
-        "heading_XpG6eD": {
+        "heading_GTwaAw": {
           "type": "heading",
           "settings": {
-            "heading": "<p>BUILT FOR GRIT. BACKED BY QUALITY.</p>",
-            "heading_size": "h2"
+            "heading": "Big Wins For",
+            "heading_colored": "Hyperco",
+            "heading_size": "h1"
           }
         },
-        "text_WqXP7B": {
+        "text_bnft9a": {
           "type": "text",
           "settings": {
-            "text": ""
+            "text": "<p>Partnerships, milestones, and moments we're proud of.</p>"
           }
         }
       },
       "block_order": [
-        "heading_XpG6eD",
-        "text_WqXP7B"
+        "heading_GTwaAw",
+        "text_bnft9a"
       ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-2",
-        "full_width": true,
-        "padding_top": 60,
-        "padding_bottom": 0
-      }
-    },
-    "collection_list_Lz9QBT": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_nkzYAY": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "hockey"
-          }
-        },
-        "featured_collection_YUX3F9": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "basketball"
-          }
-        },
-        "featured_collection_3KcqWD": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "golf"
-          }
-        },
-        "featured_collection_ERXdhP": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "team-gear"
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_nkzYAY",
-        "featured_collection_YUX3F9",
-        "featured_collection_3KcqWD",
-        "featured_collection_ERXdhP"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h2",
-        "image_ratio": "square",
-        "columns_desktop": 2,
-        "color_scheme": "background-2",
-        "show_view_all": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 44,
-        "padding_bottom": 32
-      }
-    },
-    "rich_text_yf6AGh": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_ficznX": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>YOUR VISION. OUR PLATFORM.</p>",
-            "heading_size": "h2"
-          }
-        },
-        "text_V9Vze3": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Premium custom uniforms for your team, league, or club, down to the last detail.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_ficznX",
-        "text_V9Vze3"
-      ],
+      "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -581,9 +536,9 @@
         "column_xHMUMt": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/hyperco-collar-closeup_5ef22409-ee36-4653-b12f-d9baaf1b9b16.png",
-            "title": "Built by You",
-            "text": "<p><em>Choose your colors, logos, names, and numbers—down to the last stitch.</em></p>",
+            "image": "shopify://shop_images/Custom_hockey_jerseys_from_Hyperco_Sports.jpg",
+            "title": "Dallas Mavericks Christmas Jerseys",
+            "text": "<p>We had the pleasure of teaming up with our hometown Dallas Mavericks on a set of holiday-themed hockey jerseys for players and staff. </p>",
             "link_label": "",
             "link": ""
           }
@@ -591,9 +546,9 @@
         "column_4pcRFD": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Easytouse.jpg",
-            "title": "Easy to Use",
-            "text": "<p>No design experience needed. Our builder is fast, intuitive, and built for teams that want control.</p>",
+            "image": "shopify://shop_images/Custom_Hockey_Jersey_Designs__Your_Winning_Guide.jpg",
+            "title": "Becoming an official supplier for the USHL",
+            "text": "<p>We're proud to announce our partnership with the USHL. Hyperco is now their official uniform supplier and will be producing on-ice jerseys for their club teams.</p>",
             "link_label": "",
             "link": ""
           }
@@ -601,9 +556,9 @@
         "column_Dib8Mf": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/hockey-collars-hyperco_c49c296b-75b6-49c7-849c-4122b4052d3c.png",
-            "title": "We’ve Got Your Back",
-            "text": "<p>Can’t build it in the tool? Our pro designers will take your vision the rest of the way.</p>",
+            "image": "shopify://shop_images/Hyperco_Becomes_An_Official_Supplier_of_The_USHL.jpg",
+            "title": "Hyperco now ships worldwide",
+            "text": "<p>We now ship anywhere in the world. Wherever your team plays, we'll get your gear there. Whether it's in the next state over or across an ocean.</p>",
             "link_label": "",
             "link": ""
           }
@@ -929,9 +884,7 @@
     "1786617146a51c0021",
     "image_with_text_DbkfCq",
     "image_gallery_TgnQpf",
-    "rich_text_UtDnAR",
-    "collection_list_Lz9QBT",
-    "rich_text_yf6AGh",
+    "rich_text_new_GrWyXB",
     "multicolumn_NRibj6",
     "51fe0f1a-ded4-4455-a59a-3909e20f6d23",
     "0424bf81-7252-4c8a-b45c-39a66b5c455b",

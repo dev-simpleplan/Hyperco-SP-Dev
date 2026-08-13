@@ -50,12 +50,12 @@
       "name": "Home banner",
       "settings": {
         "hb_image": "shopify://shop_images/860afe47b264a3323739095399315a087de92531_1.png",
-        "hb_heading": "PREMIUM TEAMWEAR,",
-        "hb_heading_colored": "BUILT YOUR WAY.",
-        "hb_text": "<p>Custom hockey jerseys and team uniforms, sublimated to pro-level detail. Work with a jersey expert from concept to delivery or design it yourself in our online builder.</p>",
-        "hb_button1_text": "GET EXPERT HELP",
+        "hb_heading": "Custom Teamwear,",
+        "hb_heading_colored": "Designed Your Way.",
+        "hb_text": "<p>Premium sublimated jerseys for your team, designed with pro-level detail. Work with a jersey expert from concept to delivery, or design it yourself with our online builder. </p>",
+        "hb_button1_text": "Work With Experts",
         "hb_button1_link": "",
-        "hb_button2_text": "DESIGN IT YOURSELF",
+        "hb_button2_text": "Design It Yourself",
         "hb_button2_link": ""
       }
     },
@@ -63,10 +63,10 @@
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
-        "title": "PICK YOUR GEAR,",
-        "title_colored": "sTART BUILDING",
+        "title": "Start Building",
+        "title_colored": "Your Team's Jersey",
         "heading_size": "h1",
-        "description": "<p>Start with what your team plays. We'll help you build the rest.</p>",
+        "description": "<p>Built for grit, backed by quality. Simply start by picking a sport. </p>",
         "show_description": false,
         "description_style": "body",
         "collection": "hockey",
@@ -88,6 +88,72 @@
         "padding_bottom": 36
       }
     },
+    "collapsible_accordion_9rGJiw": {
+      "type": "collapsible-accordion",
+      "blocks": {
+        "collapsible_row_hKmxPB": {
+          "type": "collapsible_row",
+          "settings": {
+            "icon": "shopify://shop_images/Mask_group_1.png",
+            "heading": "Premium Finish",
+            "row_content": "<p>High-quality jerseys with vivid, permanent colors and stitching that holds its shape, wash after wash.</p>",
+            "image": "shopify://shop_images/div.multicolumn-card__image-wrapper_1.jpg"
+          }
+        },
+        "collapsible_row_zi3nkp": {
+          "type": "collapsible_row",
+          "settings": {
+            "icon": "shopify://shop_images/Mask_group_2.png",
+            "heading": "Pro-Level Custom",
+            "row_content": "<p>Add names, numbers, crests, team colors; the same level of customization pro teams get, sized for your roster.</p>",
+            "image": "shopify://shop_images/div.multicolumn-card__image-wrapper.jpg"
+          }
+        },
+        "collapsible_row_pMtYqK": {
+          "type": "collapsible_row",
+          "settings": {
+            "icon": "shopify://shop_images/Mask_group_4.png",
+            "heading": "Fast turnaround",
+            "row_content": "<p>Most orders ship 3-4 weeks after final design approval, so you're ready before the season starts.</p>",
+            "image": "shopify://shop_images/panthers-player_1.jpg"
+          }
+        },
+        "collapsible_row_jHKDag": {
+          "type": "collapsible_row",
+          "settings": {
+            "icon": "shopify://shop_images/Mask_group_c688a346-6b71-4e35-baa1-352c9c04e5e6.png",
+            "heading": "Low Minimums",
+            "row_content": "<p>We don't believe in cutting corners, no matter how big or small the order.</p>",
+            "image": "shopify://shop_images/panthers-player_1.jpg"
+          }
+        },
+        "collapsible_row_L7aLKA": {
+          "type": "collapsible_row",
+          "settings": {
+            "icon": "shopify://shop_images/Mask_group_3.png",
+            "heading": "Easy reorders",
+            "row_content": "<p>Lost a player or picked up a rookie mid-season? Reorder a single jersey without redoing the entire design.</p>",
+            "image": "shopify://shop_images/div.media.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_hKmxPB",
+        "collapsible_row_zi3nkp",
+        "collapsible_row_pMtYqK",
+        "collapsible_row_jHKDag",
+        "collapsible_row_L7aLKA"
+      ],
+      "name": "Collapsible Accordion",
+      "settings": {
+        "heading": "Designed For Teams",
+        "heading_colored": "That Don't Compromise. ",
+        "description": "<p>Great teams don't settle for good enough, and neither do we. From fabric to final stitch, nothing about a Hyperco jersey is an afterthought. </p>",
+        "color_scheme": "background-1",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
     "multicolumn_new_4yULfw": {
       "type": "multicolumn-new",
       "blocks": {
@@ -96,8 +162,8 @@
           "settings": {
             "image": "shopify://shop_images/div.multicolumn-card__image-wrapper.jpg",
             "number": "1",
-            "title": "Tell us about your team",
-            "text": "<p>Share your team name, colours, and what you're looking for. Upload a logo if you have one, even a napkin sketch works.</p>",
+            "title": "Tell Us About Your Team",
+            "text": "<p>Share your team name, colors, and what you're looking for. Upload a logo if you have one. Even a napkin sketch works.</p>",
             "link_label": "",
             "link": ""
           }
@@ -108,7 +174,7 @@
             "image": "shopify://shop_images/div.media.jpg",
             "number": "2",
             "title": "Talk to a jersey expert",
-            "text": "<p>One of our specialists will walk you through options, help nail down the design, and answer every<br/>question.</p>",
+            "text": "<p>A specialist will walk you through options, answer all questions, help nail down the design, and bring your vision to life.</p>",
             "link_label": "",
             "link": ""
           }
@@ -119,7 +185,7 @@
             "image": "shopify://shop_images/div.multicolumn-card__image-wrapper_1.jpg",
             "number": "3",
             "title": "Finalize & order",
-            "text": "<p>Once everything's dialed in, we lock in your order and get jerseys to your door in 3–4 weeks.</p>",
+            "text": "<p>Once finalized, sit back and relax as we build the perfect jersey for you, with every detail right, down to the last stitch. </p>",
             "link_label": "",
             "link": ""
           }
@@ -132,18 +198,18 @@
       ],
       "name": "Multicolumn V2",
       "settings": {
-        "title": "YOUR JERSEYS IN",
-        "title_colored": "3 EASY STEPS",
-        "description": "<p>Premium custom uniforms for your team, league, or club, down to the last detail.</p>",
+        "title": "Get Your Jersey",
+        "title_colored": "In 3 Easy Steps",
+        "description": "<p>Design your perfect team jersey and have it delivered in 3–4 weeks from final approval.</p>",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "DESIGN IT YOURSELF",
-        "button_link": "shopify://collections/all",
-        "button_text": "Jerseys delivered in 3–4 weeks from final approval.",
+        "button_label": "",
+        "button_link": "",
+        "button_text": "",
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
@@ -151,70 +217,77 @@
         "padding_bottom": 60
       }
     },
-    "collapsible_accordion_9rGJiw": {
-      "type": "collapsible-accordion",
+    "rich_text_new_cBVnYh": {
+      "type": "rich-text-new",
       "blocks": {
-        "collapsible_row_jHKDag": {
-          "type": "collapsible_row",
+        "heading_JYemQj": {
+          "type": "heading",
           "settings": {
-            "icon": "shopify://shop_images/Mask_group_c688a346-6b71-4e35-baa1-352c9c04e5e6.png",
-            "heading": "Low Minimums",
-            "row_content": "<p>Small programs get the same attention as large ones. No order too small.</p>",
-            "image": "shopify://shop_images/panthers-player_1.jpg"
+            "heading": "Not Sure",
+            "heading_colored": "Where To Start?",
+            "heading_size": "h1"
           }
         },
-        "collapsible_row_hKmxPB": {
-          "type": "collapsible_row",
+        "text_XfbyKh": {
+          "type": "text",
           "settings": {
-            "icon": "shopify://shop_images/Mask_group_1.png",
-            "heading": "Premium Finish",
-            "row_content": "<p>Small programs get the same attention as large ones. No order too small.</p>",
-            "image": "shopify://shop_images/div.multicolumn-card__image-wrapper_1.jpg"
-          }
-        },
-        "collapsible_row_zi3nkp": {
-          "type": "collapsible_row",
-          "settings": {
-            "icon": "shopify://shop_images/Mask_group_2.png",
-            "heading": "Pro-Level Custom",
-            "row_content": "<p>Small programs get the same attention as large ones. No order too small.</p>",
-            "image": "shopify://shop_images/div.multicolumn-card__image-wrapper.jpg"
-          }
-        },
-        "collapsible_row_L7aLKA": {
-          "type": "collapsible_row",
-          "settings": {
-            "icon": "shopify://shop_images/Mask_group_3.png",
-            "heading": "Easy reorders",
-            "row_content": "<p>Small programs get the same attention as large ones. No order too small.</p>",
-            "image": "shopify://shop_images/div.media.jpg"
-          }
-        },
-        "collapsible_row_pMtYqK": {
-          "type": "collapsible_row",
-          "settings": {
-            "icon": "shopify://shop_images/Mask_group_4.png",
-            "heading": "Fast turnaround",
-            "row_content": "",
-            "image": "shopify://shop_images/panthers-player_1.jpg"
+            "text": "<p>Fill out a few simple details and get clarity from experts before committing to anything.</p>"
           }
         }
       },
       "block_order": [
-        "collapsible_row_jHKDag",
-        "collapsible_row_hKmxPB",
-        "collapsible_row_zi3nkp",
-        "collapsible_row_L7aLKA",
-        "collapsible_row_pMtYqK"
+        "heading_JYemQj",
+        "text_XfbyKh"
       ],
-      "name": "Collapsible Accordion",
+      "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "heading": "Designed for teams",
-        "heading_colored": "that expect more",
-        "description": "<p>Premium isn't a claim, it's in the stitching. Every jersey is built on pro-weight fabric, full sublimation, and construction details that hold up season after season, collar to cuff.</p>",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
-        "padding_top": 60,
-        "padding_bottom": 60
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "16596292662ac43246": {
+      "type": "apps",
+      "blocks": {
+        "0b8d5305-e868-422d-ac12-352b8c875283": {
+          "type": "shopify://apps/hulk-form-builder/blocks/form-block/b6b8dd14-356b-4725-a4ed-77232212b3c3",
+          "settings": {
+            "form_uuid": "IUMzlDkqJoonqCQWJlHPfA",
+            "form_settings": false,
+            "font_color": "#000000",
+            "size": 14,
+            "input_background_color": "#ffffff",
+            "input_background_color_focus": "#f4dada",
+            "input_border_radius": 1,
+            "input_border_color": "#ebe9e9",
+            "input_border_color_focus": "#2d2727",
+            "input_font_color": "#3d3131",
+            "input_size": 14,
+            "border_color": "#121212",
+            "border_radius": 2,
+            "border": 1,
+            "fill_color": "#ebe9e9",
+            "padding": 35,
+            "form_width": 600,
+            "btn_text": "Submit",
+            "sub_btn_txt_color": "#f3f3f3",
+            "sub_btn_bg_color": "#3f3333",
+            "sub_btn_font_size": 14,
+            "sub_btn_bdr_color": "#ffffff",
+            "sub_btn_bdr_rad": 3,
+            "sub_btn_bdr_width": 1,
+            "fonts": "Times New Roman"
+          }
+        }
+      },
+      "block_order": [
+        "0b8d5305-e868-422d-ac12-352b8c875283"
+      ],
+      "settings": {
+        "include_margins": true
       }
     },
     "rich_text_new_HpwmiV": {
@@ -321,6 +394,70 @@
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "image_gallery_TgnQpf": {
+      "type": "image-gallery",
+      "blocks": {
+        "image_hDKmQm": {
+          "type": "image",
+          "settings": {
+            "size": "normal"
+          }
+        },
+        "image_VW6C7g": {
+          "type": "image",
+          "settings": {
+            "size": "normal"
+          }
+        },
+        "image_L34Cqp": {
+          "type": "image",
+          "settings": {
+            "size": "normal"
+          }
+        },
+        "image_h9e8Q9": {
+          "type": "image",
+          "settings": {
+            "size": "wide"
+          }
+        },
+        "image_97fP6J": {
+          "type": "image",
+          "settings": {
+            "size": "normal"
+          }
+        },
+        "image_exwbWP": {
+          "type": "image",
+          "settings": {
+            "size": "normal"
+          }
+        }
+      },
+      "block_order": [
+        "image_hDKmQm",
+        "image_VW6C7g",
+        "image_L34Cqp",
+        "image_h9e8Q9",
+        "image_97fP6J",
+        "image_exwbWP"
+      ],
+      "name": "Image gallery",
+      "settings": {
+        "heading": "",
+        "heading_colored": "",
+        "heading_alignment": "left",
+        "description": "",
+        "card_heading": "From beer leagues to the USHL",
+        "card_text": "See what we've built for teams like yours",
+        "card_button_label": "See the full gallery",
+        "card_button_label_expanded": "Show less",
+        "card_size": "normal",
+        "color_scheme": "background-1",
+        "padding_top": 60,
+        "padding_bottom": 60
       }
     },
     "rich_text_UtDnAR": {
@@ -486,63 +623,6 @@
         "padding_bottom": 36
       }
     },
-    "16597370354fef8dcf": {
-      "type": "multicolumn",
-      "blocks": {
-        "16597370351353bc66-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/PNG_image-5DD82CD8BCCD-1.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "shopify://products/inline-hockey-jersey"
-          }
-        },
-        "16597370351353bc66-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/92CEE29E-DE23-4C0B-BA7F-0B54C6AD786B.png",
-            "title": "BASKETBALL",
-            "text": "",
-            "link_label": "GET STARTED",
-            "link": "shopify://collections/basketball"
-          }
-        },
-        "648b2474-dbc8-4383-a95d-c56afe5f16bb": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/869EEFAC-FA10-4AF3-9349-8BC734C9B3CE.png",
-            "title": "SOCCER",
-            "text": "",
-            "link_label": "GET STARTED",
-            "link": "shopify://pages/gallery"
-          }
-        }
-      },
-      "block_order": [
-        "16597370351353bc66-1",
-        "16597370351353bc66-0",
-        "648b2474-dbc8-4383-a95d-c56afe5f16bb"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
     "51fe0f1a-ded4-4455-a59a-3909e20f6d23": {
       "type": "rich-text",
       "blocks": {
@@ -630,129 +710,6 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
-      }
-    },
-    "16596379464cc681f3": {
-      "type": "rich-text",
-      "blocks": {
-        "1659637946deedecb6-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>ORDERING MADE EASY</p>",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "1659637946deedecb6-0"
-      ],
-      "disabled": true,
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 60,
-        "padding_bottom": 0
-      }
-    },
-    "1659734148b445d61d": {
-      "type": "multicolumn",
-      "blocks": {
-        "1659734148e3fc19b7-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Step-Design_1.png",
-            "title": "DESIGN JERSEYS",
-            "text": "<p>Easily create your jerseys with our highly customizable jersey builder </p>",
-            "link_label": "",
-            "link": "shopify://pages/faq"
-          }
-        },
-        "1659734148e3fc19b7-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Step-Proof_1.png",
-            "title": "REVIEW PROOF",
-            "text": "<p>Finalize and approve your order details & roster through our proofing portal</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "1659734148e3fc19b7-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Step-Track_1.png",
-            "title": "TRACK ORDER",
-            "text": "<p>From approval to shipping, we'll send you updates as we work on your jerseys</p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "1659734148e3fc19b7-0",
-        "1659734148e3fc19b7-1",
-        "1659734148e3fc19b7-2"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "heading_size": "h0",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "shopify://collections/hockey",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 40,
-        "padding_bottom": 60
-      }
-    },
-    "16596292662ac43246": {
-      "type": "apps",
-      "blocks": {
-        "0b8d5305-e868-422d-ac12-352b8c875283": {
-          "type": "shopify://apps/hulk-form-builder/blocks/form-block/b6b8dd14-356b-4725-a4ed-77232212b3c3",
-          "settings": {
-            "form_uuid": "IUMzlDkqJoonqCQWJlHPfA",
-            "form_settings": false,
-            "font_color": "#000000",
-            "size": 14,
-            "input_background_color": "#ffffff",
-            "input_background_color_focus": "#f4dada",
-            "input_border_radius": 1,
-            "input_border_color": "#ebe9e9",
-            "input_border_color_focus": "#2d2727",
-            "input_font_color": "#3d3131",
-            "input_size": 14,
-            "border_color": "#121212",
-            "border_radius": 2,
-            "border": 1,
-            "fill_color": "#ebe9e9",
-            "padding": 35,
-            "form_width": 600,
-            "btn_text": "Submit",
-            "sub_btn_txt_color": "#f3f3f3",
-            "sub_btn_bg_color": "#3f3333",
-            "sub_btn_font_size": 14,
-            "sub_btn_bdr_color": "#ffffff",
-            "sub_btn_bdr_rad": 3,
-            "sub_btn_bdr_width": 1,
-            "fonts": "Times New Roman"
-          }
-        }
-      },
-      "block_order": [
-        "0b8d5305-e868-422d-ac12-352b8c875283"
-      ],
-      "disabled": true,
-      "settings": {
-        "include_margins": true
       }
     },
     "pagefly-home": {
@@ -956,21 +913,20 @@
   "order": [
     "home_banner_BaqTXz",
     "featured_collection_BXHiyR",
-    "multicolumn_new_4yULfw",
     "collapsible_accordion_9rGJiw",
+    "multicolumn_new_4yULfw",
+    "rich_text_new_cBVnYh",
+    "16596292662ac43246",
     "rich_text_new_HpwmiV",
     "1786617146a51c0021",
     "image_with_text_DbkfCq",
+    "image_gallery_TgnQpf",
     "rich_text_UtDnAR",
     "collection_list_Lz9QBT",
     "rich_text_yf6AGh",
     "multicolumn_NRibj6",
-    "16597370354fef8dcf",
     "51fe0f1a-ded4-4455-a59a-3909e20f6d23",
     "0424bf81-7252-4c8a-b45c-39a66b5c455b",
-    "16596379464cc681f3",
-    "1659734148b445d61d",
-    "16596292662ac43246",
     "pagefly-home",
     "rich_text_PpVtiq",
     "multicolumn_dcAkkE",

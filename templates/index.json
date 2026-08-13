@@ -277,7 +277,7 @@
             "sub_btn_bg_color": "#3f3333",
             "sub_btn_font_size": 14,
             "sub_btn_bdr_color": "#ffffff",
-            "sub_btn_bdr_rad": 3,
+            "sub_btn_bdr_rad": 0,
             "sub_btn_bdr_width": 1,
             "fonts": "Times New Roman"
           }

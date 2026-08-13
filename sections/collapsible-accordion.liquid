@@ -47,22 +47,24 @@
 
       <div class="ccn-accordion">
         {%- for block in section.blocks -%}
-          <details class="ccn-accordion-item" id="CcnDetails-{{ block.id }}-{{ section.id }}" data-ccn-accordion="{{ block.id }}"{% if forloop.first %} open{% endif %} {{ block.shopify_attributes }}>
-            <summary id="CcnSummary-{{ block.id }}-{{ section.id }}">
-              <span class="ccn-accordion-item__icon-title">
-                {%- if block.settings.icon != blank -%}
-                  <span class="ccn-accordion-item__icon">
-                    <img src="{{ block.settings.icon | image_url: width: 64 }}" alt="" loading="lazy" width="32" height="32">
-                  </span>
-                {%- endif -%}
-                <span class="ccn-accordion-item__title">{{ block.settings.heading }}</span>
+          <div class="ccn-accordion-item{% if forloop.first %} active{% endif %}" data-ccn-accordion="{{ block.id }}" {{ block.shopify_attributes }}>
+            {%- if block.settings.icon != blank -%}
+              <span class="ccn-accordion-item__icon">
+                <img src="{{ block.settings.icon | image_url: width: 64 }}" alt="" loading="lazy" width="32" height="32">
               </span>
-              {% render 'icon-caret' %}
-            </summary>
-            <div class="ccn-accordion-item__content rte" id="CcnContent-{{ block.id }}-{{ section.id }}" role="region" aria-labelledby="CcnSummary-{{ block.id }}-{{ section.id }}">
-              {{ block.settings.row_content }}
+            {%- endif -%}
+            <div class="ccn-accordion-item__body">
+              <button type="button" class="ccn-accordion-item__summary" id="CcnSummary-{{ block.id }}-{{ section.id }}" aria-expanded="{% if forloop.first %}true{% else %}false{% endif %}" aria-controls="CcnContent-{{ block.id }}-{{ section.id }}">
+                <span class="ccn-accordion-item__title">{{ block.settings.heading }}</span>
+                {% render 'icon-caret' %}
+              </button>
+              <div class="ccn-accordion-item__panel" id="CcnContent-{{ block.id }}-{{ section.id }}" role="region" aria-labelledby="CcnSummary-{{ block.id }}-{{ section.id }}">
+                <div class="ccn-accordion-item__content rte">
+                  {{ block.settings.row_content }}
+                </div>
+              </div>
             </div>
-          </details>
+          </div>
         {%- endfor -%}
       </div>
     </div>
@@ -74,20 +76,61 @@
     var grid = document.getElementById('CcnGrid-{{ section.id }}');
     if (!grid) return;
 
-    var accordionItems = grid.querySelectorAll('.ccn-accordion-item');
+    var items = grid.querySelectorAll('.ccn-accordion-item');
 
-    accordionItems.forEach(function (item) {
-      item.addEventListener('toggle', function () {
-        if (!item.open) return;
+    function panelOf(item) {
+      return item.querySelector('.ccn-accordion-item__panel');
+    }
 
-        accordionItems.forEach(function (other) {
-          if (other !== item) other.removeAttribute('open');
+    function openPanel(item) {
+      var panel = panelOf(item);
+      panel.style.maxHeight = panel.scrollHeight + 'px';
+    }
+
+    function closePanel(item) {
+      var panel = panelOf(item);
+      panel.style.maxHeight = panel.scrollHeight + 'px';
+      requestAnimationFrame(function () {
+        requestAnimationFrame(function () {
+          panel.style.maxHeight = '0px';
         });
+      });
+    }
 
-        var blockId = item.getAttribute('data-ccn-accordion');
-        grid.querySelectorAll('.ccn-image-item').forEach(function (imageItem) {
-          imageItem.classList.toggle('active', imageItem.getAttribute('data-ccn-image') === blockId);
-        });
+    function setActive(target) {
+      var blockId = target.getAttribute('data-ccn-accordion');
+
+      items.forEach(function (item) {
+        var isActive = item === target;
+        item.classList.toggle('active', isActive);
+        item.querySelector('.ccn-accordion-item__summary').setAttribute('aria-expanded', isActive);
+        if (isActive) {
+          openPanel(item);
+        } else {
+          closePanel(item);
+        }
+      });
+
+      grid.querySelectorAll('.ccn-image-item').forEach(function (imageItem) {
+        imageItem.classList.toggle('active', imageItem.getAttribute('data-ccn-image') === blockId);
+      });
+    }
+
+    items.forEach(function (item) {
+      var panel = panelOf(item);
+      panel.style.maxHeight = item.classList.contains('active') ? panel.scrollHeight + 'px' : '0px';
+
+      item.querySelector('.ccn-accordion-item__summary').addEventListener('click', function () {
+        if (item.classList.contains('active')) return;
+        setActive(item);
+      });
+    });
+
+    window.addEventListener('resize', function () {
+      items.forEach(function (item) {
+        if (!item.classList.contains('active')) return;
+        var panel = panelOf(item);
+        panel.style.maxHeight = panel.scrollHeight + 'px';
       });
     });
   })();

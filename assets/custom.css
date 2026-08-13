@@ -202,6 +202,7 @@ header nav.header__inline-menu {
     line-height: 84px;
     color: #fff;
     max-width: 20ch;
+    text-transform: uppercase;
 }
 .hbit-first h1 span {
     display: inline-block;
@@ -338,7 +339,6 @@ h3.card__heading {
     margin: 0;
 }
 .sp-multicolum-in .multicolumn-card__image-wrapper {
-    border-radius: 16px;
     overflow: hidden;
 }
 .sp-multicolum-in .sp-mcc-info {
@@ -516,7 +516,7 @@ h3.card__heading {
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0;
-    max-width: 37ch;
+    max-width: 49ch;
 }
 /* Collapsible Content V2 CSS */
 

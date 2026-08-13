@@ -274,7 +274,7 @@
             "content_color": "#f9f9f9",
             "header_text": "",
             "show_average_rating": true,
-            "rating_display": "show_nothing"
+            "rating_display": "show_avg_text"
           }
         }
       },

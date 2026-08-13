@@ -294,6 +294,13 @@ header nav.header__inline-menu {
 .sp-heading.center .collection__description p {
     text-align: center;
 }
+.sp-heading p {
+    font-weight: var(--font-body-weight-600);
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0;
+    max-width: 70ch;
+}
 .sp-featured-collection .sp-collection-slider {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -390,15 +397,16 @@ h3.card__heading {
 .ccn {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 50px;
 }
 .ccn .sp-heading {
     gap: 12px;
 }
 .ccn-description {
-    max-width: 60ch;
-    text-align: center;
-    color: rgba(255, 255, 255, 0.75);
+
+}
+.ccn-description p {
+
 }
 .ccn-grid {
     display: grid;
@@ -444,6 +452,7 @@ h3.card__heading {
 }
 .ccn-accordion-item {
     background-color: #6B4CF2;
+    padding: 10px 0;
 }
 .ccn-accordion-item__summary {
     display: flex;
@@ -451,7 +460,7 @@ h3.card__heading {
     justify-content: space-between;
     gap: 12px;
     width: 100%;
-    padding: 10px 20px;
+    padding: 0px 20px 0 20px;
     cursor: pointer;
     color: #fff;
     background: none;
@@ -478,7 +487,7 @@ h3.card__heading {
     object-fit: contain;
 }
 .ccn-accordion-item .icon-caret {
-    width: 12px;
+    width: 14px;
     height: auto;
     flex-shrink: 0;
     transition: transform 0.3s ease;
@@ -489,9 +498,9 @@ h3.card__heading {
 .ccn-accordion-item__title {
     font-family: var(--font-heading-family);
     font-weight: var(--font-heading-weight-600);
-    font-size: 17px;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
+    font-size: 22px;
+    text-transform: capitalize;
+    letter-spacing: 0px;
 }
 .ccn-accordion-item__panel {
     max-height: 0;
@@ -502,6 +511,24 @@ h3.card__heading {
     color: #fff;
     padding: 0 20px 16px 82px;
 }
+.ccn-accordion-item__content p {
+    font-weight: var(--font-body-weight);
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0;
+    max-width: 37ch;
+}
 /* Collapsible Content V2 CSS */
+
+/* Review Grid */
+.jdgm-reviews-grid-widget {
+    padding-top: 10px!important;
+}
+.jdgm-reviews-grid-widget .jm-grid-header p {
+    display: none;
+}
+.jdgm-reviews-grid-widget .jm-show-more-button {
+    color: #fff!important;
+}
 
 /*------ New SP CSS ------*/

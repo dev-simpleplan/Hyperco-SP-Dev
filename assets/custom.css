@@ -1,6 +1,13 @@
 /* body {
     letter-spacing: -4px!important;
 } */
+
+/* Judge.me hides its own preview badge on the homepage (data-template="index") by default.
+   No app setting exposes this, so we override it here with boosted specificity to beat
+   Judge.me's own !important rule regardless of stylesheet load order. */
+body .jdgm-widget.jdgm-preview-badge[data-template="index"] {
+    display: block !important;
+}
 .globo-formbuilder button.submit:hover {
     background-color: #5cd3b6 !important;
     box-shadow: none !important;
@@ -287,6 +294,27 @@ header nav.header__inline-menu {
 .sp-heading.center .collection__description p {
     text-align: center;
 }
+.sp-featured-collection .sp-collection-slider {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #221F35;
+}
+.sp-featured-collection .card-wrapper .card,
+.sp-featured-collection .card-wrapper .card .card__media {
+    border-radius: 0;
+}
+.sp-featured-collection .card-wrapper .card .card__information {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+h3.card__heading {
+    font-weight: var(--font-heading-weight-600);
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1.32px;
+}
+
 /* Collection Section CSS */
 
 /*------ New SP CSS ------*/

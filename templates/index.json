@@ -88,6 +88,68 @@
         "padding_bottom": 36
       }
     },
+    "multicolumn_new_4yULfw": {
+      "type": "multicolumn-new",
+      "blocks": {
+        "column_9zLzht": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/div.multicolumn-card__image-wrapper.jpg",
+            "number": "1",
+            "title": "Tell us about your team",
+            "text": "<p>Share your team name, colours, and what you're looking for. Upload a logo if you have one, even a napkin sketch works.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_phawCA": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/div.media.jpg",
+            "number": "2",
+            "title": "Talk to a jersey expert",
+            "text": "<p>One of our specialists will walk you through options, help nail down the design, and answer every<br/>question.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_hK3qQK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/div.multicolumn-card__image-wrapper_1.jpg",
+            "number": "3",
+            "title": "Finalize & order",
+            "text": "<p>Once everything's dialed in, we lock in your order and get jerseys to your door in 3–4 weeks.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_9zLzht",
+        "column_phawCA",
+        "column_hK3qQK"
+      ],
+      "name": "Multicolumn V2",
+      "settings": {
+        "title": "YOUR JERSEYS IN",
+        "title_colored": "3 EASY STEPS",
+        "description": "<p>Premium custom uniforms for your team, league, or club, down to the last detail.</p>",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "DESIGN IT YOURSELF",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "1659630318bfb0fb2e": {
       "type": "image-banner",
       "blocks": {
@@ -775,6 +837,7 @@
   "order": [
     "home_banner_BaqTXz",
     "featured_collection_BXHiyR",
+    "multicolumn_new_4yULfw",
     "1659630318bfb0fb2e",
     "rich_text_UtDnAR",
     "collection_list_Lz9QBT",

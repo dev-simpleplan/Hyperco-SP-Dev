@@ -385,4 +385,113 @@ h3.card__heading {
     margin-bottom: 0;
     font-size: 14px;
 }
+
+/* Collapsible Content V2 CSS */
+.ccn {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.ccn .sp-heading {
+    gap: 12px;
+}
+.ccn-description {
+    max-width: 60ch;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.75);
+}
+.ccn-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+    align-items: start;
+}
+@media screen and (min-width: 750px) {
+    .ccn-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+    }
+}
+.ccn-image {
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.ccn-image-item {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+.ccn-image-item.active {
+    display: block;
+}
+.ccn-image-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.ccn-accordion {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.ccn-accordion-item {
+    background-color: var(--color-base-accent-1);
+    border-radius: 6px;
+    overflow: hidden;
+}
+.ccn-accordion-item summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 18px 20px;
+    cursor: pointer;
+    list-style: none;
+    color: #fff;
+}
+.ccn-accordion-item summary::-webkit-details-marker {
+    display: none;
+}
+.ccn-accordion-item .icon-caret {
+    width: 12px;
+    height: auto;
+    flex-shrink: 0;
+    transition: transform 0.2s ease;
+}
+.ccn-accordion-item[open] .icon-caret {
+    transform: rotate(180deg);
+}
+.ccn-accordion-item__icon-title {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.ccn-accordion-item__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+}
+.ccn-accordion-item__icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.ccn-accordion-item__title {
+    font-family: var(--font-heading-family);
+    font-weight: var(--font-heading-weight-600);
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.ccn-accordion-item__content {
+    padding: 0 20px 18px 64px;
+    color: #fff;
+}
+/* Collapsible Content V2 CSS */
+
 /*------ New SP CSS ------*/

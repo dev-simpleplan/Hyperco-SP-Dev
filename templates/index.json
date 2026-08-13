@@ -722,6 +722,27 @@
             "heading": "Are your jerseys printed or stitched?",
             "row_content": "<p>We offer both!</p><ul><li>Sublimated: All over printing</li><li>Embroidered: Sewn-on logos, names, and numbers</li></ul>"
           }
+        },
+        "faq_row_wH6KGH": {
+          "type": "faq_row",
+          "settings": {
+            "heading": "Are logos and names on the back extra?",
+            "row_content": "<p>Nope! The price you see includes logos, names, numbers, and whichever jersey pattern you select within the jersey builder.</p>"
+          }
+        },
+        "faq_row_KkChE7": {
+          "type": "faq_row",
+          "settings": {
+            "heading": "Can you make me a custom logo?",
+            "row_content": "<p>If you need a custom logo, just <a href=\"https://hypercosports.com/pages/contact\" target=\"_blank\" title=\"Contact\">reach out to us</a> and we'll gather details from you before supplying a quote.</p>"
+          }
+        },
+        "faq_row_3ECbH9": {
+          "type": "faq_row",
+          "settings": {
+            "heading": "What's your return policy?",
+            "row_content": "<p>All custom orders are final and aren't returnable. However, if there's something wrong with your uniforms or you're unhappy for any reason, please <a href=\"https://hypercosports.com/pages/contact\" title=\"Contact\">reach out to us</a> and we'll make it right!</p>"
+          }
         }
       },
       "block_order": [
@@ -734,13 +755,17 @@
         "faq_row_7YYARx",
         "faq_row_AzdtPk",
         "faq_row_tkKiMK",
-        "faq_row_mfARdH"
+        "faq_row_mfARdH",
+        "faq_row_wH6KGH",
+        "faq_row_KkChE7",
+        "faq_row_3ECbH9"
       ],
       "name": "FAQ",
       "settings": {
         "heading": "Frequently Asked",
         "heading_colored": "Questions",
         "color_scheme": "background-1",
+        "image": "shopify://shop_images/hurtado-black-draped_1.jpg",
         "padding_top": 60,
         "padding_bottom": 60
       }

@@ -285,58 +285,42 @@
         "include_margins": true
       }
     },
-    "1659630318bfb0fb2e": {
-      "type": "image-banner",
+    "image_with_text_DbkfCq": {
+      "type": "image-with-text",
       "blocks": {
-        "1659630318eb99d9fd-0": {
+        "heading_6UheeJ": {
           "type": "heading",
           "settings": {
-            "heading": "HYPERCHARGE YOUR GAME",
-            "heading_size": "h0"
+            "heading": "WE DON'T JUST MAKE UNIFORMS.",
+            "heading_colored": "WE BUILD TEAM IDENTITIES",
+            "heading_size": "h1"
           }
         },
-        "1659630318eb99d9fd-1": {
+        "text_C8FFLF": {
           "type": "text",
           "settings": {
-            "text": "Custom Uniforms Without Compromise",
-            "text_style": "caption-with-letter-spacing"
-          }
-        },
-        "1659630318eb99d9fd-2": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "text": "<p>Hyperco started as a hockey-only brand, built by people who understand what a jersey means to a team. Every design, every stitch, and every reorder is built on one idea: your uniform should feel like it was made for no one else.</p>",
+            "text_style": "body"
           }
         }
       },
       "block_order": [
-        "1659630318eb99d9fd-0",
-        "1659630318eb99d9fd-1",
-        "1659630318eb99d9fd-2"
+        "heading_6UheeJ",
+        "text_C8FFLF"
       ],
-      "disabled": true,
-      "custom_css": [
-        ".banner__box {background-color: transparent;}",
-        ".banner__text {font-size: 2rem;}"
-      ],
+      "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/rutgers-hero.png",
-        "image_overlay_opacity": 50,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-2",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": false
+        "image": "shopify://shop_images/hurtado-cream-front_1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "bottom",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "rich_text_UtDnAR": {
@@ -976,7 +960,7 @@
     "collapsible_accordion_9rGJiw",
     "rich_text_new_HpwmiV",
     "1786617146a51c0021",
-    "1659630318bfb0fb2e",
+    "image_with_text_DbkfCq",
     "rich_text_UtDnAR",
     "collection_list_Lz9QBT",
     "rich_text_yf6AGh",

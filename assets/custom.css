@@ -314,7 +314,75 @@ h3.card__heading {
     text-transform: uppercase;
     letter-spacing: 1.32px;
 }
-
 /* Collection Section CSS */
 
+/* Multicolum CSS */
+.sp-multicolum .sp-multicolum-in {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.sp-multicolum .multicolumn-card {
+    background-color: transparent!important;
+    background: transparent!important;
+}
+.sp-multicolum-in .multicolumn-card-spacing {
+    padding: 0;
+    margin: 0;
+}
+.sp-multicolum-in .multicolumn-card__image-wrapper {
+    border-radius: 16px;
+    overflow: hidden;
+}
+.sp-multicolum-in .sp-mcc-info {
+    padding-left: 0;
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+}
+.sp-mcc-info .mcc-info-num {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 43px;
+    height: 43px;
+    background-color: #332F4D;
+    color: #fff;
+}
+.sp-mcc-info .mcc-info-in {
+    margin-top: 0!important;
+    width: calc(100% - 53px);
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.sp-mcc-info .mcc-info-in h3 {
+    font-size: 42px;
+    font-weight: var(--font-heading-weight-600);
+    line-height: 37px;
+    letter-spacing: 2.17px;
+    max-width: 14ch;
+}
+.sp-mcc-info .mcc-info-in p {
+    font-weight: var(--font-body-weight-600);
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.72px;
+}
+.sp-multi-btn {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+}
+.sp-multi-btn .button {
+    margin-top: 0!important;
+    width: max-content;
+}
+.sp-multi-btn p {
+    font-weight: var(--font-body-weight);
+    margin-bottom: 0;
+    font-size: 14px;
+}
 /*------ New SP CSS ------*/

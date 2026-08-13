@@ -586,95 +586,6 @@
         "padding_bottom": 36
       }
     },
-    "51fe0f1a-ded4-4455-a59a-3909e20f6d23": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_xR3gME": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Trusted by colleges, leagues, and serious competitors.</p>",
-            "heading_size": "h2"
-          }
-        },
-        "template--15056848093320__51fe0f1a-ded4-4455-a59a-3909e20f6d23-1674592321e4255eb4-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<h2><strong>★ ★ ★ ★ ★</strong></h2>",
-            "heading_size": "h2"
-          }
-        },
-        "template--15056848093320__51fe0f1a-ded4-4455-a59a-3909e20f6d23-1674592321e4255eb4-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Our program at Rutgers has a strong relationship with the team at Hyperco, who go above and beyond to bring our uniform visions to life. The materials are top-notch and the quality is pro-level—contributing to our success on the ice. Without a doubt, Hyperco is the way to go! </p><p>- Michael, President of Rutgers Univ. Men's Ice Hockey</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_xR3gME",
-        "template--15056848093320__51fe0f1a-ded4-4455-a59a-3909e20f6d23-1674592321e4255eb4-0",
-        "template--15056848093320__51fe0f1a-ded4-4455-a59a-3909e20f6d23-1674592321e4255eb4-1"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 52,
-        "padding_bottom": 52
-      }
-    },
-    "0424bf81-7252-4c8a-b45c-39a66b5c455b": {
-      "type": "image-banner",
-      "blocks": {
-        "template--15056848093320__0424bf81-7252-4c8a-b45c-39a66b5c455b-168253450816809cfa-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        },
-        "template--15056848093320__0424bf81-7252-4c8a-b45c-39a66b5c455b-168253450816809cfa-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "template--15056848093320__0424bf81-7252-4c8a-b45c-39a66b5c455b-168253450816809cfa-2": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--15056848093320__0424bf81-7252-4c8a-b45c-39a66b5c455b-168253450816809cfa-0",
-        "template--15056848093320__0424bf81-7252-4c8a-b45c-39a66b5c455b-168253450816809cfa-1",
-        "template--15056848093320__0424bf81-7252-4c8a-b45c-39a66b5c455b-168253450816809cfa-2"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/ARB_0403.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "pagefly-home": {
       "type": "pagefly-home",
       "disabled": true,
@@ -705,6 +616,7 @@
       "block_order": [
         "instafeed_app_block_kajiMc"
       ],
+      "disabled": true,
       "settings": {
         "include_margins": true
       }
@@ -723,8 +635,6 @@
     "image_gallery_TgnQpf",
     "rich_text_new_GrWyXB",
     "multicolumn_NRibj6",
-    "51fe0f1a-ded4-4455-a59a-3909e20f6d23",
-    "0424bf81-7252-4c8a-b45c-39a66b5c455b",
     "pagefly-home",
     "1734044854726b6741"
   ]

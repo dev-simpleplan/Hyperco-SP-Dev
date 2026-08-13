@@ -724,4 +724,34 @@ h3.card__heading {
 }
 /* Image Gallery CSS */
 
+/* Form CSS */
+.lead-form .globo-form-control {
+    margin-bottom: 20px;
+}
+.lead-form .globo-form-control label {
+    font-family: var(--font-heading-family);
+    font-weight: var(--font-heading-weight-600);
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.lead-form .globo-form-control input, 
+.lead-form .globo-form-control textarea, 
+.lead-form .globo-form-control select {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+.lead-form button[type=submit] {
+    background-color: #35FFCB;
+    font-weight: var(--font-heading-weight-bold);
+    font-family: var(--font-heading-family);
+    font-style: normal;
+    color: #221F35;
+    font-size: 22px;
+    text-transform: uppercase;
+    height: 50px;
+}
+
 /*------ New SP CSS ------*/

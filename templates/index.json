@@ -157,7 +157,7 @@
         "collapsible_row_jHKDag": {
           "type": "collapsible_row",
           "settings": {
-            "icon": "shopify://shop_images/Mask_group.svg",
+            "icon": "shopify://shop_images/Mask_group_c688a346-6b71-4e35-baa1-352c9c04e5e6.png",
             "heading": "Low Minimums",
             "row_content": "<p>Small programs get the same attention as large ones. No order too small.</p>",
             "image": "shopify://shop_images/panthers-player_1.jpg"
@@ -166,22 +166,37 @@
         "collapsible_row_hKmxPB": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "row_content": ""
+            "icon": "shopify://shop_images/Mask_group_1.png",
+            "heading": "Premium Finish",
+            "row_content": "<p>Small programs get the same attention as large ones. No order too small.</p>",
+            "image": "shopify://shop_images/div.multicolumn-card__image-wrapper_1.jpg"
           }
         },
         "collapsible_row_zi3nkp": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "row_content": ""
+            "icon": "shopify://shop_images/Mask_group_2.png",
+            "heading": "Pro-Level Custom",
+            "row_content": "<p>Small programs get the same attention as large ones. No order too small.</p>",
+            "image": "shopify://shop_images/div.multicolumn-card__image-wrapper.jpg"
           }
         },
         "collapsible_row_L7aLKA": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "row_content": ""
+            "icon": "shopify://shop_images/Mask_group_3.png",
+            "heading": "Easy reorders",
+            "row_content": "<p>Small programs get the same attention as large ones. No order too small.</p>",
+            "image": "shopify://shop_images/div.media.jpg"
+          }
+        },
+        "collapsible_row_pMtYqK": {
+          "type": "collapsible_row",
+          "settings": {
+            "icon": "shopify://shop_images/Mask_group_4.png",
+            "heading": "Fast turnaround",
+            "row_content": "",
+            "image": "shopify://shop_images/panthers-player_1.jpg"
           }
         }
       },
@@ -189,7 +204,8 @@
         "collapsible_row_jHKDag",
         "collapsible_row_hKmxPB",
         "collapsible_row_zi3nkp",
-        "collapsible_row_L7aLKA"
+        "collapsible_row_L7aLKA",
+        "collapsible_row_pMtYqK"
       ],
       "name": "Collapsible Accordion",
       "settings": {

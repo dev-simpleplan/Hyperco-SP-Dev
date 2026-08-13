@@ -1,0 +1,222 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="color-{{ section.settings.color_scheme }} gradient">
+  <div class="faq page-width section-{{ section.id }}-padding">
+    <div class="faq-grid" id="FaqGrid-{{ section.id }}">
+      <div class="faq-content">
+        {%- if section.settings.heading != blank or section.settings.heading_colored != blank -%}
+          <div class="sp-heading">
+            <h2>{{ section.settings.heading }} <span>{{ section.settings.heading_colored }}</span></h2>
+          </div>
+        {%- endif -%}
+
+        <div class="faq-accordion">
+          {%- for block in section.blocks -%}
+            <div class="faq-item{% if forloop.first %} active{% endif %}" data-faq-accordion="{{ block.id }}" {{ block.shopify_attributes }}>
+              <button type="button" class="faq-item__summary" id="FaqSummary-{{ block.id }}-{{ section.id }}" aria-expanded="{% if forloop.first %}true{% else %}false{% endif %}" aria-controls="FaqContent-{{ block.id }}-{{ section.id }}">
+                <span class="faq-item__title">{{ block.settings.heading }}</span>
+                <span class="faq-item__indicator" aria-hidden="true"></span>
+              </button>
+              <div class="faq-item__panel" id="FaqContent-{{ block.id }}-{{ section.id }}" role="region" aria-labelledby="FaqSummary-{{ block.id }}-{{ section.id }}">
+                <div class="faq-item__content rte">
+                  {{ block.settings.row_content }}
+                </div>
+              </div>
+            </div>
+          {%- endfor -%}
+        </div>
+      </div>
+
+      <div class="faq-image">
+        {%- for block in section.blocks -%}
+          <div class="faq-image-item{% if forloop.first %} active{% endif %}" data-faq-image="{{ block.id }}">
+            {%- if block.settings.image != blank -%}
+              <img
+                srcset="{{ block.settings.image | image_url: width: 550 }} 550w, {{ block.settings.image | image_url: width: 1100 }} 1100w"
+                src="{{ block.settings.image | image_url: width: 1100 }}"
+                sizes="(min-width: 750px) 40vw, 100vw"
+                alt="{{ block.settings.image.alt | escape }}"
+                loading="lazy"
+                width="{{ block.settings.image.width }}"
+                height="{{ block.settings.image.height }}"
+              >
+            {%- endif -%}
+          </div>
+        {%- endfor -%}
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  (function () {
+    var grid = document.getElementById('FaqGrid-{{ section.id }}');
+    if (!grid) return;
+
+    var items = grid.querySelectorAll('.faq-item');
+
+    function panelOf(item) {
+      return item.querySelector('.faq-item__panel');
+    }
+
+    function openPanel(item) {
+      var panel = panelOf(item);
+      panel.style.maxHeight = panel.scrollHeight + 'px';
+    }
+
+    function closePanel(item) {
+      var panel = panelOf(item);
+      panel.style.maxHeight = panel.scrollHeight + 'px';
+      requestAnimationFrame(function () {
+        requestAnimationFrame(function () {
+          panel.style.maxHeight = '0px';
+        });
+      });
+    }
+
+    function setActive(target) {
+      var blockId = target.getAttribute('data-faq-accordion');
+
+      items.forEach(function (item) {
+        var isActive = item === target;
+        item.classList.toggle('active', isActive);
+        item.querySelector('.faq-item__summary').setAttribute('aria-expanded', isActive);
+        if (isActive) {
+          openPanel(item);
+        } else {
+          closePanel(item);
+        }
+      });
+
+      grid.querySelectorAll('.faq-image-item').forEach(function (imageItem) {
+        imageItem.classList.toggle('active', imageItem.getAttribute('data-faq-image') === blockId);
+      });
+    }
+
+    items.forEach(function (item) {
+      var panel = panelOf(item);
+      panel.style.maxHeight = item.classList.contains('active') ? panel.scrollHeight + 'px' : '0px';
+
+      item.querySelector('.faq-item__summary').addEventListener('click', function () {
+        if (item.classList.contains('active')) return;
+        setActive(item);
+      });
+    });
+
+    window.addEventListener('resize', function () {
+      items.forEach(function (item) {
+        if (!item.classList.contains('active')) return;
+        var panel = panelOf(item);
+        panel.style.maxHeight = panel.scrollHeight + 'px';
+      });
+    });
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "FAQ",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Frequently Asked "
+    },
+    {
+      "type": "text",
+      "id": "heading_colored",
+      "label": "Heading (colored)",
+      "default": "Questions"
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "options": [
+        { "value": "accent-1", "label": "t:sections.all.colors.accent_1.label" },
+        { "value": "accent-2", "label": "t:sections.all.colors.accent_2.label" },
+        { "value": "background-1", "label": "t:sections.all.colors.background_1.label" },
+        { "value": "background-2", "label": "t:sections.all.colors.background_2.label" },
+        { "value": "inverse", "label": "t:sections.all.colors.inverse.label" }
+      ],
+      "default": "background-1",
+      "label": "t:sections.all.colors.label"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 60
+    }
+  ],
+  "blocks": [
+    {
+      "type": "faq_row",
+      "name": "FAQ row",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "default": "Question goes here?",
+          "label": "Question"
+        },
+        {
+          "type": "richtext",
+          "id": "row_content",
+          "label": "Answer"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image",
+          "info": "Shown when this row is expanded"
+        }
+      ]
+    }
+  ],
+  "max_blocks": 10,
+  "presets": [
+    {
+      "name": "FAQ",
+      "blocks": [
+        { "type": "faq_row" },
+        { "type": "faq_row" },
+        { "type": "faq_row" },
+        { "type": "faq_row" }
+      ]
+    }
+  ]
+}
+{% endschema %}

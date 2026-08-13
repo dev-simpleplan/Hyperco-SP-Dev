@@ -201,7 +201,7 @@
         ],
         "settings": {
           "color_scheme": "background-2",
-          "newsletter_enable": true,
+          "newsletter_enable": false,
           "newsletter_heading": "Get first dibs on new drops, early access, and exclusive offers.",
           "show_social": true,
           "enable_country_selector": false,

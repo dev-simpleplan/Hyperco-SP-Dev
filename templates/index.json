@@ -151,6 +151,56 @@
         "padding_bottom": 60
       }
     },
+    "collapsible_accordion_9rGJiw": {
+      "type": "collapsible-accordion",
+      "blocks": {
+        "collapsible_row_jHKDag": {
+          "type": "collapsible_row",
+          "settings": {
+            "icon": "shopify://shop_images/Mask_group.svg",
+            "heading": "Low Minimums",
+            "row_content": "<p>Small programs get the same attention as large ones. No order too small.</p>",
+            "image": "shopify://shop_images/panthers-player_1.jpg"
+          }
+        },
+        "collapsible_row_hKmxPB": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "row_content": ""
+          }
+        },
+        "collapsible_row_zi3nkp": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "row_content": ""
+          }
+        },
+        "collapsible_row_L7aLKA": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "row_content": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_jHKDag",
+        "collapsible_row_hKmxPB",
+        "collapsible_row_zi3nkp",
+        "collapsible_row_L7aLKA"
+      ],
+      "name": "Collapsible Accordion",
+      "settings": {
+        "heading": "Designed for teams",
+        "heading_colored": "that expect more",
+        "description": "<p>Premium isn't a claim, it's in the stitching. Every jersey is built on pro-weight fabric, full sublimation, and construction details that hold up season after season, collar to cuff.</p>",
+        "color_scheme": "background-1",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
     "1659630318bfb0fb2e": {
       "type": "image-banner",
       "blocks": {
@@ -839,6 +889,7 @@
     "home_banner_BaqTXz",
     "featured_collection_BXHiyR",
     "multicolumn_new_4yULfw",
+    "collapsible_accordion_9rGJiw",
     "1659630318bfb0fb2e",
     "rich_text_UtDnAR",
     "collection_list_Lz9QBT",

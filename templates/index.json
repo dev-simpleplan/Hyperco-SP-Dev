@@ -620,6 +620,35 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "promo_form_7GF9iK": {
+      "type": "promo-form",
+      "blocks": {
+        "powerful_form_builder_app_block_AnTm66": {
+          "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"MTMxMTY1\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "powerful_form_builder_app_block_AnTm66"
+      ],
+      "name": "Promo form",
+      "settings": {
+        "image": "shopify://shop_images/Group_2085663392_1.png",
+        "logo": "shopify://shop_images/hyperco-logo.png",
+        "heading": "10% off your",
+        "heading_colored": "first team order",
+        "show_need_field": false,
+        "need_label": "What do you need?",
+        "need_options": "Tracksuits, Jerseys, Uniforms, Team gear",
+        "button_label": "Claim my 10% off",
+        "success_message": "Thanks! We will be in touch shortly.",
+        "color_scheme": "background-1",
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
     }
   },
   "order": [
@@ -636,6 +665,7 @@
     "rich_text_new_GrWyXB",
     "multicolumn_NRibj6",
     "pagefly-home",
-    "1734044854726b6741"
+    "1734044854726b6741",
+    "promo_form_7GF9iK"
   ]
 }

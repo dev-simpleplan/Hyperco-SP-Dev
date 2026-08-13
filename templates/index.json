@@ -59,6 +59,34 @@
         "hb_button2_link": ""
       }
     },
+    "featured_collection_BXHiyR": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "title": "PICK YOUR GEAR, sTART BUILDING",
+        "heading_size": "h1",
+        "description": "<p>Start with what your team plays. We'll help you build the rest.</p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "hockey",
+        "products_to_show": 9,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "accent-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "1659630318bfb0fb2e": {
       "type": "image-banner",
       "blocks": {
@@ -745,6 +773,7 @@
   },
   "order": [
     "home_banner_BaqTXz",
+    "featured_collection_BXHiyR",
     "1659630318bfb0fb2e",
     "rich_text_UtDnAR",
     "collection_list_Lz9QBT",

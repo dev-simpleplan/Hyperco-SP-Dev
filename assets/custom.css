@@ -253,4 +253,40 @@ header nav.header__inline-menu {
 }
 /* Home Banner CSS */
 
+/* Collection Section CSS */
+.sp-featured-collection {
+    background-color: #000!important;
+}
+.sp-featured-collection .collection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 60px 0;
+}
+.sp-heading {
+    display: flex;
+    flex-direction: column;
+}
+.sp-heading.center {
+    align-items: center;
+    justify-content: center;
+}
+.sp-heading h2 {
+    font-family: var(--font-heading-family);
+    font-weight: var(--font-heading-weight-600);
+    font-size: 56px;
+    line-height: 120%;
+    letter-spacing: 2.17px;
+    text-transform: uppercase;
+}
+.sp-heading h2 span {
+    color: #35FFCB;
+}
+.sp-heading.center .collection__description,
+.sp-heading.center .collection__description p {
+    text-align: center;
+}
+/* Collection Section CSS */
+
 /*------ New SP CSS ------*/

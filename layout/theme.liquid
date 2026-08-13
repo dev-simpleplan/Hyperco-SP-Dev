@@ -137,6 +137,8 @@
       assign header_font_bold = settings.type_header_font | font_modify: 'weight', 'bold'
       assign header_font_italic = settings.type_header_font | font_modify: 'style', 'italic'
       assign header_font_bold_italic = header_font_bold | font_modify: 'style', 'italic'
+      assign header_font_600 = settings.type_header_font | font_modify: 'weight', '600'
+      assign header_font_600_italic = header_font_600 | font_modify: 'style', 'italic'
     %}
 
     {% style %}
@@ -144,6 +146,8 @@
       {{ header_font_bold | font_face: font_display: 'swap' }}
       {{ header_font_italic | font_face: font_display: 'swap' }}
       {{ header_font_bold_italic | font_face: font_display: 'swap' }}
+      {{ header_font_600 | font_face: font_display: 'swap' }}
+      {{ header_font_600_italic | font_face: font_display: 'swap' }}
 
       :root {
         --font-body-family: 'Lexend', sans-serif;
@@ -158,6 +162,7 @@
         --font-heading-style-italic: {{ header_font_italic.style }};
         --font-heading-weight: {{ settings.type_header_font.weight }};
         --font-heading-weight-bold: {{ header_font_bold.weight }};
+        --font-heading-weight-600: {{ header_font_600.weight }};
 
         --font-body-scale: {{ settings.body_scale | divided_by: 100.0 }};
         --font-heading-scale: {{ settings.heading_scale | times: 1.0 | divided_by: settings.body_scale }};

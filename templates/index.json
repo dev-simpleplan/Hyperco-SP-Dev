@@ -217,6 +217,49 @@
         "padding_bottom": 60
       }
     },
+    "1786617146a51c0021": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_reviews_grid_widget_DNRpgq": {
+          "type": "shopify://apps/judge-me-reviews/blocks/reviews_grid_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "show_sample_reviews": true,
+            "review_selection": "all",
+            "products": [],
+            "filter_pinned": false,
+            "filter_featured": false,
+            "filter_custom_tags": "",
+            "show_media_only": true,
+            "display_order": "media_first",
+            "card_grouping": "per_review",
+            "columns_desktop": 3,
+            "rows_desktop": 3,
+            "columns_mobile": "2",
+            "rows_mobile": 6,
+            "show_stars": true,
+            "show_reviewer_name": true,
+            "show_review_title_on_hover_desktop": true,
+            "max_width": 1200,
+            "corner_styling": "soft",
+            "card_spacing": "medium",
+            "header_text_color": "#FFFFFF",
+            "star_and_reviewer_name_color": "#F9F9F9",
+            "drop_shadow_color": "#000000",
+            "overlay_and_background_color": "#000000",
+            "content_color": "#F9F9F9",
+            "header_text": "",
+            "show_average_rating": true,
+            "rating_display": "show_avg_text"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_reviews_grid_widget_DNRpgq"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "1659630318bfb0fb2e": {
       "type": "image-banner",
       "blocks": {
@@ -906,6 +949,7 @@
     "featured_collection_BXHiyR",
     "multicolumn_new_4yULfw",
     "collapsible_accordion_9rGJiw",
+    "1786617146a51c0021",
     "1659630318bfb0fb2e",
     "rich_text_UtDnAR",
     "collection_list_Lz9QBT",

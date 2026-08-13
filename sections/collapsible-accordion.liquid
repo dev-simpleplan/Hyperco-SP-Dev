@@ -48,20 +48,20 @@
       <div class="ccn-accordion">
         {%- for block in section.blocks -%}
           <div class="ccn-accordion-item{% if forloop.first %} active{% endif %}" data-ccn-accordion="{{ block.id }}" {{ block.shopify_attributes }}>
-            {%- if block.settings.icon != blank -%}
-              <span class="ccn-accordion-item__icon">
-                <img src="{{ block.settings.icon | image_url: width: 64 }}" alt="" loading="lazy" width="32" height="32">
-              </span>
-            {%- endif -%}
-            <div class="ccn-accordion-item__body">
-              <button type="button" class="ccn-accordion-item__summary" id="CcnSummary-{{ block.id }}-{{ section.id }}" aria-expanded="{% if forloop.first %}true{% else %}false{% endif %}" aria-controls="CcnContent-{{ block.id }}-{{ section.id }}">
+            <button type="button" class="ccn-accordion-item__summary" id="CcnSummary-{{ block.id }}-{{ section.id }}" aria-expanded="{% if forloop.first %}true{% else %}false{% endif %}" aria-controls="CcnContent-{{ block.id }}-{{ section.id }}">
+              <span class="ccn-accordion-item__icon-title">
+                {%- if block.settings.icon != blank -%}
+                  <span class="ccn-accordion-item__icon">
+                    <img src="{{ block.settings.icon | image_url: width: 64 }}" alt="" loading="lazy" width="32" height="32">
+                  </span>
+                {%- endif -%}
                 <span class="ccn-accordion-item__title">{{ block.settings.heading }}</span>
-                {% render 'icon-caret' %}
-              </button>
-              <div class="ccn-accordion-item__panel" id="CcnContent-{{ block.id }}-{{ section.id }}" role="region" aria-labelledby="CcnSummary-{{ block.id }}-{{ section.id }}">
-                <div class="ccn-accordion-item__content rte">
-                  {{ block.settings.row_content }}
-                </div>
+              </span>
+              {% render 'icon-caret' %}
+            </button>
+            <div class="ccn-accordion-item__panel" id="CcnContent-{{ block.id }}-{{ section.id }}" role="region" aria-labelledby="CcnSummary-{{ block.id }}-{{ section.id }}">
+              <div class="ccn-accordion-item__content rte">
+                {{ block.settings.row_content }}
               </div>
             </div>
           </div>

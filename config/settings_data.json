@@ -240,6 +240,7 @@
         "blocks": {
           "top-bar-0": {
             "type": "top_bar_item",
+            "disabled": true,
             "settings": {
               "tb_text": "<p>Get first dibs on new drops</p>",
               "color_scheme": "accent-1",

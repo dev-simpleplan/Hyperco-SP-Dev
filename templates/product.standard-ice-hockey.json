@@ -301,6 +301,86 @@
         "padding_bottom": 36
       }
     },
+    "card_grid_TcXGCc": {
+      "type": "card-grid",
+      "blocks": {
+        "card_FGPpxr": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Frame_2147238069.jpg",
+            "tags": "Durable, High Quality",
+            "heading": "Pro Tackle Twill Embroidery",
+            "text": "<ul><li>Minimum: 5 jerseys</li><li>Reorder minimum: 1 jersey</li><li>Cut & sewn stripes</li><li>Starting Price: $99</li></ul>",
+            "width": "third",
+            "link_label": "Start Building",
+            "link": "#"
+          }
+        },
+        "card_tLkapF": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Frame_2147238069.jpg",
+            "tags": "Durable, High Quality",
+            "heading": "Pro Tackle Twill Embroidery",
+            "text": "<ul><li>Minimum: 5 jerseys</li><li>Reorder minimum: 1 jersey</li><li>Cut & sewn stripes</li><li>Starting Price: $99</li></ul>",
+            "width": "third",
+            "link_label": "Start Building",
+            "link": "#"
+          }
+        },
+        "card_RgAgNb": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Frame_2147238069.jpg",
+            "tags": "Durable, High Quality",
+            "heading": "Pro Tackle Twill Embroidery",
+            "text": "<ul><li>Minimum: 5 jerseys</li><li>Reorder minimum: 1 jersey</li><li>Cut & sewn stripes</li><li>Starting Price: $99</li></ul>",
+            "width": "third",
+            "link_label": "Start Building",
+            "link": "#"
+          }
+        },
+        "card_GwTLU9": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Frame_2147238069.jpg",
+            "tags": "Durable, High Quality",
+            "heading": "Pro Tackle Twill Embroidery",
+            "text": "<ul><li>Minimum: 5 jerseys</li><li>Reorder minimum: 1 jersey</li><li>Cut & sewn stripes</li><li>Starting Price: $99</li></ul>",
+            "width": "half",
+            "link_label": "Start Building",
+            "link": "#"
+          }
+        },
+        "card_j4efGt": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Frame_2147238069.jpg",
+            "tags": "Durable, High Quality",
+            "heading": "Pro Tackle Twill Embroidery",
+            "text": "<ul><li>Minimum: 5 jerseys</li><li>Reorder minimum: 1 jersey</li><li>Cut & sewn stripes</li><li>Starting Price: $99</li></ul>",
+            "width": "half",
+            "link_label": "Start Building",
+            "link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "card_FGPpxr",
+        "card_tLkapF",
+        "card_RgAgNb",
+        "card_GwTLU9",
+        "card_j4efGt"
+      ],
+      "name": "Card grid",
+      "settings": {
+        "heading": "Not sure which build",
+        "heading_colored": "fits your team?",
+        "color_scheme": "background-1",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
     "16725114619337822f": {
       "type": "apps",
       "blocks": {
@@ -382,6 +462,7 @@
     "icon_columns_AejUap",
     "rich_text_new_b6MCQJ",
     "aa94c383-7a1e-4e2d-aca6-9e7cf3197041",
+    "card_grid_TcXGCc",
     "16725114619337822f",
     "product-recommendations",
     "newsletter"

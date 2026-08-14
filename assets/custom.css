@@ -1178,6 +1178,14 @@ h3.card__heading {
 /* Icon Columns CSS */
 
 /* Card Grid CSS */
+.cg-wrap .cg {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.cg-wrap .cg .sp-heading h2 {
+    max-width: 22ch;
+}
 .cg-grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -1201,13 +1209,13 @@ h3.card__heading {
 .cg-card {
     display: flex;
     flex-direction: column;
-    border-radius: 8px;
     overflow: hidden;
 }
 .cg-card__media {
     position: relative;
-    aspect-ratio: 4 / 3;
+    aspect-ratio: 1/1;
     background-color: rgba(255, 255, 255, 0.06);
+    overflow: hidden;
 }
 .cg-card__media img {
     width: 100%;
@@ -1227,26 +1235,28 @@ h3.card__heading {
 .cg-card__tag {
     background-color: #fff;
     color: #171522;
-    font-family: var(--font-heading-family);
-    font-weight: var(--font-heading-weight-600);
-    font-size: 11px;
-    text-transform: uppercase;
-    letter-spacing: 0.3px;
-    padding: 4px 10px;
+    font-family: var(--font-body-family);
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: capitalize;
+    letter-spacing: -0.32px;
+    padding: 4px 12px;
     border-radius: 999px;
 }
 .cg-card__content {
-    background-color: var(--color-base-accent-1);
-    padding: 20px;
+    background-color: #6B4CF2;
+    padding: 20px 30px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 16px;
     flex: 1;
 }
 .cg-card__heading {
     font-family: var(--font-heading-family);
-    font-weight: var(--font-heading-weight-bold);
-    font-size: 20px;
+    font-weight: var(--font-heading-weight-600);
+    font-size: 30px;
+    line-height: 110%;
+    letter-spacing: 0;
     color: #fff;
 }
 .cg-card__text {
@@ -1256,38 +1266,51 @@ h3.card__heading {
 }
 .cg-card__text ul {
     list-style: none;
-    padding: 0;
+    padding: 0!important;
     margin: 0;
     display: flex;
     flex-direction: column;
-    gap: 4px;
+    gap: 8px;
 }
 .cg-card__text ul li {
     position: relative;
-    padding-left: 16px;
+    padding-left: 20px;
+}
+.cg-card__text ul li,
+.cg-card__text ul p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0;
+    color: #fff;
 }
 .cg-card__text ul li::before {
     content: '';
     position: absolute;
     left: 0;
-    top: 8px;
-    width: 5px;
-    height: 5px;
+    top: 4px;
+    width: 10px;
+    height: 10px;
     border-radius: 50%;
     background-color: #35FFCB;
 }
-.cg-card__link {
+a.cg-card__link {
     margin-top: auto;
     padding-top: 8px;
     display: inline-flex;
-    align-items: center;
+    align-items: baseline;
     gap: 6px;
     font-family: var(--font-heading-family);
     font-weight: var(--font-heading-weight-600);
-    font-size: 14px;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0;
     color: #fff;
-    text-transform: uppercase;
+    text-transform: capitalize;
     text-decoration: none;
+}
+.cg-card--half .cg-card__media {
+    aspect-ratio: 3/2;
 }
 /* Card Grid CSS */
 

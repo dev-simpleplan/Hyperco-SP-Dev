@@ -87,11 +87,11 @@
     </div>
   {%- endif -%}
   <div class="banner__content banner__content--{{ section.settings.desktop_content_position }} page-width">
-    <div class="banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient">
+    <div class="banner__box sp-heading content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient">
       {%- for block in section.blocks -%}
         {%- case block.type -%}
           {%- when 'heading' -%}
-            <h2 class="banner__heading sp-heading {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+            <h2 class="banner__heading  {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
               {{ block.settings.heading }} <span>{{ block.settings.heading_colored }}</span>
             </h2>
           {%- when 'text' -%}

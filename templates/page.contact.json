@@ -21,6 +21,7 @@
         },
         "text_CjPJjB": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>If you need to place a reorder, <a href=\"/pages/reorder\" target=\"_blank\" title=\"Reorder\">click here</a> to go to our Reorder form.</p>"
           }
@@ -30,6 +31,7 @@
         "16597353802d32037a-0",
         "text_CjPJjB"
       ],
+      "disabled": true,
       "custom_css": [
         "a {color: #47bda0;}"
       ],
@@ -47,6 +49,52 @@
       "disabled": true,
       "settings": {
         "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_new_j9f7MK": {
+      "type": "rich-text-new",
+      "blocks": {
+        "heading_ANamih": {
+          "type": "heading",
+          "settings": {
+            "heading": "Contact",
+            "heading_colored": "Us",
+            "heading_size": "h1"
+          }
+        },
+        "text_CeggBG": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "button_WHgQkW": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_ANamih",
+        "text_CeggBG",
+        "button_WHgQkW"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
         "padding_bottom": 0
       }
     },
@@ -202,6 +250,7 @@
   "order": [
     "1659735380f464e020",
     "main",
+    "rich_text_new_j9f7MK",
     "47919602-af80-4399-b377-50d152b4416c",
     "16597352495769ea39",
     "16012ef5-1376-46e6-b400-9254d9adc44f",

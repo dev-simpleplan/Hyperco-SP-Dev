@@ -123,7 +123,7 @@
           "settings": {
             "icon": "shopify://shop_images/Mask_group_c688a346-6b71-4e35-baa1-352c9c04e5e6.png",
             "heading": "Low Minimums",
-            "row_content": "<p>We don't believe in cutting corners, no matter how big or small the order.</p>",
+            "row_content": "<p>Order as few as 5 jerseys, no program is too small.</p>",
             "image": "shopify://shop_images/panthers-player_1.jpg"
           }
         },
@@ -132,7 +132,7 @@
           "settings": {
             "icon": "shopify://shop_images/Mask_group_3.png",
             "heading": "Easy reorders",
-            "row_content": "<p>Lost a player or picked up a rookie mid-season? Reorder a single jersey without redoing the entire design.</p>",
+            "row_content": "<p>Reorder a single jersey anytime, same price per jersey, no markups.</p>",
             "image": "shopify://shop_images/div.media.jpg"
           }
         }

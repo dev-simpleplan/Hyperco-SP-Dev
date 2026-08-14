@@ -9,17 +9,37 @@
  */
 {
   "sections": {
+    "build_popup_AhfDEM": {
+      "type": "build-popup",
+      "blocks": {
+        "powerful_form_builder_app_block_yJbkUJ": {
+          "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"MTMxMTY1\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "powerful_form_builder_app_block_yJbkUJ"
+      ],
+      "name": "Build popup",
+      "settings": {
+        "delay": 1.5,
+        "heading": "Before you build",
+        "skip_label": "Skip for now, take me to the builder"
+      }
+    },
     "17262491869e69e212": {
       "type": "apps",
       "blocks": {
         "profy_banner_countdown_timer_app_block_QThtQ4": {
-          "type": "shopify://apps/profy-banner-countdown-timer/blocks/app_block/243a639f-ca73-4afe-b6aa-3a23277fb424",
+          "type": "shopify://apps/profy-banner-timer/blocks/app_block/243a639f-ca73-4afe-b6aa-3a23277fb424",
           "settings": {
             "banner_id": "efafa455-c6cc-11ee-b619-4a3169df64e8"
           }
         },
         "profy_banner_countdown_timer_app_block_cwWhVC": {
-          "type": "shopify://apps/profy-banner-countdown-timer/blocks/app_block/243a639f-ca73-4afe-b6aa-3a23277fb424",
+          "type": "shopify://apps/profy-banner-timer/blocks/app_block/243a639f-ca73-4afe-b6aa-3a23277fb424",
           "disabled": true,
           "settings": {
             "banner_id": "6fc809c6-d1cc-11ef-999f-8a4bae29c3df"
@@ -101,7 +121,9 @@
         },
         "globo_product_option_app_block_Y4qA6P": {
           "type": "shopify://apps/globo-product-options/blocks/app-block/fdc9fad5-1a0f-4bd4-9c8a-1af6a6eef6b8",
-          "settings": {}
+          "settings": {
+            "product": ""
+          }
         },
         "quantity_selector": {
           "type": "quantity_selector",
@@ -283,6 +305,7 @@
     }
   },
   "order": [
+    "build_popup_AhfDEM",
     "17262491869e69e212",
     "166016125605ec1b2d",
     "customproductbuilder",

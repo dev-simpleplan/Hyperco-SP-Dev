@@ -162,8 +162,8 @@
           "settings": {
             "image": "shopify://shop_images/div.multicolumn-card__image-wrapper.jpg",
             "number": "1",
-            "title": "Tell Us About Your Team",
-            "text": "<p>Share your team name, colors, and what you're looking for. Upload a logo if you have one. Even a napkin sketch works.</p>",
+            "title": "Customize Yourself",
+            "text": "<p>Jump into our online builder and design your jersey exactly how you want it, all in a few clicks.</p>",
             "link_label": "",
             "link": ""
           }
@@ -173,8 +173,8 @@
           "settings": {
             "image": "shopify://shop_images/div.media.jpg",
             "number": "2",
-            "title": "Talk to a jersey expert",
-            "text": "<p>A specialist will walk you through options, answer all questions, help nail down the design, and bring your vision to life.</p>",
+            "title": "Stuck? Talk To An Expert",
+            "text": "<p>Don't want to build it yourself, or not sure where to start? A jersey expert will walk you through every option and bring your vision to life.</p>",
             "link_label": "",
             "link": ""
           }
@@ -185,7 +185,7 @@
             "image": "shopify://shop_images/div.multicolumn-card__image-wrapper_1.jpg",
             "number": "3",
             "title": "Finalize & order",
-            "text": "<p>Once finalized, sit back and relax as we build the perfect jersey for you, with every detail right, down to the last stitch. </p>",
+            "text": "<p>Once everything's dialed in, we lock in your order and get jerseys to your door in 4-6 weeks.</p>",
             "link_label": "",
             "link": ""
           }
@@ -372,7 +372,7 @@
         "heading_6UheeJ": {
           "type": "heading",
           "settings": {
-            "heading": "We Don't Just Make Uniforms.",
+            "heading": "We Don't Just Make Sweaters.",
             "heading_colored": "We Build Team Identities.",
             "heading_size": "h1"
           }
@@ -664,15 +664,15 @@
         "faq_row_KCN7xL": {
           "type": "faq_row",
           "settings": {
-            "heading": "What's your minimum order quantity?",
-            "row_content": "<p>Currently, our minimum order quantity is 5 jerseys/kits per order.</p>"
+            "heading": "What's the minimum order?",
+            "row_content": "<p>Our minimum order quantity is as low as 5 jerseys/kits per order. One of the lowest minimums you'll find!</p>"
           }
         },
         "faq_row_Acij7w": {
           "type": "faq_row",
           "settings": {
-            "heading": "What's your turnaround time?",
-            "row_content": "<p>After you place your order, we'll deliver you a digital proof within roughly 2 business days. Once we get your approval, the production + shipping times are as follows:</p><p><strong>HOCKEY:</strong></p><ul><li>Sublimated: 4-5 weeks </li><li>Embroidered Tackle Twill: 5-6 weeks </li></ul><p><strong>BASKETBALL:</strong></p><ul><li>3-4 weeks</li></ul><p><strong>SOCCER:</strong></p><ul><li>3-4 weeks</li></ul>"
+            "heading": "How long does it take?",
+            "row_content": "<p>You will receive a digital proof within 2 business days of ordering. Once we get your approval,  the production + shipping times are as follows: sublimated hockey jerseys take 4-5 weeks. Embroidered tackle twill takes 5-6 weeks.</p>"
           }
         },
         "faq_row_Hya7CR": {
@@ -686,8 +686,8 @@
         "faq_row_yYnaTM": {
           "type": "faq_row",
           "settings": {
-            "heading": "How can I reorder one jersey from a previously placed team order?",
-            "row_content": "<p>Whether you have a new teammate or you just need a new jersey for yourself, simply visit our <a href=\"https://hypercosports.com/pages/reorder\" target=\"_blank\" title=\"Reorder\">Reorder </a>page and fill out the form. We'll get back to you as soon as possible with an invoice and proof.</p>"
+            "heading": "Can I reorder a single jersey later?",
+            "row_content": "<p>Yes, whether you have a new teammate or you just need a new jersey for yourself, all you have to do is fill out a quick form, and we'll get back to you as soon as possible with an invoice and proof.</p>"
           }
         },
         "faq_row_NBcqDM": {
@@ -742,14 +742,14 @@
           "type": "faq_row",
           "settings": {
             "heading": "What's your return policy?",
-            "row_content": "<p>All custom orders are final and aren't returnable. However, if there's something wrong with your uniforms or you're unhappy for any reason, please <a href=\"https://hypercosports.com/pages/contact\" title=\"Contact\">reach out to us</a> and we'll make it right!</p>"
+            "row_content": "<p>All custom orders are final and aren't returnable. However, if there's something wrong with your uniforms or you're unhappy for any reason, you can reach out to us and we’ll make it right!</p>"
           }
         },
         "faq_row_mfARdH": {
           "type": "faq_row",
           "settings": {
             "heading": "Are your jerseys printed or stitched?",
-            "row_content": "<p>We offer both!</p><ul><li>Sublimated: All over printing</li><li>Embroidered: Sewn-on logos, names, and numbers</li></ul>"
+            "row_content": "<p>We offer both! Sublimated: All-over printing; embroidered: Sewn-on logos, names, and numbers. </p>"
           }
         }
       },

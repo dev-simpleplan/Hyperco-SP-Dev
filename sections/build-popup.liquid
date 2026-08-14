@@ -1,0 +1,99 @@
+<dialog class="bp" id="BuildPopup-{{ section.id }}" aria-label="{{ section.settings.heading }}">
+  <button type="button" class="bp-close" data-bp-close aria-label="{{ 'accessibility.close' | t }}">{% render 'icon-close' %}</button>
+
+  <div class="bp-inner">
+    {%- if section.settings.heading != blank -%}
+      <h2 class="bp-heading">{{ section.settings.heading }}</h2>
+    {%- endif -%}
+
+    <div class="bp-app-block" data-bp-form-area>
+      {%- for block in section.blocks -%}
+        {%- if block.type == '@app' -%}
+          {% render block %}
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+
+    <button type="button" class="bp-skip" data-bp-skip>
+      {{ section.settings.skip_label }}
+    </button>
+  </div>
+</dialog>
+
+<script>
+  (function () {
+    var dialog = document.getElementById('BuildPopup-{{ section.id }}');
+    if (!dialog) return;
+
+    var DELAY = {{ section.settings.delay | times: 1000 }};
+
+    function openPopup() {
+      if (typeof dialog.showModal === 'function') {
+        dialog.showModal();
+      } else {
+        dialog.setAttribute('open', '');
+      }
+      document.body.classList.add('overflow-hidden');
+    }
+
+    function closePopup() {
+      if (typeof dialog.close === 'function') {
+        dialog.close();
+      } else {
+        dialog.removeAttribute('open');
+      }
+      document.body.classList.remove('overflow-hidden');
+    }
+
+    setTimeout(openPopup, DELAY);
+
+    dialog.querySelector('[data-bp-close]').addEventListener('click', closePopup);
+    dialog.querySelector('[data-bp-skip]').addEventListener('click', closePopup);
+
+    dialog.addEventListener('click', function (event) {
+      if (event.target === dialog) closePopup();
+    });
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Build popup",
+  "tag": "section",
+  "class": "section bp-section",
+  "settings": [
+    {
+      "type": "range",
+      "id": "delay",
+      "min": 0,
+      "max": 10,
+      "step": 0.5,
+      "unit": "s",
+      "label": "Delay before showing",
+      "default": 1.5
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Before you build"
+    },
+    {
+      "type": "text",
+      "id": "skip_label",
+      "label": "Skip link label",
+      "default": "No thanks"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "@app"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Build popup"
+    }
+  ]
+}
+{% endschema %}

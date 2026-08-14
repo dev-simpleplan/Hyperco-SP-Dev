@@ -1458,5 +1458,86 @@ a.cg-card__link {
     }
 }
 
+/* Build Popup CSS */
+.bp {
+    position: fixed;
+    inset: 0;
+    margin: auto;
+    padding: 0;
+    border: 0;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    background: #171522;
+    overflow-y: auto;
+}
+@media screen and (min-width: 750px) {
+    .bp {
+        width: 90vw;
+        height: auto;
+        max-width: 560px;
+        max-height: 90vh;
+        border-radius: 12px;
+    }
+}
+.bp::backdrop {
+    background: rgba(0, 0, 0, 0.8);
+}
+.bp-close {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.5);
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+}
+.bp-close svg {
+    width: 14px;
+    height: 14px;
+}
+.bp-inner {
+    padding: 48px 24px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.bp-heading {
+    font-family: var(--font-heading-family);
+    font-weight: var(--font-heading-weight-bold);
+    font-size: 24px;
+    line-height: 120%;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+.bp-app-block {
+    width: 100%;
+    max-width: 100%;
+}
+.bp-app-block * {
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+}
+.bp-skip {
+    background: none;
+    border: 0;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 13px;
+    text-decoration: underline;
+    cursor: pointer;
+    align-self: center;
+    margin-top: 4px;
+}
+/* Build Popup CSS */
+
 /*------ New SP CSS ------*/
 

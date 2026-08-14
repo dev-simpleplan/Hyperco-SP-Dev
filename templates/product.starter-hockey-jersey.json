@@ -179,6 +179,93 @@
         "padding_bottom": 36
       }
     },
+    "icon_columns_tFqUQm": {
+      "type": "icon-columns",
+      "blocks": {
+        "icon_item_xAWTcz": {
+          "type": "icon_item",
+          "settings": {
+            "icon": "shopify://shop_images/Mask_group_4.png",
+            "heading": "Quick Turnaround",
+            "text": "<p>Jerseys delivered 4- 6 weeks from final approval.</p>"
+          }
+        },
+        "icon_item_eeTf3J": {
+          "type": "icon_item",
+          "settings": {
+            "icon": "shopify://shop_images/Untitled_-_11_August_2026_at_16.53.39_2.png",
+            "heading": "Built To Last",
+            "text": "<p>Breathable, moisture-wicking fabric backed by pro-level construction.</p>"
+          }
+        },
+        "icon_item_4Ccfj4": {
+          "type": "icon_item",
+          "settings": {
+            "icon": "shopify://shop_images/Untitled_-_11_August_2026_at_16.53.39_1.png",
+            "heading": "No Reorder Minimums",
+            "text": "<p>Need one more? Order a single jersey, same price, no markup.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "icon_item_xAWTcz",
+        "icon_item_eeTf3J",
+        "icon_item_4Ccfj4"
+      ],
+      "name": "Icon columns",
+      "settings": {
+        "color_scheme": "accent-1",
+        "columns_desktop": 3,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "rich_text_new_FQP7ye": {
+      "type": "rich-text-new",
+      "blocks": {
+        "heading_fg6Gb8": {
+          "type": "heading",
+          "settings": {
+            "heading": "Quality",
+            "heading_colored": "Details",
+            "heading_size": "h1"
+          }
+        },
+        "text_adWUwd": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "button_QMwhA7": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_fg6Gb8",
+        "text_adWUwd",
+        "button_QMwhA7"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 52
+      }
+    },
     "aa94c383-7a1e-4e2d-aca6-9e7cf3197041": {
       "type": "multicolumn",
       "blocks": {
@@ -186,8 +273,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/starter-hyperco_164d4916-3e06-4805-b9ee-c9a13d8a28cc.png",
-            "title": "LIGHTWEIGHT FABRIC",
-            "text": "",
+            "title": "Lightweight Fabric",
+            "text": "<p>Breathable, moisture-wicking material built to move with your team, not against it.</p>",
             "link_label": "",
             "link": ""
           }
@@ -196,8 +283,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/starter-closeup_4e015dea-fc84-40e8-a20c-86b19a7d119b.png",
-            "title": "QUALITY FINISHES",
-            "text": "",
+            "title": "High-Quality Finishes",
+            "text": "<p>Reinforced collars, clean stitching, and detail work that holds up through the season.</p>",
             "link_label": "",
             "link": ""
           }
@@ -206,8 +293,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/5B41D96F-BCFB-441B-BFB1-EEF212F5E1A9.png",
-            "title": "SUBLIMATED PRINTING",
-            "text": "",
+            "title": "Built-In Color",
+            "text": "<p>Full-color printing that won't crack, peel, or fade. Logos and numbers built in, not stuck on top.</p>",
             "link_label": "",
             "link": ""
           }
@@ -219,7 +306,7 @@
         "template--15310488993928__aa94c383-7a1e-4e2d-aca6-9e7cf3197041-167416950811b28ad1-2"
       ],
       "settings": {
-        "title": "Quality Details",
+        "title": "",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "square",
@@ -231,8 +318,155 @@
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
+        "padding_top": 0,
         "padding_bottom": 36
+      }
+    },
+    "card_grid_LFRwfp": {
+      "type": "card-grid",
+      "blocks": {
+        "card_3kUCJP": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Premium_embroidered_hockey_jersey_by_Hyperco_Sports.jpg",
+            "tags": "Durable, High Quality",
+            "heading": "Pro Tackle Twill Embroidery",
+            "text": "<ul><li>Sewn-on names, numbers, and logos, not printed</li><li>Cut & sewn stripes</li><li>Minimum: 5 jerseys</li><li>Starting price: $99</li></ul>",
+            "width": "third",
+            "link_label": "Start Building",
+            "link": "#productscroll"
+          }
+        },
+        "card_TYLWQw": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/2719ea4f5031a8b6da12855b95824c8724e4d164.png",
+            "tags": "Durable, High Quality, Cost Effective",
+            "heading": "Elite Sublimation",
+            "text": "<ul><li>Full-color, all-over printed design</li><li>Minimum: 5 jerseys</li><li>Starting price: $63</li></ul>",
+            "width": "third",
+            "link_label": "Start Building",
+            "link": "#productscroll"
+          }
+        },
+        "card_ibYWp8": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Inline_Roller_Hockey_uniform_made_by_Hyperco_Sports.jpg",
+            "tags": "Durable, High Quality",
+            "heading": "Inline Hockey",
+            "text": "<ul><li>Minimum: 5 jerseys</li><li>Reorder minimum: 1 jersey</li><li>Starting price: $58</li><li>Flex Pro Pant: $63*</li><li>Contact us to order pants</li></ul>",
+            "width": "third",
+            "link_label": "Start Building",
+            "link": "#productscroll"
+          }
+        },
+        "card_7pNXJm": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Embroidered_hockey_jerseys_for_the_Omaha_Lancers_made_by_Hyperco_Sports.jpg",
+            "tags": "Durable, High Quality",
+            "heading": "Official Supplier of the USHL",
+            "text": "<p>Home kits, away kits, and specialty theme nights: Hyperco is the official jersey supplier for USHL club teams. Watch for our uniforms on the ice this season.</p>",
+            "width": "half",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "card_MEGQYw": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Rutgers_University_ice_hockey_jersey_made_by_Hyperco_Sports.jpg",
+            "tags": "Durable, High Quality",
+            "heading": "Trusted By Colleges",
+            "text": "<p>Package deals built for collegiate teams and clubs, with better per-jersey pricing the more you order.</p>",
+            "width": "half",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "card_3kUCJP",
+        "card_TYLWQw",
+        "card_ibYWp8",
+        "card_7pNXJm",
+        "card_MEGQYw"
+      ],
+      "name": "Card grid",
+      "settings": {
+        "heading": "Not sure which build",
+        "heading_colored": "fits your team?",
+        "color_scheme": "background-1",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "image_banner_iz3QxX": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_QkgKTr": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ordering For A",
+            "heading_colored": "Team Or League?",
+            "heading_size": "h1"
+          }
+        },
+        "buttons_m9wFi4": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Tell Us About Your Team",
+            "button_link_1": "shopify://pages/contact",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_QkgKTr",
+        "buttons_m9wFi4"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/2c92eeb82ed70f8202e17a66dd8d0a5a27398cab.jpg",
+        "image_overlay_opacity": 60,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_new_Jfy4EU": {
+      "type": "rich-text-new",
+      "blocks": {
+        "heading_6hhdaV": {
+          "type": "heading",
+          "settings": {
+            "heading": "We value",
+            "heading_colored": "Your Feedback",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6hhdaV"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 0
       }
     },
     "16725114619337822f": {
@@ -253,6 +487,54 @@
       ],
       "settings": {
         "include_margins": true
+      }
+    },
+    "faq_r3Vxkj": {
+      "type": "faq",
+      "blocks": {
+        "faq_row_w88B6x": {
+          "type": "faq_row",
+          "settings": {
+            "heading": "What's the minimum order?",
+            "row_content": "<p>5 jerseys per order.</p>"
+          }
+        },
+        "faq_row_fgf3aW": {
+          "type": "faq_row",
+          "settings": {
+            "heading": "How long does it take?",
+            "row_content": "<p>You'll get a digital proof within about 2 business days of ordering. Once you approve it, this jersey ships in 4-5 weeks.</p>"
+          }
+        },
+        "faq_row_TFFwbK": {
+          "type": "faq_row",
+          "settings": {
+            "heading": "Can I reorder a single jersey later?",
+            "row_content": "<p>Yes! Fill out a quick form and we'll send an invoice and proof. No need to redo your whole team's order.</p>"
+          }
+        },
+        "faq_row_xQmCaC": {
+          "type": "faq_row",
+          "settings": {
+            "heading": "What if I don't have a design ready?",
+            "row_content": "<p>That's alright! You don't need a finished design to get started. Reach out, and a jersey expert will build it out with you, starting from just your colors, a logo, or even a rough sketch.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_row_w88B6x",
+        "faq_row_fgf3aW",
+        "faq_row_TFFwbK",
+        "faq_row_xQmCaC"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "heading": "Frequently Asked",
+        "heading_colored": "Questions",
+        "color_scheme": "background-1",
+        "image": "shopify://shop_images/hurtado-black-draped_1.jpg",
+        "padding_top": 60,
+        "padding_bottom": 60
       }
     },
     "product-recommendations": {
@@ -313,8 +595,14 @@
     "customproductbuilder",
     "main",
     "collapsible-content",
+    "icon_columns_tFqUQm",
+    "rich_text_new_FQP7ye",
     "aa94c383-7a1e-4e2d-aca6-9e7cf3197041",
+    "card_grid_LFRwfp",
+    "image_banner_iz3QxX",
+    "rich_text_new_Jfy4EU",
     "16725114619337822f",
+    "faq_r3Vxkj",
     "product-recommendations",
     "newsletter"
   ]

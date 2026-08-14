@@ -65,6 +65,8 @@ span.break-word {
 /*------ New SP CSS ------*/
 
 /* Buttons */
+
+.product-form__buttons button.button--secondary,
 .button--primary.filled {
     background-color: #35FFCB;
     font-weight: var(--font-heading-weight-bold);
@@ -74,14 +76,18 @@ span.break-word {
     font-size: 22px;
     text-transform: uppercase;
 }
+.product-form__buttons button.button--secondary::before,
+.product-form__buttons button.button--secondary::after,
 .button--primary.filled::before,
 .button--primary.filled::after {
     border-radius: 4px;
 }
+.product-form__buttons button.button--secondary::after,
 .button--primary.filled::after {
     box-shadow: 0 0 0 calc(2px + var(--border-offset)) rgba(var(--color-button-text), var(--border-opacity)),
     0 0 0 var(--buttons-border-width) #35FFCB
 }
+.product-form__buttons button.button--secondary:hover::after,
 .button--primary.filled:hover::after {
     box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset)) rgba(var(--color-button-text), var(--border-opacity)),
     0 0 0 calc(var(--buttons-border-width) + 1px) #35FFCB!important;
@@ -1011,6 +1017,27 @@ h3.card__heading {
     display: block;
 }
 /* FAQ CSS */
+
+/* ----- Product Page CSS ----- */
+
+.product__info-wrapper .product__title h1 {
+    font-weight: var(--font-heading-weight-600);
+    font-style: var(--font-heading-style-italic);
+    font-size: 46px!important;
+    line-height: 52px;
+    letter-spacing: 0.9px;
+}
+.product__info-wrapper .product__text {
+    color: #35FFCB;
+}
+.product__description p a {
+    font-family: var(--font-heading-family);
+    font-size: 22px;
+    letter-spacing: 0;
+    color: #35FFCB;
+}
+
+/* ----- Product Page CSS ----- */
 
 
 @media screen and (max-width: 1200px) {

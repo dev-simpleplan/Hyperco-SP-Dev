@@ -84,14 +84,14 @@
 
     <ul class="ig-grid" id="IgGrid-{{ section.id }}" role="list">
       {{ primary_tiles }}
+      {%- if extra_tiles != blank -%}
+        <li class="ig-grid-extra" id="IgExtra-{{ section.id }}">
+          <ul class="ig-grid ig-grid--extra" role="list">
+            {{ extra_tiles }}
+          </ul>
+        </li>
+      {%- endif -%}
     </ul>
-    {%- if extra_tiles != blank -%}
-      <div class="ig-grid-extra" id="IgExtra-{{ section.id }}">
-        <ul class="ig-grid ig-grid--extra" role="list">
-          {{ extra_tiles }}
-        </ul>
-      </div>
-    {%- endif -%}
   </div>
 
   <dialog class="ig-lightbox" id="IgLightbox-{{ section.id }}">

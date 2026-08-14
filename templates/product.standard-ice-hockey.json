@@ -179,6 +179,47 @@
         "padding_bottom": 36
       }
     },
+    "icon_columns_AejUap": {
+      "type": "icon-columns",
+      "blocks": {
+        "icon_item_pnaAWH": {
+          "type": "icon_item",
+          "settings": {
+            "icon": "shopify://shop_images/Mask_group_4.png",
+            "heading": "Quick Turnaround",
+            "text": "<p>Jerseys delivered 4- 6 weeks from final approval.</p>"
+          }
+        },
+        "icon_item_iFTQVR": {
+          "type": "icon_item",
+          "settings": {
+            "icon": "shopify://shop_images/Untitled_-_11_August_2026_at_16.53.39_2.png",
+            "heading": "Built To Last",
+            "text": "<p>Breathable, moisture-wicking fabric backed by pro-level construction.</p>"
+          }
+        },
+        "icon_item_bK8BHk": {
+          "type": "icon_item",
+          "settings": {
+            "icon": "shopify://shop_images/Untitled_-_11_August_2026_at_16.53.39_1.png",
+            "heading": "No Reorder Minimums",
+            "text": "<p>Need one more? Order a single jersey, same price, no markup.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "icon_item_pnaAWH",
+        "icon_item_iFTQVR",
+        "icon_item_bK8BHk"
+      ],
+      "name": "Icon columns",
+      "settings": {
+        "color_scheme": "accent-1",
+        "columns_desktop": 3,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
     "rich_text_new_b6MCQJ": {
       "type": "rich-text-new",
       "blocks": {
@@ -338,6 +379,7 @@
     "customproductbuilder",
     "main",
     "collapsible-content",
+    "icon_columns_AejUap",
     "rich_text_new_b6MCQJ",
     "aa94c383-7a1e-4e2d-aca6-9e7cf3197041",
     "16725114619337822f",

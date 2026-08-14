@@ -671,6 +671,9 @@ h3.card__heading {
 .ig-card__button[aria-expanded="true"] .icon-caret {
     transform: rotate(180deg);
 }
+.ig-grid-extra .ig-grid--extra {
+    padding-left: 0;
+}
 
 @media screen and (min-width: 750px) and (max-width: 991px) {
     .ig-grid,
@@ -698,9 +701,9 @@ h3.card__heading {
         opacity: 1;
         transition: max-height 0.4s ease, opacity 0.35s ease 0.15s;
     }
-    .ig-grid-extra .ig-grid--extra {
+    /* .ig-grid-extra .ig-grid--extra {
         padding-top: 16px;
-    }
+    } */
 }
 
 @media screen and (max-width: 749px) {

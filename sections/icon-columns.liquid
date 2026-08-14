@@ -16,7 +16,7 @@
   }
 {%- endstyle -%}
 
-<div class="color-{{ section.settings.color_scheme }} gradient">
+<div class="ico-wrap color-{{ section.settings.color_scheme }} gradient">
   <div class="ico page-width section-{{ section.id }}-padding">
     <div class="ico-grid" id="IcoGrid-{{ section.id }}">
       {%- for block in section.blocks -%}
@@ -30,7 +30,7 @@
             <h3 class="ico-item__heading">{{ block.settings.heading }}</h3>
           {%- endif -%}
           {%- if block.settings.text != blank -%}
-            <p class="ico-item__text">{{ block.settings.text }}</p>
+            {{ block.settings.text }}
           {%- endif -%}
         </div>
       {%- endfor -%}

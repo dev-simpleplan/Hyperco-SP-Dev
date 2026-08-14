@@ -1235,6 +1235,72 @@ a.cg-card__link {
     max-width: 18ch;
 }
 
+
+
+/* Logo Marquee CSS */
+.lm {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    overflow: hidden;
+}
+.lm-label {
+    flex-shrink: 0;
+    padding-left: 1.5rem;
+}
+.lm-label span {
+    font-family: var(--font-heading-family);
+    font-weight: var(--font-heading-weight-600);
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    white-space: nowrap;
+}
+.lm-track {
+    display: flex;
+    gap: 50px;
+    overflow: hidden;
+    mask-image: linear-gradient(to right, transparent, #000 5%, #000 95%, transparent);
+    -webkit-mask-image: linear-gradient(to right, transparent, #000 5%, #000 95%, transparent);
+}
+.lm-track__group {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    flex-shrink: 0;
+    padding-right: 48px;
+    animation: lm-scroll var(--lm-duration, 25s) linear infinite;
+}
+.lm-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    flex-shrink: 0;
+}
+.lm-logo img {
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+}
+
+@keyframes lm-scroll {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .lm-track__group {
+        animation: none;
+    }
+}
+/* Logo Marquee CSS */
+
 @media screen and (max-width: 1300px) {
     .ico-item__heading {
         font-size: 42px;
@@ -1302,6 +1368,9 @@ a.cg-card__link {
         width: 100px;
         height: 100px;
     }
+    .image-with-text .image-with-text__content {
+        padding: 20px 30px;
+    }
 }
 @media screen and (max-width: 991px) {
     .page-width-desktop {
@@ -1312,6 +1381,9 @@ a.cg-card__link {
     }
     .banner__box.sp-heading h2 {
         font-size: 60px;
+    }
+    .lm-logo {
+        height: 50px;
     }
 }
 @media screen and (max-width: 767px) {
@@ -1356,70 +1428,16 @@ a.cg-card__link {
     .banner__box.sp-heading h2 {
         font-size: 48px;
     }
-}
-
-/* Logo Marquee CSS */
-.lm {
-    display: flex;
-    align-items: center;
-    gap: 24px;
-    overflow: hidden;
-}
-.lm-label {
-    flex-shrink: 0;
-    padding-left: 1.5rem;
-}
-.lm-label span {
-    font-family: var(--font-heading-family);
-    font-weight: var(--font-heading-weight-600);
-    font-size: 12px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #fff;
-    white-space: nowrap;
-}
-.lm-track {
-    display: flex;
-    overflow: hidden;
-    mask-image: linear-gradient(to right, transparent, #000 5%, #000 95%, transparent);
-    -webkit-mask-image: linear-gradient(to right, transparent, #000 5%, #000 95%, transparent);
-}
-.lm-track__group {
-    display: flex;
-    align-items: center;
-    gap: 48px;
-    flex-shrink: 0;
-    padding-right: 48px;
-    animation: lm-scroll var(--lm-duration, 25s) linear infinite;
-}
-.lm-logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 40px;
-    flex-shrink: 0;
-}
-.lm-logo img {
-    height: 100%;
-    width: auto;
-    object-fit: contain;
-}
-
-@keyframes lm-scroll {
-    from {
-        transform: translateX(0);
+    .lm-logo {
+        height: 45px;
     }
-    to {
-        transform: translateX(-100%);
-    }
-}
-
-@media (prefers-reduced-motion: reduce) {
     .lm-track__group {
-        animation: none;
+        gap: 80px;
+    }
+    .image-with-text .image-with-text__content {
+        padding: 40px 20px;
     }
 }
-/* Logo Marquee CSS */
 
 /*------ New SP CSS ------*/
 

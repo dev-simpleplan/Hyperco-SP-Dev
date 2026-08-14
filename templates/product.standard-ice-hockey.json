@@ -29,6 +29,26 @@
         "include_margins": true
       }
     },
+    "build_popup_g663QJ": {
+      "type": "build-popup",
+      "blocks": {
+        "powerful_form_builder_app_block_LipRrH": {
+          "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"MTMxMTY1\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "powerful_form_builder_app_block_LipRrH"
+      ],
+      "name": "Build popup",
+      "settings": {
+        "delay": 1.5,
+        "heading": "Before you build",
+        "skip_label": "No thanks"
+      }
+    },
     "customproductbuilder": {
       "type": "customproductbuilder",
       "settings": {}
@@ -588,6 +608,7 @@
   },
   "order": [
     "166016125605ec1b2d",
+    "build_popup_g663QJ",
     "customproductbuilder",
     "main",
     "collapsible-content",

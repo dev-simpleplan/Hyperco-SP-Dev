@@ -9,7 +9,7 @@
  */
 {
   "current": {
-    "colors_solid_button_labels": "#ffffff",
+    "colors_solid_button_labels": "#221F35",
     "colors_accent_1": "#632bc6",
     "gradient_accent_1": "",
     "colors_accent_2": "#ffffff",
@@ -55,14 +55,14 @@
     "card_color_scheme": "background-2",
     "card_border_thickness": 0,
     "card_border_opacity": 55,
-    "card_corner_radius": 8,
+    "card_corner_radius": 0,
     "card_shadow_opacity": 0,
     "card_shadow_horizontal_offset": 0,
     "card_shadow_vertical_offset": 4,
     "card_shadow_blur": 5,
     "text_boxes_border_thickness": 0,
     "text_boxes_border_opacity": 10,
-    "text_boxes_radius": 16,
+    "text_boxes_radius": 0,
     "text_boxes_shadow_opacity": 0,
     "text_boxes_shadow_horizontal_offset": 0,
     "text_boxes_shadow_vertical_offset": 4,

@@ -1126,4 +1126,50 @@ h3.card__heading {
     }
 }
 
+/* Icon Columns CSS */
+.ico-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 28px;
+}
+@media screen and (min-width: 750px) {
+    .ico-grid {
+        grid-template-columns: repeat(var(--ico-columns-desktop, 3), 1fr);
+        gap: 40px;
+    }
+}
+.ico-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 12px;
+}
+.ico-item__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+}
+.ico-item__icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.ico-item__heading {
+    font-family: var(--font-heading-family);
+    font-weight: var(--font-heading-weight-bold);
+    font-size: 22px;
+    color: #fff;
+}
+.ico-item__text {
+    font-size: 14px;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.85);
+    max-width: 32ch;
+}
+
+/* Icon Columns CSS */
+
 /*------ New SP CSS ------*/

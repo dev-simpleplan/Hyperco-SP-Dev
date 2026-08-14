@@ -54,6 +54,10 @@
       "name": "Home banner",
       "settings": {
         "hb_image": "shopify://shop_images/860afe47b264a3323739095399315a087de92531_1.png",
+        "hb_mobile_overlay_opacity": 30,
+        "hb_badge_supplier": "USHL Official Supplier",
+        "hb_badge_rating": "4.9",
+        "hb_badge_count": "500+ teams",
         "hb_heading": "Custom Teamwear,",
         "hb_heading_colored": "Designed Your Way.",
         "hb_text": "<p>Premium sublimated jerseys for your team, designed with pro-level detail.</p>",
@@ -466,7 +470,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/hurtado-cream-front_1.jpg",
+        "image": "shopify://shop_images/DSC_9887_1_6982910d-38d0-49b0-bbce-3fee3da3d1ca.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",

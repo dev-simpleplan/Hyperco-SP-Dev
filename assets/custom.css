@@ -1540,6 +1540,9 @@ a.cg-card__link {
 .bp-inner .globo-form-app {
     background-color: transparent!important;
 }
+.bp-inner .globo-form-app .message {
+    color: #eff7ed!important;
+}
 /* Build Popup CSS */
 
 /*------ New SP CSS ------*/

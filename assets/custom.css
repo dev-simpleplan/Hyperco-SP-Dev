@@ -1245,7 +1245,7 @@ h3.card__heading {
 }
 .cg-card__content {
     background-color: #6B4CF2;
-    padding: 20px 30px;
+    padding: 20px 30px 24px 30px;
     display: flex;
     flex-direction: column;
     gap: 16px;

@@ -179,6 +179,31 @@
         "padding_bottom": 36
       }
     },
+    "rich_text_new_b6MCQJ": {
+      "type": "rich-text-new",
+      "blocks": {
+        "heading_dGwEfk": {
+          "type": "heading",
+          "settings": {
+            "heading": "Quality",
+            "heading_colored": "Details",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_dGwEfk"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 52
+      }
+    },
     "aa94c383-7a1e-4e2d-aca6-9e7cf3197041": {
       "type": "multicolumn",
       "blocks": {
@@ -186,8 +211,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/kings-front-2.png",
-            "title": "SUBLIMATED PRINTING",
-            "text": "",
+            "title": "Lightweight Fabric",
+            "text": "<p>Breathable, moisture-wicking material built to move with your team, not against it.</p>",
             "link_label": "",
             "link": ""
           }
@@ -196,8 +221,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/dimpled-shoulder-kings.png",
-            "title": "TEXTURED SHOULDERS",
-            "text": "",
+            "title": "High-Quality Finishes",
+            "text": "<p>Reinforced collars, clean stitching, and detail work that holds up through the season.</p>",
             "link_label": "",
             "link": ""
           }
@@ -206,8 +231,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/mesh-armpits-hyperco.png",
-            "title": "ARMPIT VENTS",
-            "text": "",
+            "title": "Built-In Color",
+            "text": "<p>Full-color printing that won't crack, peel, or fade. Logos and numbers built in, not stuck on top.</p>",
             "link_label": "",
             "link": ""
           }
@@ -219,7 +244,7 @@
         "template--15310488993928__aa94c383-7a1e-4e2d-aca6-9e7cf3197041-167416950811b28ad1-2"
       ],
       "settings": {
-        "title": "Quality Details",
+        "title": "",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "square",
@@ -231,7 +256,7 @@
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
+        "padding_top": 0,
         "padding_bottom": 36
       }
     },
@@ -313,6 +338,7 @@
     "customproductbuilder",
     "main",
     "collapsible-content",
+    "rich_text_new_b6MCQJ",
     "aa94c383-7a1e-4e2d-aca6-9e7cf3197041",
     "16725114619337822f",
     "product-recommendations",

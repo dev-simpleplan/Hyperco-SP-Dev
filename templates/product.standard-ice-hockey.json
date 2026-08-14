@@ -307,10 +307,10 @@
         "card_FGPpxr": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/Frame_2147238069.jpg",
+            "image": "shopify://shop_images/Premium_embroidered_hockey_jersey_by_Hyperco_Sports.jpg",
             "tags": "Durable, High Quality",
             "heading": "Pro Tackle Twill Embroidery",
-            "text": "<ul><li>Minimum: 5 jerseys</li><li>Reorder minimum: 1 jersey</li><li>Cut & sewn stripes</li><li>Starting Price: $99</li></ul>",
+            "text": "<ul><li>Sewn-on names, numbers, and logos, not printed</li><li>Cut & sewn stripes</li><li>Minimum: 5 jerseys</li><li>Starting price: $99</li></ul>",
             "width": "third",
             "link_label": "Start Building",
             "link": "#"
@@ -319,10 +319,10 @@
         "card_tLkapF": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/Frame_2147238069.jpg",
-            "tags": "Durable, High Quality",
-            "heading": "Pro Tackle Twill Embroidery",
-            "text": "<ul><li>Minimum: 5 jerseys</li><li>Reorder minimum: 1 jersey</li><li>Cut & sewn stripes</li><li>Starting Price: $99</li></ul>",
+            "image": "shopify://shop_images/2719ea4f5031a8b6da12855b95824c8724e4d164.png",
+            "tags": "Durable, High Quality, Cost Effective",
+            "heading": "Elite Sublimation",
+            "text": "<ul><li>Full-color, all-over printed design</li><li>Minimum: 5 jerseys</li><li>Starting price: $63</li></ul>",
             "width": "third",
             "link_label": "Start Building",
             "link": "#"
@@ -331,10 +331,10 @@
         "card_RgAgNb": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/Frame_2147238069.jpg",
+            "image": "shopify://shop_images/Inline_Roller_Hockey_uniform_made_by_Hyperco_Sports.jpg",
             "tags": "Durable, High Quality",
-            "heading": "Pro Tackle Twill Embroidery",
-            "text": "<ul><li>Minimum: 5 jerseys</li><li>Reorder minimum: 1 jersey</li><li>Cut & sewn stripes</li><li>Starting Price: $99</li></ul>",
+            "heading": "Inline Hockey",
+            "text": "<ul><li>Minimum: 5 jerseys</li><li>Reorder minimum: 1 jersey</li><li>Starting price: $58</li><li>Flex Pro Pant: $63*</li><li>Contact us to order pants</li></ul>",
             "width": "third",
             "link_label": "Start Building",
             "link": "#"
@@ -343,25 +343,25 @@
         "card_GwTLU9": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/Frame_2147238069.jpg",
+            "image": "shopify://shop_images/Embroidered_hockey_jerseys_for_the_Omaha_Lancers_made_by_Hyperco_Sports.jpg",
             "tags": "Durable, High Quality",
-            "heading": "Pro Tackle Twill Embroidery",
-            "text": "<ul><li>Minimum: 5 jerseys</li><li>Reorder minimum: 1 jersey</li><li>Cut & sewn stripes</li><li>Starting Price: $99</li></ul>",
+            "heading": "Official Supplier of the USHL",
+            "text": "<p>Home kits, away kits, and specialty theme nights: Hyperco is the official jersey supplier for USHL club teams. Watch for our uniforms on the ice this season.</p>",
             "width": "half",
-            "link_label": "Start Building",
-            "link": "#"
+            "link_label": "",
+            "link": ""
           }
         },
         "card_j4efGt": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/Frame_2147238069.jpg",
+            "image": "shopify://shop_images/Rutgers_University_ice_hockey_jersey_made_by_Hyperco_Sports.jpg",
             "tags": "Durable, High Quality",
-            "heading": "Pro Tackle Twill Embroidery",
-            "text": "<ul><li>Minimum: 5 jerseys</li><li>Reorder minimum: 1 jersey</li><li>Cut & sewn stripes</li><li>Starting Price: $99</li></ul>",
+            "heading": "Trusted By Colleges",
+            "text": "<p>Package deals built for collegiate teams and clubs, with better per-jersey pricing the more you order.</p>",
             "width": "half",
-            "link_label": "Start Building",
-            "link": "#"
+            "link_label": "",
+            "link": ""
           }
         }
       },

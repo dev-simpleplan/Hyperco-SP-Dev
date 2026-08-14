@@ -57,6 +57,7 @@
           "type": "heading",
           "settings": {
             "heading": "CONTACT",
+            "heading_colored": "brand",
             "heading_size": "h1"
           }
         }
@@ -148,6 +149,54 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "faq_GQJXYe": {
+      "type": "faq",
+      "blocks": {
+        "faq_row_eNBpFQ": {
+          "type": "faq_row",
+          "settings": {
+            "heading": "What's the minimum order?",
+            "row_content": "<p>5 jerseys per order.</p>"
+          }
+        },
+        "faq_row_dbeGMG": {
+          "type": "faq_row",
+          "settings": {
+            "heading": "How long does it take?",
+            "row_content": "<p>You'll get a digital proof within about 2 business days of ordering. Once you approve it, this jersey ships in 4-5 weeks.</p>"
+          }
+        },
+        "faq_row_yKwtai": {
+          "type": "faq_row",
+          "settings": {
+            "heading": "Can I reorder a single jersey later?",
+            "row_content": "<p>Yes! Fill out a quick form and we'll send an invoice and proof. No need to redo your whole team's order.</p>"
+          }
+        },
+        "faq_row_YiL7AM": {
+          "type": "faq_row",
+          "settings": {
+            "heading": "What if I don't have a design ready?",
+            "row_content": "<p>That's alright! You don't need a finished design to get started. Reach out, and a jersey expert will build it out with you, starting from just your colors, a logo, or even a rough sketch.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_row_eNBpFQ",
+        "faq_row_dbeGMG",
+        "faq_row_yKwtai",
+        "faq_row_YiL7AM"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "heading": "Frequently Asked",
+        "heading_colored": "Questions",
+        "color_scheme": "background-1",
+        "image": "shopify://shop_images/hurtado-black-draped_1.jpg",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [
@@ -156,6 +205,7 @@
     "47919602-af80-4399-b377-50d152b4416c",
     "16597352495769ea39",
     "16012ef5-1376-46e6-b400-9254d9adc44f",
-    "174016696219af55b4"
+    "174016696219af55b4",
+    "faq_GQJXYe"
   ]
 }

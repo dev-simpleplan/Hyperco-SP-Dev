@@ -14,6 +14,7 @@
       "blocks": {
         "hbin_item_LatrfV": {
           "type": "hbin_item",
+          "disabled": true,
           "settings": {
             "hbin_top": "USHL",
             "hbin_bottom": "Official supplier"
@@ -21,6 +22,7 @@
         },
         "hbin_item_A96qaL": {
           "type": "hbin_item",
+          "disabled": true,
           "settings": {
             "hbin_top": "500+",
             "hbin_bottom": "TEAMS OUTFITTED"
@@ -28,6 +30,7 @@
         },
         "hbin_item_igRYHk": {
           "type": "hbin_item",
+          "disabled": true,
           "settings": {
             "hbin_top": "4.9★",
             "hbin_bottom": "AVERAGE REVIEW"
@@ -35,6 +38,7 @@
         },
         "hbin_item_caNzfb": {
           "type": "hbin_item",
+          "disabled": true,
           "settings": {
             "hbin_top": "Low",
             "hbin_bottom": "Minimums"
@@ -52,7 +56,7 @@
         "hb_image": "shopify://shop_images/860afe47b264a3323739095399315a087de92531_1.png",
         "hb_heading": "Custom Teamwear,",
         "hb_heading_colored": "Designed Your Way.",
-        "hb_text": "<p>Premium sublimated jerseys for your team, designed with pro-level detail. Work with a jersey expert from concept to delivery, or design it yourself with our online builder. </p>",
+        "hb_text": "<p>Premium sublimated jerseys for your team, designed with pro-level detail.</p>",
         "hb_button1_text": "Work With Experts",
         "hb_button1_link": "shopify://pages/contact",
         "hb_button2_text": "Design It Yourself",

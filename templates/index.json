@@ -9,6 +9,15 @@
  */
 {
   "sections": {
+    "sticky_bar_P4wU8D": {
+      "type": "sticky-bar",
+      "name": "Sticky bar",
+      "settings": {
+        "button_label": "Work with experts",
+        "button_link": "shopify://pages/contact",
+        "scroll_threshold": 300
+      }
+    },
     "home_banner_BaqTXz": {
       "type": "home-banner",
       "blocks": {
@@ -859,6 +868,7 @@
     }
   },
   "order": [
+    "sticky_bar_P4wU8D",
     "home_banner_BaqTXz",
     "logo_marquee_8Xqtnz",
     "featured_collection_BXHiyR",

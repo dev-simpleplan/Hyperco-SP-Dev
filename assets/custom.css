@@ -175,6 +175,16 @@ header nav.header__inline-menu {
     width: 100%;
     height: 100%;
 }
+@media screen and (max-width: 749px) {
+    .home-banner .hb-image::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background-color: #000;
+        opacity: var(--hb-mobile-overlay-opacity, 0);
+        pointer-events: none;
+    }
+}
 .hb-image img {
     width: 100%;
     height: 100%;
@@ -198,6 +208,33 @@ header nav.header__inline-menu {
     display: flex;
     flex-direction: column;
     gap: 12px;
+}
+.hbit-badge {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+.hbit-badge__item {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-family: var(--font-heading-family);
+    font-weight: var(--font-heading-weight-600);
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: rgba(255, 255, 255, 0.85);
+}
+.hbit-badge__divider {
+    width: 1px;
+    height: 14px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.hbit-badge__star {
+    width: 13px;
+    height: 13px;
+    color: #35FFCB;
 }
 .hbit-first h1 {
     font-family: var(--font-heading-family);

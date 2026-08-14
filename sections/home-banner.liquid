@@ -1,4 +1,4 @@
-<section class="home-banner">
+<section class="home-banner" style="--hb-mobile-overlay-opacity: {{ section.settings.hb_mobile_overlay_opacity | divided_by: 100.0 }};">
     {%- if section.settings.hb_image != blank -%}
         <div class="hb-image">
             <img src="{{ section.settings.hb_image | image_url: width: 2000 }}" alt="{{ section.settings.hb_image.alt | escape }}" loading="lazy" width="{{ section.settings.hb_image.width }}" height="{{ section.settings.hb_image.height }}">
@@ -8,6 +8,23 @@
         <div class="hb-in">
             <div class="hbin-top">
                 <div class="hbit-first">
+                    {%- if section.settings.hb_badge_supplier != blank or section.settings.hb_badge_rating != blank -%}
+                        <div class="hbit-badge">
+                            {%- if section.settings.hb_badge_supplier != blank -%}
+                                <span class="hbit-badge__item">{{ section.settings.hb_badge_supplier }}</span>
+                            {%- endif -%}
+                            {%- if section.settings.hb_badge_supplier != blank and section.settings.hb_badge_rating != blank -%}
+                                <span class="hbit-badge__divider" aria-hidden="true"></span>
+                            {%- endif -%}
+                            {%- if section.settings.hb_badge_rating != blank -%}
+                                <span class="hbit-badge__item">
+                                    Rated
+                                    <svg class="hbit-badge__star" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l2.9 6.26L22 9.27l-5 4.87 1.18 6.86L12 17.77l-6.18 3.23L7 14.14 2 9.27l7.1-1.01L12 2z"/></svg>
+                                    {{ section.settings.hb_badge_rating }} by {{ section.settings.hb_badge_count }}
+                                </span>
+                            {%- endif -%}
+                        </div>
+                    {%- endif -%}
                     {%- if section.settings.hb_heading != blank -%}
                         <h1>{{ section.settings.hb_heading }} <span>{{ section.settings.hb_heading_colored }}</span></h1>
                     {%- endif -%}
@@ -59,6 +76,39 @@
       "type": "image_picker",
       "id": "hb_image",
       "label": "Background image"
+    },
+    {
+      "type": "range",
+      "id": "hb_mobile_overlay_opacity",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "label": "Mobile image overlay opacity",
+      "info": "Darkens the background image on mobile only, to help text stay readable",
+      "default": 0
+    },
+    {
+      "type": "header",
+      "content": "Badge (above heading)"
+    },
+    {
+      "type": "text",
+      "id": "hb_badge_supplier",
+      "label": "Left text",
+      "default": "USHL Official Supplier"
+    },
+    {
+      "type": "text",
+      "id": "hb_badge_rating",
+      "label": "Rating value",
+      "default": "4.9"
+    },
+    {
+      "type": "text",
+      "id": "hb_badge_count",
+      "label": "Rating source",
+      "default": "500+ teams"
     },
     {
       "type": "text",

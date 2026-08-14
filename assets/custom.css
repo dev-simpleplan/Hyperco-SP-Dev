@@ -1213,7 +1213,7 @@ h3.card__heading {
     border-radius: 999px;
 }
 .cg-card__content {
-    background-color: #2B283D;
+    background-color: #632bc6;
     padding: 20px 30px 24px 30px;
     display: flex;
     flex-direction: column;
@@ -1281,6 +1281,16 @@ a.cg-card__link {
 .cg-card--half .cg-card__media {
     aspect-ratio: 3/2;
 }
+.cg-grid .cg-card:nth-child(4) .cg-card__content,
+.cg-grid .cg-card:nth-child(5) .cg-card__content{
+    background-color: #2b283d;
+}
+.cg-grid .cg-card:nth-child(4) .cg-card__tags,
+.cg-grid .cg-card:nth-child(5) .cg-card__tags {
+    display: none;
+}
+
+
 /* Card Grid CSS */
 
 .banner__box.sp-heading h2 {

@@ -1505,10 +1505,10 @@ a.cg-card__link {
     height: 14px;
 }
 .bp-inner {
-    padding: 48px 24px 32px;
+    padding: 20px 24px;
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 0px;
 }
 .bp-heading {
     font-family: var(--font-heading-family);

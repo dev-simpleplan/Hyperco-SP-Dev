@@ -46,7 +46,7 @@
       "settings": {
         "delay": 1.5,
         "heading": "Before you build",
-        "skip_label": "No thanks"
+        "skip_label": "Skip for now, take me to the builder"
       }
     },
     "customproductbuilder": {

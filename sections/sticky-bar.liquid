@@ -1,0 +1,59 @@
+<div class="stb" id="StickyBar-{{ section.id }}">
+  {%- if section.settings.button_label != blank -%}
+    <a href="{{ section.settings.button_link }}" class="button button--primary filled stb-button">
+      {{ section.settings.button_label }}
+    </a>
+  {%- endif -%}
+</div>
+
+<script>
+  (function () {
+    var bar = document.getElementById('StickyBar-{{ section.id }}');
+    if (!bar) return;
+
+    var threshold = {{ section.settings.scroll_threshold }};
+
+    function sync() {
+      bar.classList.toggle('visible', window.scrollY > threshold);
+    }
+
+    sync();
+    window.addEventListener('scroll', sync, { passive: true });
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Sticky bar",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button label",
+      "default": "Work with experts"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button link"
+    },
+    {
+      "type": "range",
+      "id": "scroll_threshold",
+      "min": 0,
+      "max": 2000,
+      "step": 50,
+      "unit": "px",
+      "label": "Show after scrolling",
+      "default": 300
+    }
+  ],
+  "presets": [
+    {
+      "name": "Sticky bar"
+    }
+  ]
+}
+{% endschema %}

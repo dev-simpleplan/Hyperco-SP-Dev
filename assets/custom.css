@@ -867,7 +867,7 @@ h3.card__heading {
     gap: 20px;
 }
 .pf-logo {
-    height: 42px;
+    height: 45px;
     width: auto;
 }
 .pf-heading {
@@ -878,7 +878,7 @@ h3.card__heading {
     letter-spacing: 1px;
     color: #fff;
     text-transform: uppercase;
-    max-width: 16ch;
+    max-width: 21ch;
 }
 .pf-heading span {
     color: #35FFCB;

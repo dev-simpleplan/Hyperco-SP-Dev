@@ -79,6 +79,42 @@
     "logo_marquee_8Xqtnz": {
       "type": "logo-marquee",
       "blocks": {
+        "logo_Mw6m7B": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Asset_1_1.svg"
+          }
+        },
+        "logo_janKmD": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Asset_4.svg"
+          }
+        },
+        "logo_tTWjUb": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Asset_2.svg"
+          }
+        },
+        "logo_B4qzd3": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Asset_5.svg"
+          }
+        },
+        "logo_PfYXHt": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Asset_3.svg"
+          }
+        },
+        "logo_9FjKgM": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Asset_6.svg"
+          }
+        },
         "logo_7DQXFR": {
           "type": "logo",
           "settings": {
@@ -129,6 +165,12 @@
         }
       },
       "block_order": [
+        "logo_Mw6m7B",
+        "logo_janKmD",
+        "logo_tTWjUb",
+        "logo_B4qzd3",
+        "logo_PfYXHt",
+        "logo_9FjKgM",
         "logo_7DQXFR",
         "logo_jwURCk",
         "logo_TRxQgK",

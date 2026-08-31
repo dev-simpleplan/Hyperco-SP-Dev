@@ -25,7 +25,7 @@
     var dialog = document.getElementById('BuildPopup-{{ section.id }}');
     if (!dialog) return;
 
-    var DELAY = {{ section.settings.delay | times: 7000 }};
+    var DELAY = {{ section.settings.delay | times: 12000 }};
 
     function openPopup() {
       if (typeof dialog.showModal === 'function') {

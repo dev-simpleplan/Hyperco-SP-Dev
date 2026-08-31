@@ -183,7 +183,7 @@
       "name": "Logo marquee",
       "settings": {
         "text": "Trusted by",
-        "speed": 20,
+        "speed": 25,
         "color_scheme": "accent-1",
         "padding_top": 20,
         "padding_bottom": 20

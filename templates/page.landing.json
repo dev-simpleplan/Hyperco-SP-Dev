@@ -1,0 +1,932 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "sticky_bar_P4wU8D": {
+      "type": "sticky-bar",
+      "name": "Sticky bar",
+      "settings": {
+        "button_label": "Work with experts",
+        "button_link": "shopify://pages/contact",
+        "scroll_threshold": 300
+      }
+    },
+    "home_banner_BaqTXz": {
+      "type": "home-banner",
+      "blocks": {
+        "hbin_item_LatrfV": {
+          "type": "hbin_item",
+          "disabled": true,
+          "settings": {
+            "hbin_top": "USHL",
+            "hbin_bottom": "Official supplier"
+          }
+        },
+        "hbin_item_A96qaL": {
+          "type": "hbin_item",
+          "disabled": true,
+          "settings": {
+            "hbin_top": "500+",
+            "hbin_bottom": "TEAMS OUTFITTED"
+          }
+        },
+        "hbin_item_igRYHk": {
+          "type": "hbin_item",
+          "disabled": true,
+          "settings": {
+            "hbin_top": "4.9★",
+            "hbin_bottom": "AVERAGE REVIEW"
+          }
+        },
+        "hbin_item_caNzfb": {
+          "type": "hbin_item",
+          "disabled": true,
+          "settings": {
+            "hbin_top": "Low",
+            "hbin_bottom": "Minimums"
+          }
+        }
+      },
+      "block_order": [
+        "hbin_item_LatrfV",
+        "hbin_item_A96qaL",
+        "hbin_item_igRYHk",
+        "hbin_item_caNzfb"
+      ],
+      "name": "Home banner",
+      "settings": {
+        "hb_image": "shopify://shop_images/860afe47b264a3323739095399315a087de92531_1.png",
+        "hb_mobile_overlay_opacity": 30,
+        "hb_badge_supplier": "USHL Official Supplier",
+        "hb_badge_rating": "4.9",
+        "hb_badge_count": "500+ teams",
+        "hb_heading": "Custom Teamwear,",
+        "hb_heading_colored": "Designed Your Way.",
+        "hb_text": "<p>Premium sublimated jerseys for your team, designed with pro-level detail.</p>",
+        "hb_button1_text": "Work With Experts",
+        "hb_button1_link": "shopify://pages/contact",
+        "hb_button2_text": "Design It Yourself",
+        "hb_button2_link": "#sp-featured-collection"
+      }
+    },
+    "logo_marquee_8Xqtnz": {
+      "type": "logo-marquee",
+      "blocks": {
+        "logo_Mw6m7B": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Asset_1_1.svg"
+          }
+        },
+        "logo_janKmD": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Asset_4.svg"
+          }
+        },
+        "logo_tTWjUb": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Asset_2.svg"
+          }
+        },
+        "logo_B4qzd3": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Asset_5.svg"
+          }
+        },
+        "logo_PfYXHt": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Asset_3.svg"
+          }
+        },
+        "logo_9FjKgM": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Asset_6.svg"
+          }
+        },
+        "logo_7DQXFR": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/image_374.png"
+          }
+        },
+        "logo_jwURCk": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/image_375.png"
+          }
+        },
+        "logo_TRxQgK": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Untitled_-_12_August_2026_at_10.53.38_1.png"
+          }
+        },
+        "logo_67TJ7t": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Group_2085663379.png"
+          }
+        },
+        "logo_hfpEE3": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/image_374.png"
+          }
+        },
+        "logo_cpdnxh": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/image_375.png"
+          }
+        },
+        "logo_yqQetT": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Untitled_-_12_August_2026_at_10.53.38_1.png"
+          }
+        },
+        "logo_TnL6MC": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Group_2085663379.png"
+          }
+        }
+      },
+      "block_order": [
+        "logo_Mw6m7B",
+        "logo_janKmD",
+        "logo_tTWjUb",
+        "logo_B4qzd3",
+        "logo_PfYXHt",
+        "logo_9FjKgM",
+        "logo_7DQXFR",
+        "logo_jwURCk",
+        "logo_TRxQgK",
+        "logo_67TJ7t",
+        "logo_hfpEE3",
+        "logo_cpdnxh",
+        "logo_yqQetT",
+        "logo_TnL6MC"
+      ],
+      "name": "Logo marquee",
+      "settings": {
+        "text": "Trusted by",
+        "speed": 25,
+        "color_scheme": "accent-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "featured_collection_BXHiyR": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "title": "Start Building",
+        "title_colored": "Your Team's Jersey",
+        "heading_size": "h1",
+        "description": "<p>Built for grit, backed by quality. Simply start by picking a sport. </p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "hockey",
+        "products_to_show": 9,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "accent-1",
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 60,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_accordion_9rGJiw": {
+      "type": "collapsible-accordion",
+      "blocks": {
+        "collapsible_row_hKmxPB": {
+          "type": "collapsible_row",
+          "settings": {
+            "icon": "shopify://shop_images/Mask_group_1.png",
+            "heading": "Premium Finish",
+            "row_content": "<p>High-quality jerseys with vivid, permanent colors and stitching that holds its shape, wash after wash.</p>",
+            "image": "shopify://shop_images/blades-jerseys_ab18a978-4c0d-45f2-9b6c-33ad63507096.png"
+          }
+        },
+        "collapsible_row_zi3nkp": {
+          "type": "collapsible_row",
+          "settings": {
+            "icon": "shopify://shop_images/Mask_group_2.png",
+            "heading": "Pro-Level Custom",
+            "row_content": "<p>Add names, numbers, crests, team colors; the same level of customization pro teams get, sized for your roster.</p>",
+            "image": "shopify://shop_images/606034759_1500244678774261_848316969830526389_n.jpg"
+          }
+        },
+        "collapsible_row_pMtYqK": {
+          "type": "collapsible_row",
+          "settings": {
+            "icon": "shopify://shop_images/Mask_group_4.png",
+            "heading": "Fast turnaround",
+            "row_content": "<p>Most orders ship 3-4 weeks after final design approval, so you're ready before the season starts.</p>",
+            "image": "shopify://shop_images/panthers-player_1.jpg"
+          }
+        },
+        "collapsible_row_jHKDag": {
+          "type": "collapsible_row",
+          "settings": {
+            "icon": "shopify://shop_images/Mask_group_c688a346-6b71-4e35-baa1-352c9c04e5e6.png",
+            "heading": "Low Minimums",
+            "row_content": "<p>Order as few as 5 jerseys, no program is too small.</p>",
+            "image": "shopify://shop_images/Frame_2147238069.jpg"
+          }
+        },
+        "collapsible_row_L7aLKA": {
+          "type": "collapsible_row",
+          "settings": {
+            "icon": "shopify://shop_images/Mask_group_3.png",
+            "heading": "Easy reorders",
+            "row_content": "<p>Reorder a single jersey anytime, same price per jersey, no markups.</p>",
+            "image": "shopify://shop_images/25BAHA_October_DougClark-9520_24b3f4cb-ddbf-4f6a-abfe-79d798e0b684.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_hKmxPB",
+        "collapsible_row_zi3nkp",
+        "collapsible_row_pMtYqK",
+        "collapsible_row_jHKDag",
+        "collapsible_row_L7aLKA"
+      ],
+      "name": "Collapsible Accordion",
+      "settings": {
+        "heading": "Designed For Teams",
+        "heading_colored": "That Don't Compromise. ",
+        "description": "<p>Great teams don't settle for good enough, and neither do we. From fabric to final stitch, nothing about a Hyperco jersey is an afterthought. </p>",
+        "color_scheme": "background-1",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "multicolumn_new_4yULfw": {
+      "type": "multicolumn-new",
+      "blocks": {
+        "column_9zLzht": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/div.multicolumn-card__image-wrapper.jpg",
+            "number": "1",
+            "title": "Customize Yourself",
+            "text": "<p>Jump into our online builder and design your jersey exactly how you want it, all in a few clicks.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_phawCA": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/div.media.jpg",
+            "number": "2",
+            "title": "Stuck? Talk To An Expert",
+            "text": "<p>Don't want to build it yourself, or not sure where to start? A jersey expert will walk you through every option and bring your vision to life.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_hK3qQK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/div.multicolumn-card__image-wrapper_1.jpg",
+            "number": "3",
+            "title": "Finalize & order",
+            "text": "<p>Once everything's dialed in, we lock in your order and get jerseys to your door in 4-6 weeks.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_9zLzht",
+        "column_phawCA",
+        "column_hK3qQK"
+      ],
+      "name": "Multicolumn V2",
+      "settings": {
+        "title": "Get Your Jersey",
+        "title_colored": "In 3 Easy Steps",
+        "description": "<p>Design your perfect team jersey and have it delivered in 3–4 weeks from final approval.</p>",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "button_text": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "rich_text_new_cBVnYh": {
+      "type": "rich-text-new",
+      "blocks": {
+        "heading_JYemQj": {
+          "type": "heading",
+          "settings": {
+            "heading": "Not Sure",
+            "heading_colored": "Where To Start?",
+            "heading_size": "h1"
+          }
+        },
+        "text_XfbyKh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Fill out a few simple details and get clarity from experts before committing to anything.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_JYemQj",
+        "text_XfbyKh"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 20
+      }
+    },
+    "16596292662ac43246": {
+      "type": "apps",
+      "blocks": {
+        "powerful_form_builder_app_block_L3D9rj": {
+          "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"MTMxMTY1\"></div>"
+          }
+        },
+        "0b8d5305-e868-422d-ac12-352b8c875283": {
+          "type": "shopify://apps/hulk-form-builder/blocks/form-block/b6b8dd14-356b-4725-a4ed-77232212b3c3",
+          "disabled": true,
+          "settings": {
+            "form_uuid": "IUMzlDkqJoonqCQWJlHPfA",
+            "form_settings": false,
+            "font_color": "#000000",
+            "size": 14,
+            "input_background_color": "#ffffff",
+            "input_background_color_focus": "#f4dada",
+            "input_border_radius": 1,
+            "input_border_color": "#ebe9e9",
+            "input_border_color_focus": "#2d2727",
+            "input_font_color": "#3d3131",
+            "input_size": 14,
+            "border_color": "#121212",
+            "border_radius": 2,
+            "border": 1,
+            "fill_color": "#ebe9e9",
+            "padding": 35,
+            "form_width": 600,
+            "btn_text": "Submit",
+            "sub_btn_txt_color": "#f3f3f3",
+            "sub_btn_bg_color": "#3f3333",
+            "sub_btn_font_size": 14,
+            "sub_btn_bdr_color": "#ffffff",
+            "sub_btn_bdr_rad": 0,
+            "sub_btn_bdr_width": 1,
+            "fonts": "Times New Roman"
+          }
+        }
+      },
+      "block_order": [
+        "powerful_form_builder_app_block_L3D9rj",
+        "0b8d5305-e868-422d-ac12-352b8c875283"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "rich_text_new_HpwmiV": {
+      "type": "rich-text-new",
+      "blocks": {
+        "heading_46aWYN": {
+          "type": "heading",
+          "settings": {
+            "heading": "From our",
+            "heading_colored": "Customers",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_46aWYN"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
+    "1786617146a51c0021": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_reviews_grid_widget_DNRpgq": {
+          "type": "shopify://apps/judge-me-reviews/blocks/reviews_grid_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "show_sample_reviews": true,
+            "review_selection": "product_reviews",
+            "products": [],
+            "filter_pinned": false,
+            "filter_featured": false,
+            "filter_custom_tags": "",
+            "show_media_only": true,
+            "display_order": "media_first",
+            "card_grouping": "per_review",
+            "columns_desktop": 4,
+            "rows_desktop": 3,
+            "columns_mobile": "2",
+            "rows_mobile": 3,
+            "show_stars": true,
+            "show_reviewer_name": true,
+            "show_review_title_on_hover_desktop": true,
+            "max_width": 1200,
+            "corner_styling": "soft",
+            "card_spacing": "medium",
+            "header_text_color": "#ffffff",
+            "star_and_reviewer_name_color": "#f9f9f9",
+            "drop_shadow_color": "#000000",
+            "overlay_and_background_color": "#000000",
+            "content_color": "#f9f9f9",
+            "header_text": "",
+            "show_average_rating": true,
+            "rating_display": "show_avg_text"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_reviews_grid_widget_DNRpgq"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "image_with_text_DbkfCq": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_6UheeJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "We Don't Just Make Sweaters.",
+            "heading_colored": "We Build Team Identities.",
+            "heading_size": "h1"
+          }
+        },
+        "text_C8FFLF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Hyperco started as a hockey-only brand. Built by people who get what a jersey means to a team. Every design, every stitch, and every reorder comes back to the same idea: your uniform should represent your identity and feel like it was made for no one else.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6UheeJ",
+        "text_C8FFLF"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/DSC_9887_1_6982910d-38d0-49b0-bbce-3fee3da3d1ca.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "bottom",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "image_gallery_TgnQpf": {
+      "type": "image-gallery",
+      "blocks": {
+        "image_hDKmQm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Southern-175_2_1.jpg",
+            "size": "normal"
+          }
+        },
+        "image_VW6C7g": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Frame_2147238065.jpg",
+            "size": "normal"
+          }
+        },
+        "image_L34Cqp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Frame_2147238067.jpg",
+            "size": "normal"
+          }
+        },
+        "image_h9e8Q9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Frame_2147238066.jpg",
+            "size": "normal"
+          }
+        },
+        "image_97fP6J": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Frame_2147238068.jpg",
+            "size": "normal"
+          }
+        },
+        "image_exwbWP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Frame_2147238072.jpg",
+            "size": "wide"
+          }
+        },
+        "image_DANmKW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Frame_2147238070.jpg",
+            "size": "normal"
+          }
+        },
+        "image_mDFaX4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Frame_2147238069.jpg",
+            "size": "normal"
+          }
+        },
+        "image_xT9Kri": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Frame_2147238071.jpg",
+            "size": "normal"
+          }
+        }
+      },
+      "block_order": [
+        "image_hDKmQm",
+        "image_VW6C7g",
+        "image_L34Cqp",
+        "image_h9e8Q9",
+        "image_97fP6J",
+        "image_exwbWP",
+        "image_DANmKW",
+        "image_mDFaX4",
+        "image_xT9Kri"
+      ],
+      "name": "Image gallery",
+      "settings": {
+        "heading": "",
+        "heading_colored": "",
+        "heading_alignment": "left",
+        "description": "",
+        "card_heading": "Teams That Trust Hyperco",
+        "card_text": "From beer leagues to the USHL, see what we've built.",
+        "card_button_label": "See the full gallery",
+        "card_button_label_expanded": "Show less",
+        "card_size": "normal",
+        "color_scheme": "background-1",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "rich_text_new_GrWyXB": {
+      "type": "rich-text-new",
+      "blocks": {
+        "heading_GTwaAw": {
+          "type": "heading",
+          "settings": {
+            "heading": "Big Wins For",
+            "heading_colored": "Hyperco",
+            "heading_size": "h1"
+          }
+        },
+        "text_bnft9a": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Partnerships, milestones, and moments we're proud of.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GTwaAw",
+        "text_bnft9a"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_NRibj6": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_xHMUMt": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Custom_hockey_jerseys_from_Hyperco_Sports.jpg",
+            "title": "Dallas Mavericks Christmas Jerseys",
+            "text": "<p>We had the pleasure of teaming up with our hometown Dallas Mavericks on a set of holiday-themed hockey jerseys for players and staff. </p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_4pcRFD": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Custom_Hockey_Jersey_Designs__Your_Winning_Guide.jpg",
+            "title": "Becoming an official supplier for the USHL",
+            "text": "<p>We're proud to announce our partnership with the USHL. Hyperco is now their official uniform supplier and will be producing on-ice jerseys for their club teams.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Dib8Mf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Hyperco_Becomes_An_Official_Supplier_of_The_USHL.jpg",
+            "title": "Hyperco now ships worldwide",
+            "text": "<p>We now ship anywhere in the world. Wherever your team plays, we'll get your gear there. Whether it's in the next state over or across an ocean.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_xHMUMt",
+        "column_4pcRFD",
+        "column_Dib8Mf"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 52,
+        "padding_bottom": 60
+      }
+    },
+    "pagefly-home": {
+      "type": "pagefly-home",
+      "disabled": true,
+      "settings": {}
+    },
+    "1734044854726b6741": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_kajiMc": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "title_size_v2": 0,
+            "alignment": "left",
+            "instafeed_margin_top": 24,
+            "instafeed_margin_bottom": 40,
+            "instafeed_margin_sides": 0,
+            "show_instagram_link": false,
+            "link_alignment": "center",
+            "link_color": "#000000",
+            "background_color": "",
+            "feed_id": "",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_kajiMc"
+      ],
+      "disabled": true,
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "promo_form_7GF9iK": {
+      "type": "promo-form",
+      "blocks": {
+        "powerful_form_builder_app_block_AnTm66": {
+          "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"MTMxMTY1\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "powerful_form_builder_app_block_AnTm66"
+      ],
+      "name": "Promo form",
+      "settings": {
+        "image": "shopify://shop_images/Group_2085663392_1.png",
+        "logo": "shopify://shop_images/hyperco-logo.png",
+        "heading": "READY TO HYPERCHARGE",
+        "heading_colored": "Your Team?",
+        "show_need_field": false,
+        "need_label": "What do you need?",
+        "need_options": "Tracksuits, Jerseys, Uniforms, Team gear",
+        "button_label": "Claim my 10% off",
+        "success_message": "Thanks! We will be in touch shortly.",
+        "color_scheme": "background-1",
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "faq_bRPr3Y": {
+      "type": "faq",
+      "blocks": {
+        "faq_row_JmcDX6": {
+          "type": "faq_row",
+          "disabled": true,
+          "settings": {
+            "heading": "What's the order process?",
+            "row_content": "<p><span style=\"text-decoration:underline\"><strong>Step 1</strong></span><strong><br/></strong>Create your perfect jerseys using our highly customizable jersey builder, or <a href=\"https://hypercosports.com/pages/contact\" target=\"_blank\" title=\"Contact\">contact us</a> to get started.</p><p><span style=\"text-decoration:underline\"><strong>Step 2</strong></span><strong><br/></strong>Finalize and approve your order details through our proofing portal. We'll send you a link when it's ready.</p><p><span style=\"text-decoration:underline\"><strong>Step 3</strong></span><strong><br/></strong>Track your order. From approval to shipping, we'll send you updates as we work on your team's unis.</p>"
+          }
+        },
+        "faq_row_KCN7xL": {
+          "type": "faq_row",
+          "settings": {
+            "heading": "What's the minimum order?",
+            "row_content": "<p>Our minimum order quantity is as low as 5 jerseys/kits per order. One of the lowest minimums you'll find!</p>"
+          }
+        },
+        "faq_row_Acij7w": {
+          "type": "faq_row",
+          "settings": {
+            "heading": "How long does it take?",
+            "row_content": "<p>You will receive a digital proof within 2 business days of ordering. Once we get your approval,  the production + shipping times are as follows: sublimated hockey jerseys take 4-5 weeks. Embroidered tackle twill takes 5-6 weeks.</p>"
+          }
+        },
+        "faq_row_Hya7CR": {
+          "type": "faq_row",
+          "disabled": true,
+          "settings": {
+            "heading": "How much is shipping, and where all do you ship to?",
+            "row_content": "<p>We'll ship anywhere! Currently, we offer<strong>$20 worldwide flat rate</strong>shipping for all orders.</p>"
+          }
+        },
+        "faq_row_yYnaTM": {
+          "type": "faq_row",
+          "settings": {
+            "heading": "Can I reorder a single jersey later?",
+            "row_content": "<p>Yes, whether you have a new teammate or you just need a new jersey for yourself, all you have to do is fill out a quick form, and we'll get back to you as soon as possible with an invoice and proof.</p>"
+          }
+        },
+        "faq_row_NBcqDM": {
+          "type": "faq_row",
+          "disabled": true,
+          "settings": {
+            "heading": "Do you have a size chart?",
+            "row_content": "<p>Yep!</p><p><a href=\"https://hypercosports.com/pages/hockey-jersey-socks-size-charts\" target=\"_blank\" title=\"Hockey Jersey & Socks Size Charts\">Hockey Jersey & Sock Size Chart<br/><br/></a>Soccer Size Chart (Coming Soon)<br/><br/>Basketball Size Chart (Coming Soon)</p>"
+          }
+        },
+        "faq_row_7YYARx": {
+          "type": "faq_row",
+          "disabled": true,
+          "settings": {
+            "heading": "Do you offer youth and adult sizes?",
+            "row_content": "<p>Yes, we offer youth and adult sizes for all all products.<br/><br/>See our full<a href=\"https://hypercosports.com/pages/hockey-jersey-socks-size-charts\" target=\"_blank\" title=\"Hockey Jersey & Sock Size Charts\">size chart here</a>, and select your sizes in the Roster tab of the jersey builder for whichever jersey product you customize.</p>"
+          }
+        },
+        "faq_row_AzdtPk": {
+          "type": "faq_row",
+          "disabled": true,
+          "settings": {
+            "heading": "What if I can't build the jersey I want on your builder?",
+            "row_content": "<p>No problem! Just visit our <a href=\"https://hypercosports.com/pages/contact\" target=\"_blank\" title=\"Contact\">Contact</a> page, select Custom Order in the Contact Reason dropdown, and fill in your details. We'll get back to you once we review everything.</p>"
+          }
+        },
+        "faq_row_tkKiMK": {
+          "type": "faq_row",
+          "disabled": true,
+          "settings": {
+            "heading": "Do you offer socks?",
+            "row_content": "<p>We currently only offer hockey socks. Within the jersey builder for either of the two Ice Hockey Jersey products, you have the option to add & design socks.</p><p>Our socks are made of performance polyester, just like the jerseys.</p>"
+          }
+        },
+        "faq_row_wH6KGH": {
+          "type": "faq_row",
+          "disabled": true,
+          "settings": {
+            "heading": "Are logos and names on the back extra?",
+            "row_content": "<p>Nope! The price you see includes logos, names, numbers, and whichever jersey pattern you select within the jersey builder.</p>"
+          }
+        },
+        "faq_row_KkChE7": {
+          "type": "faq_row",
+          "disabled": true,
+          "settings": {
+            "heading": "Can you make me a custom logo?",
+            "row_content": "<p>If you need a custom logo, just <a href=\"https://hypercosports.com/pages/contact\" target=\"_blank\" title=\"Contact\">reach out to us</a> and we'll gather details from you before supplying a quote.</p>"
+          }
+        },
+        "faq_row_3ECbH9": {
+          "type": "faq_row",
+          "settings": {
+            "heading": "What's your return policy?",
+            "row_content": "<p>All custom orders are final and aren't returnable. However, if there's something wrong with your uniforms or you're unhappy for any reason, you can reach out to us and we’ll make it right!</p>"
+          }
+        },
+        "faq_row_mfARdH": {
+          "type": "faq_row",
+          "settings": {
+            "heading": "Are your jerseys printed or stitched?",
+            "row_content": "<p>We offer both! Sublimated: All-over printing; embroidered: Sewn-on logos, names, and numbers. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_row_JmcDX6",
+        "faq_row_KCN7xL",
+        "faq_row_Acij7w",
+        "faq_row_Hya7CR",
+        "faq_row_yYnaTM",
+        "faq_row_NBcqDM",
+        "faq_row_7YYARx",
+        "faq_row_AzdtPk",
+        "faq_row_tkKiMK",
+        "faq_row_wH6KGH",
+        "faq_row_KkChE7",
+        "faq_row_3ECbH9",
+        "faq_row_mfARdH"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "heading": "Frequently Asked",
+        "heading_colored": "Questions",
+        "color_scheme": "background-1",
+        "image": "shopify://shop_images/hurtado-black-draped_1.jpg",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "sticky_bar_P4wU8D",
+    "home_banner_BaqTXz",
+    "logo_marquee_8Xqtnz",
+    "featured_collection_BXHiyR",
+    "collapsible_accordion_9rGJiw",
+    "multicolumn_new_4yULfw",
+    "rich_text_new_cBVnYh",
+    "16596292662ac43246",
+    "rich_text_new_HpwmiV",
+    "1786617146a51c0021",
+    "image_with_text_DbkfCq",
+    "image_gallery_TgnQpf",
+    "rich_text_new_GrWyXB",
+    "multicolumn_NRibj6",
+    "pagefly-home",
+    "1734044854726b6741",
+    "promo_form_7GF9iK",
+    "faq_bRPr3Y"
+  ]
+}

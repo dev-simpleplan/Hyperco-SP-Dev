@@ -140,7 +140,7 @@
           "logo": "shopify://shop_images/hyperco-logo.png",
           "logo_width": 220,
           "logo_position": "middle-left",
-          "menu": "",
+          "menu": "sports-top-nav",
           "menu_type_desktop": "dropdown",
           "show_line_separator": false,
           "enable_sticky_header": true,

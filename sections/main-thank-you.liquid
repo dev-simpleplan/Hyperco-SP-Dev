@@ -1,0 +1,58 @@
+<style type="text/css">
+  .template-thank-you .title + * {
+    margin-top: 1rem;
+  }
+
+  @media screen and (min-width: 750px) {
+    .template-thank-you .title + * {
+      margin-top: 2rem;
+    }
+  }
+</style>
+
+<div class="template-thank-you page-width page-margin center">
+  <h1 class="title">
+    {{ section.settings.heading }}
+  </h1>
+  {%- if section.settings.paragraph != blank -%}
+    <p>
+      {{ section.settings.paragraph }}
+    </p>
+  {%- endif -%}
+  {%- if section.settings.button_label != blank -%}
+    <a href="{{ section.settings.button_link | default: routes.root_url }}" class="button">
+      {{ section.settings.button_label }}
+    </a>
+  {%- endif -%}
+</div>
+
+{% schema %}
+{
+  "name": "Thank you page",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Thank you!"
+    },
+    {
+      "type": "richtext",
+      "id": "paragraph",
+      "label": "Paragraph",
+      "default": "<p>Thanks for reaching out, we'll be in touch soon.</p>"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button label",
+      "default": "Continue shopping"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button link"
+    }
+  ]
+}
+{% endschema %}

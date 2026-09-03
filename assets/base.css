@@ -2871,9 +2871,9 @@ details-disclosure>details {
   border-right: none;
 }
 /* Header CSS */
-header .header__inline-menu {
+/* header .header__inline-menu {
     display: none!important;
-}
+} */
 /* Header CSS */
 /* check for flexbox gap in older Safari versions */
 @supports not (inset: 10px) {

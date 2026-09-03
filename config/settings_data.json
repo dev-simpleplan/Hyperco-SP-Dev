@@ -140,7 +140,7 @@
           "logo": "shopify://shop_images/hyperco-logo.png",
           "logo_width": 220,
           "logo_position": "middle-left",
-          "menu": "",
+          "menu": "sports-top-nav",
           "menu_type_desktop": "dropdown",
           "show_line_separator": false,
           "enable_sticky_header": true,
@@ -274,11 +274,6 @@
       },
       "319724205969189013": {
         "type": "shopify://apps/hulk-form-builder/blocks/app-embed/b6b8dd14-356b-4725-a4ed-77232212b3c3",
-        "disabled": false,
-        "settings": {}
-      },
-      "7555218208816688692": {
-        "type": "shopify://apps/rivo-popups-email-pop-ups/blocks/app-embed/48a5a3ef-b6ff-431f-842f-6f17862c4a63",
         "disabled": false,
         "settings": {}
       },

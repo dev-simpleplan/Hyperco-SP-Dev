@@ -154,6 +154,7 @@
         "blocks": {
           "link_list_yEGQY3": {
             "type": "link_list",
+            "disabled": true,
             "settings": {
               "heading": "",
               "menu": "lp-menu"
@@ -185,7 +186,6 @@
           },
           "a02f424c-465d-4a8d-b732-7f8dcb659e6a": {
             "type": "link_list",
-            "disabled": true,
             "settings": {
               "heading": "",
               "menu": "footer-menu-v2"
@@ -210,7 +210,7 @@
         ],
         "settings": {
           "color_scheme": "background-2",
-          "newsletter_enable": false,
+          "newsletter_enable": true,
           "newsletter_heading": "Get first dibs on new drops, early access, and exclusive offers.",
           "show_social": true,
           "enable_country_selector": false,

@@ -42,6 +42,7 @@
       "block_order": [
         "powerful_form_builder_app_block_B78eKy"
       ],
+      "disabled": true,
       "name": "Build popup",
       "settings": {
         "delay": 1.5,

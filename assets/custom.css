@@ -1353,6 +1353,18 @@ a.cg-card__link {
     width: auto;
     object-fit: contain;
 }
+.rich-text__wrapper h2.rich-text__heading {
+    color: #fff;
+}
+.rich-text__wrapper .rich-text__text p {
+    color: #fff;
+}
+.rich-text__buttons .button--secondary {
+    color: #fff;
+}
+.rich-text__buttons .button--secondary::after{
+    box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset)) rgba(255,255,255,255), 0 0 0 var(--buttons-border-width) rgba(var(--color-button), var(--alpha-button-background));
+}
 
 @keyframes lm-scroll {
     from {

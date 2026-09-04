@@ -11,7 +11,12 @@
   "sections": {
     "main": {
       "type": "main-thank-you",
-      "settings": {}
+      "settings": {
+        "heading": "Thank you!",
+        "paragraph": "<p>Thanks for your interest in some custom uniforms! We will review your details and be in touch ASAP with next steps. </p><p> <strong>Team Hyperco</strong></p><p></p>",
+        "button_label": "Continue shopping",
+        "button_link": "shopify://collections/hockey"
+      }
     }
   },
   "order": [

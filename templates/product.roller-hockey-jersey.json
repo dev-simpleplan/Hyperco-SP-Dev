@@ -29,26 +29,6 @@
         "include_margins": true
       }
     },
-    "build_popup_TT7eN9": {
-      "type": "build-popup",
-      "blocks": {
-        "powerful_form_builder_app_block_MngXgw": {
-          "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
-          "settings": {
-            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"MTMxMTY1\"></div>"
-          }
-        }
-      },
-      "block_order": [
-        "powerful_form_builder_app_block_MngXgw"
-      ],
-      "name": "Build popup",
-      "settings": {
-        "delay": 1.5,
-        "heading": "Before you build",
-        "skip_label": "Skip for now, take me to the builder"
-      }
-    },
     "customproductbuilder": {
       "type": "customproductbuilder",
       "settings": {}
@@ -591,7 +571,6 @@
   },
   "order": [
     "166016125605ec1b2d",
-    "build_popup_TT7eN9",
     "customproductbuilder",
     "main",
     "icon_columns_KfAjqA",

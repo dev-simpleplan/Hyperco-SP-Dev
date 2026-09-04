@@ -1369,13 +1369,13 @@ a.cg-card__link {
 .newsletter__wrapper .newsletter__subheading p {
     color: #fff;
 }
-/* .newsletter-form__field-wrapper input {
+.newsletter-form__field-wrapper input {
     border: 1px solid #fff;
     color: #fff;
 }
 .newsletter-form__field-wrapper input::placeholder {
     color: #fff;
-} */
+}
 
 @keyframes lm-scroll {
     from {

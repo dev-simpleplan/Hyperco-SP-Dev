@@ -1369,16 +1369,16 @@ a.cg-card__link {
 .newsletter__wrapper .newsletter__subheading p {
     color: #fff;
 }
-.newsletter-form__field-wrapper input {
-    border: 1px solid #fff;
+.newsletter-form__field-wrapper input label,
+.newsletter-form__field-wrapper input button {
     color: #fff;
 }
 .newsletter-form__field-wrapper::after {
     box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset)) rgba(255,255,255,255), 0 0 0 var(--buttons-border-width) rgba(var(--color-button), var(--alpha-button-background));
 }
-.newsletter-form__field-wrapper input::placeholder {
+/* .newsletter-form__field-wrapper input::placeholder {
     color: #fff;
-}
+} */
 
 @keyframes lm-scroll {
     from {

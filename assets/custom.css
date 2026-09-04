@@ -1373,7 +1373,7 @@ a.cg-card__link {
 .newsletter-form__field-wrapper input button {
     color: #fff;
 }
-.newsletter-form__field-wrapper::after {
+.newsletter-form__field-wrapper .field::after {
     box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset)) rgba(255,255,255,255), 0 0 0 var(--buttons-border-width) rgba(var(--color-button), var(--alpha-button-background));
 }
 /* .newsletter-form__field-wrapper input::placeholder {

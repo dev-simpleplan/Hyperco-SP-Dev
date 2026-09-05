@@ -1380,6 +1380,14 @@ a.cg-card__link {
     color: #fff;
 } */
 
+.template-thank-you p {
+    max-width: 70ch;
+}
+.template-thank-you .button {
+    color: #fff;
+    margin-top: 30px;
+}
+
 @keyframes lm-scroll {
     from {
         transform: translateX(0);
@@ -1684,6 +1692,22 @@ a.cg-card__link {
     }
 }
 /* Sticky Bar CSS */
+
+/* Thankyou Page CSS */
+.template-thank-you {
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto!important;
+    width: 100%;
+    padding: 80px 40px!important;
+    min-height: 300px;
+}
+.template-thank-you h1 {
+    margin: 0!important;
+}
 
 /*------ New SP CSS ------*/
 

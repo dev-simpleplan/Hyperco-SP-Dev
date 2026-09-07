@@ -1385,6 +1385,9 @@ a.cg-card__link {
  .newsletter-form__field-wrapper label {
     color: #fff;
  }
+ .newsletter-form__button:not(:focus-visible):not(.focused) {
+    color: #fff;
+ }
 
 .template-thank-you p {
     max-width: 70ch;

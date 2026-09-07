@@ -1382,7 +1382,7 @@ a.cg-card__link {
  .newsletter-form__field-wrapper .field__input {
     border: 1px solid #ffffff8c;
  }
- .newsletter-form__field-wrapper label {
+ .newsletter-form__field-wrapper label { 
     color: #fff;
  }
  .newsletter-form__button:not(:focus-visible):not(.focused) {

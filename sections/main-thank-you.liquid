@@ -8,22 +8,58 @@
       margin-top: 2rem;
     }
   }
+
+  .template-thank-you {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .template-thank-you .ty-left {
+    text-align: left;
+  }
+
+  .template-thank-you .ty-right img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  @media screen and (min-width: 750px) {
+    .template-thank-you {
+      flex-direction: row;
+      align-items: center;
+      gap: 4rem;
+    }
+
+    .template-thank-you .ty-left,
+    .template-thank-you .ty-right {
+      flex: 1 1 50%;
+    }
+  }
 </style>
 
 <div class="template-thank-you page-width page-margin center">
-  <h1 class="title">
-    {{ section.settings.heading }}
-  </h1>
-  {%- if section.settings.paragraph != blank -%}
-    <p>
-      {{ section.settings.paragraph }}
-    </p>
-  {%- endif -%}
-  {%- if section.settings.button_label != blank -%}
-    <a href="{{ section.settings.button_link | default: routes.root_url }}" class="button">
-      {{ section.settings.button_label }}
-    </a>
-  {%- endif -%}
+  <div class="ty-left">
+    <h1 class="title">
+      {{ section.settings.heading }}
+    </h1>
+    {%- if section.settings.paragraph != blank -%}
+      <p>
+        {{ section.settings.paragraph }}
+      </p>
+    {%- endif -%}
+    {%- if section.settings.button_label != blank -%}
+      <a href="{{ section.settings.button_link | default: routes.root_url }}" class="button">
+        {{ section.settings.button_label }}
+      </a>
+    {%- endif -%}
+  </div>
+  <div class="ty-right">
+    {%- if section.settings.image != blank -%}
+      {{ section.settings.image | image_url: width: 1000 | image_tag: loading: 'lazy' }}
+    {%- endif -%}
+  </div>
 </div>
 
 {% schema %}
@@ -52,6 +88,11 @@
       "type": "url",
       "id": "button_link",
       "label": "Button link"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
     }
   ]
 }

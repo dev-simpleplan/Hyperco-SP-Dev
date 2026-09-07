@@ -15,7 +15,8 @@
         "heading": "Thank you!",
         "paragraph": "<p>We're excited to work with you on your uniforms, and we will be in touch ASAP!</p><p> <strong>Team Hyperco</strong></p><p></p>",
         "button_label": "Continue shopping",
-        "button_link": "shopify://collections/hockey"
+        "button_link": "shopify://collections/hockey",
+        "image": "shopify://shop_images/DSC9887_1.png"
       }
     }
   },

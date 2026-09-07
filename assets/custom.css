@@ -1379,6 +1379,12 @@ a.cg-card__link {
 /* .newsletter-form__field-wrapper input::placeholder {
     color: #fff;
 } */
+ .newsletter-form__field-wrapper .field__input {
+    border: 1px solid #ffffff8c;
+ }
+ .newsletter-form__field-wrapper label {
+    color: #fff;
+ }
 
 .template-thank-you p {
     max-width: 70ch;

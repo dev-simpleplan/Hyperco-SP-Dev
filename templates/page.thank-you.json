@@ -12,8 +12,10 @@
     "main": {
       "type": "main-thank-you",
       "settings": {
-        "heading": "Thank you!",
-        "paragraph": "<p>We're excited to work with you on your uniforms, and we will be in touch ASAP!</p><p> <strong>Team Hyperco</strong></p><p></p>",
+        "heading": "Thank",
+        "heading_colored": "you!",
+        "paragraph": "<p>We're excited to work with you on your uniforms, and we will be in touch ASAP!</p><p></p>",
+        "team_name": "Team Hyperco",
         "button_label": "Continue shopping",
         "button_link": "shopify://collections/hockey",
         "image": "shopify://shop_images/DSC9887_1.png"

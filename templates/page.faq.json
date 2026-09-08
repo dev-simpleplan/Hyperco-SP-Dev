@@ -69,6 +69,7 @@
           "type": "heading",
           "settings": {
             "heading": "FAQ",
+            "heading_colored": "",
             "heading_size": "h1"
           }
         },

@@ -66,9 +66,11 @@
       <p class="team_name">{{ section.settings.team_name }}</p>
     {%- endif -%}
     {%- if section.settings.button_label != blank -%}
-      <a href="{{ section.settings.button_link | default: routes.root_url }}" class="button">
-        {{ section.settings.button_label }}
-      </a>
+      <div class="ty-button">
+        <a href="{{ section.settings.button_link | default: routes.root_url }}" class="button">
+          {{ section.settings.button_label }}
+        </a>
+      </div>
     {%- endif -%}
   </div>
   <div class="ty-right">

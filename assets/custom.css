@@ -1397,6 +1397,7 @@ a.cg-card__link {
     position: relative;
     padding-left: 40px;
     font-weight: 600;
+    display: inline-block;
 }
 .template-thank-you p.team_name::before {
     content: '';

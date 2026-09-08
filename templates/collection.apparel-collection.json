@@ -16,6 +16,7 @@
           "type": "heading",
           "settings": {
             "heading": "TEAM GEAR",
+            "heading_colored": "",
             "heading_size": "h0"
           }
         }
@@ -111,6 +112,7 @@
           "type": "heading",
           "settings": {
             "heading": "IMAGE WITH TEXT",
+            "heading_colored": "text",
             "heading_size": "h1"
           }
         },

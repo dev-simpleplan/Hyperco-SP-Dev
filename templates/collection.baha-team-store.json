@@ -16,6 +16,7 @@
           "type": "heading",
           "settings": {
             "heading": "Burlington Bobcats",
+            "heading_colored": "",
             "heading_size": "h1"
           }
         }
@@ -112,6 +113,7 @@
           "type": "heading",
           "settings": {
             "heading": "IMAGE WITH TEXT",
+            "heading_colored": "text",
             "heading_size": "h1"
           }
         },

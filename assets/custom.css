@@ -1397,7 +1397,6 @@ a.cg-card__link {
     position: relative;
     padding-left: 40px;
     font-weight: 600;
-    display: inline-block;
 }
 .template-thank-you p.team_name::before {
     content: '';
@@ -1603,6 +1602,9 @@ a.cg-card__link {
     }
     .template-thank-you .ty-left {
         text-align: center!important;
+    }
+    .template-thank-you p.team_name {
+        display: inline-block;
     }
 }
 

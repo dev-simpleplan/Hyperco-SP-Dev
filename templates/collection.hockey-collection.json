@@ -61,6 +61,7 @@
           "type": "heading",
           "settings": {
             "heading": "HOCKEY",
+            "heading_colored": "",
             "heading_size": "h0"
           }
         },
@@ -357,6 +358,7 @@
           "type": "heading",
           "settings": {
             "heading": "An Official Supplier of the USHL",
+            "heading_colored": "text",
             "heading_size": "h1"
           }
         },

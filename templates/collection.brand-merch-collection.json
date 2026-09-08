@@ -62,6 +62,7 @@
           "type": "heading",
           "settings": {
             "heading": "SHOP",
+            "heading_colored": "",
             "heading_size": "h0"
           }
         }

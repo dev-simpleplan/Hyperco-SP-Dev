@@ -19,7 +19,18 @@
   .template-thank-you .ty-left {
     text-align: left;
   }
-
+  .ty-left h1 {
+        font-family: var(--font-heading-family);
+      font-weight: var(--font-heading-weight-600);
+      font-size: 56px;
+      line-height: 110%;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+      color: #fff;
+  }
+  .ty-left h1 span {
+    color: #35ffcb;
+  }
   .template-thank-you .ty-right img {
     width: 100%;
     height: auto;
@@ -43,12 +54,15 @@
 <div class="template-thank-you page-width page-margin center">
   <div class="ty-left">
     <h1 class="title">
-      {{ section.settings.heading }}
+      {{ section.settings.heading }}<span>{{ section.settings.heading_colored }}</span>
     </h1>
     {%- if section.settings.paragraph != blank -%}
       <p>
         {{ section.settings.paragraph }}
       </p>
+    {%- endif -%}
+    {%- if section.settings.team_name != blank -%}
+      <p class="team_name">{{ section.settings.team_name }}</p>
     {%- endif -%}
     {%- if section.settings.button_label != blank -%}
       <a href="{{ section.settings.button_link | default: routes.root_url }}" class="button">
@@ -71,13 +85,25 @@
       "type": "text",
       "id": "heading",
       "label": "Heading",
-      "default": "Thank you!"
+      "default": "Thank "
+    },
+    {
+      "type": "text",
+      "id": "heading_colored",
+      "label": "Heading Colored Text",
+      "default": "you!"
     },
     {
       "type": "richtext",
       "id": "paragraph",
       "label": "Paragraph",
       "default": "<p>Thanks for reaching out, we'll be in touch soon.</p>"
+    },
+    {
+      "type": "text",
+      "id": "team_name",
+      "label": "Team Name",
+      "default": "Team Hyperco"
     },
     {
       "type": "text",

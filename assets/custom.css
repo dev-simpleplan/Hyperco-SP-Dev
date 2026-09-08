@@ -1391,6 +1391,21 @@ a.cg-card__link {
 
 .template-thank-you p {
     max-width: 70ch;
+    color: #fff;
+}
+.template-thank-you p.team_name {
+    position: relative;
+    padding-left: 40px;
+    font-weight: 600;
+}
+.template-thank-you p.team_name::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 13px;
+    width: 30px;
+    height: 2px;
+    background-color: #35ffcb;
 }
 .template-thank-you .button {
     color: #fff;
@@ -1584,6 +1599,9 @@ a.cg-card__link {
     .sp-mcc-info .mcc-info-in h3 {
         font-size: 32px;
         max-width: 18ch;
+    }
+    .template-thank-you .ty-left {
+        text-align: center;
     }
 }
 

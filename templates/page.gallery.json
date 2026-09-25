@@ -48,6 +48,7 @@
           "type": "heading",
           "settings": {
             "heading": "GALLERY",
+            "heading_colored": "",
             "heading_size": "h0"
           }
         }
@@ -317,12 +318,16 @@
             "eg_grid_sub_heading": "",
             "eg_grid_heading_size": 30,
             "eg_grid_sub_heading_size": 15,
+            "eg_grid_heading_margin": 30,
             "eg_grid_heading_alignment": "center",
             "eg_grid_sec_back_color": "",
             "eg_grid_sec_front_color": "",
             "eg_grid_sec_sub_heading_color": "",
             "eg_grid_sec_pad_top": 28,
-            "eg_grid_sec_pad_bot": 0
+            "eg_grid_sec_pad_bot": 0,
+            "eg_grid_hide_desktop": false,
+            "eg_grid_hide_tablet": false,
+            "eg_grid_hide_mobile": false
           }
         }
       },

@@ -13,9 +13,9 @@
       "type": "apps",
       "blocks": {
         "profy_banner_countdown_timer_app_block_cwWhVC": {
-          "type": "shopify://apps/profy-banner-countdown-timer/blocks/app_block/243a639f-ca73-4afe-b6aa-3a23277fb424",
+          "type": "shopify://apps/profy-banner-timer/blocks/app_block/243a639f-ca73-4afe-b6aa-3a23277fb424",
           "settings": {
-            "banner_id": "6fc809c6-d1cc-11ef-999f-8a4bae29c3df"
+            "banner_id": "02f61f8f-c32f-11f1-ad47-8e24a512ef8f"
           }
         }
       },
@@ -92,8 +92,10 @@
           }
         },
         "globo_product_option_app_block_Y4qA6P": {
-          "type": "shopify://apps/globo-product-option/blocks/app-block/fdc9fad5-1a0f-4bd4-9c8a-1af6a6eef6b8",
-          "settings": {}
+          "type": "shopify://apps/globo-product-options/blocks/app-block/fdc9fad5-1a0f-4bd4-9c8a-1af6a6eef6b8",
+          "settings": {
+            "product": ""
+          }
         },
         "quantity_selector": {
           "type": "quantity_selector",
@@ -149,7 +151,12 @@
       "blocks": {
         "judgeme_review_widget_267c5650": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
+          }
         }
       },
       "block_order": [

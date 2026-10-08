@@ -282,6 +282,12 @@
         "padding_top": 40,
         "padding_bottom": 40
       }
+    },
+    "17914743890d6ddf1c": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -293,6 +299,7 @@
     "collapsible-content",
     "product-recommendations",
     "17368971121f040fa8",
-    "newsletter"
+    "newsletter",
+    "17914743890d6ddf1c"
   ]
 }

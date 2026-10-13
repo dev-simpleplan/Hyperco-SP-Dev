@@ -16,6 +16,7 @@
           "type": "heading",
           "settings": {
             "heading": "Grand Rapids Blades",
+            "heading_colored": "",
             "heading_size": "h1"
           }
         }
@@ -47,6 +48,23 @@
         "show_collection_description": false,
         "show_collection_image": false,
         "color_scheme": "background-1"
+      }
+    },
+    "1782332725795aa36d": {
+      "type": "apps",
+      "blocks": {
+        "profy_banner_timer_app_block_qeXyFa": {
+          "type": "shopify://apps/profy-banner-timer/blocks/app_block/243a639f-ca73-4afe-b6aa-3a23277fb424",
+          "settings": {
+            "banner_id": "8c369416-700a-11f1-997e-52631a84efe6"
+          }
+        }
+      },
+      "block_order": [
+        "profy_banner_timer_app_block_qeXyFa"
+      ],
+      "settings": {
+        "include_margins": true
       }
     },
     "1726246220ffa5fb85": {
@@ -95,6 +113,7 @@
           "type": "heading",
           "settings": {
             "heading": "IMAGE WITH TEXT",
+            "heading_colored": "text",
             "heading_size": "h1"
           }
         },
@@ -163,23 +182,6 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 40
-      }
-    },
-    "1782332725795aa36d": {
-      "type": "apps",
-      "blocks": {
-        "profy_banner_timer_app_block_qeXyFa": {
-          "type": "shopify://apps/profy-banner-timer/blocks/app_block/243a639f-ca73-4afe-b6aa-3a23277fb424",
-          "settings": {
-            "banner_id": "8c369416-700a-11f1-997e-52631a84efe6"
-          }
-        }
-      },
-      "block_order": [
-        "profy_banner_timer_app_block_qeXyFa"
-      ],
-      "settings": {
-        "include_margins": true
       }
     }
   },

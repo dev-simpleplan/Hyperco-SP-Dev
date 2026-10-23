@@ -25,7 +25,8 @@
         "heading_GQrDJb"
       ],
       "custom_css": [
-        "h2.banner__heading.h1 {background-color: rgba(0, 0, 0, 0.7); padding: 20px;}"
+        "h2.banner__heading.h1 {background-color: rgba(0, 0, 0, 0.7); padding: 20px;}",
+        "@media screen and (max-width: 480px) {h2 {font-size: 28px !important; }}"
       ],
       "settings": {
         "image": "shopify://shop_images/IMG_7100.jpg",

@@ -16,6 +16,7 @@
           "type": "heading",
           "settings": {
             "heading": "RUTGERS CLUB HOCKEY TEAM",
+            "heading_colored": "",
             "heading_size": "h1"
           }
         }
@@ -53,7 +54,7 @@
       "type": "apps",
       "blocks": {
         "profy_banner_countdown_timer_app_block_K6MyER": {
-          "type": "shopify://apps/profy-banner-countdown-timer/blocks/app_block/243a639f-ca73-4afe-b6aa-3a23277fb424",
+          "type": "shopify://apps/profy-banner-timer/blocks/app_block/243a639f-ca73-4afe-b6aa-3a23277fb424",
           "settings": {
             "banner_id": "efafa455-c6cc-11ee-b619-4a3169df64e8"
           }
@@ -95,6 +96,7 @@
           "type": "heading",
           "settings": {
             "heading": "IMAGE WITH TEXT",
+            "heading_colored": "text",
             "heading_size": "h1"
           }
         },

@@ -28,7 +28,7 @@
         "h2.banner__heading.h1 {background-color: rgba(0, 0, 0, 0.7); padding: 20px;}"
       ],
       "settings": {
-        "image_2": "shopify://shop_images/seattle-drop-banner-option1.jpg",
+        "image": "shopify://shop_images/IMG_7100.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,

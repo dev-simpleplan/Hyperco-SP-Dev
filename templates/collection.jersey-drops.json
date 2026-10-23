@@ -15,7 +15,7 @@
         "heading_GQrDJb": {
           "type": "heading",
           "settings": {
-            "heading": "RUTGERS CLUB HOCKEY TEAM",
+            "heading": "Exclusive Jersey Drops",
             "heading_colored": "",
             "heading_size": "h1"
           }
@@ -28,9 +28,9 @@
         "h2.banner__heading.h1 {background-color: rgba(0, 0, 0, 0.7); padding: 20px;}"
       ],
       "settings": {
-        "image": "{{ collection.image }}",
+        "image_2": "shopify://shop_images/seattle-drop-banner-option1.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "small",
+        "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_content_position": "middle-center",
         "show_text_box": false,

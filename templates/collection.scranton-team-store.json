@@ -16,6 +16,7 @@
           "type": "heading",
           "settings": {
             "heading": "University of Scranton Ice Hockey",
+            "heading_colored": "",
             "heading_size": "h1"
           }
         }
@@ -53,7 +54,7 @@
       "type": "apps",
       "blocks": {
         "profy_banner_countdown_timer_app_block_K6MyER": {
-          "type": "shopify://apps/profy-banner-countdown-timer/blocks/app_block/243a639f-ca73-4afe-b6aa-3a23277fb424",
+          "type": "shopify://apps/profy-banner-timer/blocks/app_block/243a639f-ca73-4afe-b6aa-3a23277fb424",
           "settings": {
             "banner_id": "6fc809c6-d1cc-11ef-999f-8a4bae29c3df"
           }
@@ -95,6 +96,7 @@
           "type": "heading",
           "settings": {
             "heading": "IMAGE WITH TEXT",
+            "heading_colored": "text",
             "heading_size": "h1"
           }
         },

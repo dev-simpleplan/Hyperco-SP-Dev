@@ -33,6 +33,23 @@
       "type": "customproductbuilder",
       "settings": {}
     },
+    "17368971121f040fa8": {
+      "type": "apps",
+      "blocks": {
+        "profy_banner_timer_app_block_mDbBG7": {
+          "type": "shopify://apps/profy-banner-timer/blocks/app_block/243a639f-ca73-4afe-b6aa-3a23277fb424",
+          "settings": {
+            "banner_id": "f8c01b77-cf20-11f1-ad47-8e24a512ef8f"
+          }
+        }
+      },
+      "block_order": [
+        "profy_banner_timer_app_block_mDbBG7"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -76,7 +93,9 @@
         },
         "globo_product_option_app_block_Y4qA6P": {
           "type": "shopify://apps/globo-product-options/blocks/app-block/fdc9fad5-1a0f-4bd4-9c8a-1af6a6eef6b8",
-          "settings": {}
+          "settings": {
+            "product": ""
+          }
         },
         "quantity_selector": {
           "type": "quantity_selector",
@@ -216,23 +235,6 @@
         "columns_mobile": "2",
         "padding_top": 0,
         "padding_bottom": 0
-      }
-    },
-    "17368971121f040fa8": {
-      "type": "apps",
-      "blocks": {
-        "profy_banner_timer_app_block_mDbBG7": {
-          "type": "shopify://apps/profy-banner-timer/blocks/app_block/243a639f-ca73-4afe-b6aa-3a23277fb424",
-          "settings": {
-            "banner_id": "8c369416-700a-11f1-997e-52631a84efe6"
-          }
-        }
-      },
-      "block_order": [
-        "profy_banner_timer_app_block_mDbBG7"
-      ],
-      "settings": {
-        "include_margins": true
       }
     },
     "newsletter": {

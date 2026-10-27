@@ -238,6 +238,15 @@
       "top-bar": {
         "type": "top-bar",
         "blocks": {
+          "top_bar_item_UEiC9m": {
+            "type": "top_bar_item",
+            "settings": {
+              "tb_text": "<p>October Jersey Drop is Live!</p>",
+              "color_scheme": "accent-1",
+              "tb_button_text": "Seattle Pike Place Sockeyes →",
+              "tb_button_link": "shopify://collections/jersey-drops"
+            }
+          },
           "top-bar-0": {
             "type": "top_bar_item",
             "disabled": true,
@@ -250,6 +259,7 @@
           }
         },
         "block_order": [
+          "top_bar_item_UEiC9m",
           "top-bar-0"
         ],
         "settings": {}

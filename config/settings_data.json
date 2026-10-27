@@ -263,7 +263,7 @@
           "top-bar-0"
         ],
         "custom_css": [
-          "/* .top-bar .top-bar-in {gap: 7px;} */"
+          "a {color: black;}"
         ],
         "settings": {}
       }

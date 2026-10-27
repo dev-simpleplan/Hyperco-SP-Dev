@@ -262,6 +262,9 @@
           "top_bar_item_UEiC9m",
           "top-bar-0"
         ],
+        "custom_css": [
+          ".top-bar .top-bar-in {gap: 7px;}"
+        ],
         "settings": {}
       }
     },

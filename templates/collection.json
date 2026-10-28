@@ -11,8 +11,25 @@
   "sections": {
     "image-banner": {
       "type": "image-banner",
+      "blocks": {
+        "heading_G7tDx7": {
+          "type": "heading",
+          "settings": {
+            "heading": "Jacksonville Hockey Store",
+            "heading_colored": "",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_G7tDx7"
+      ],
+      "custom_css": [
+        "h2.banner__heading.h1 {background-color: rgba(0, 0, 0, 0.7); padding: 20px;}",
+        "@media screen and (max-width: 480px) {h2 {font-size: 28px !important; }}"
+      ],
       "settings": {
-        "image": "shopify://shop_images/phins-team.jpg",
+        "image": "shopify://shop_images/JU-celebration.jpg",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "adapt_height_first_image": false,
@@ -27,6 +44,7 @@
     },
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "show_collection_description": false,
         "show_collection_image": false,
@@ -47,7 +65,7 @@
         "filter_type": "horizontal",
         "enable_sorting": false,
         "columns_mobile": "1",
-        "padding_top": 0,
+        "padding_top": 44,
         "padding_bottom": 0
       }
     },

@@ -152,7 +152,7 @@
           "settings": {
             "heading": "How much is shipping, and where all do you ship to?",
             "icon": "none",
-            "row_content": "<p>We'll ship anywhere! Currently, we offer <strong>$20 worldwide flat rate</strong> shipping for all orders. </p>",
+            "row_content": "<p>We'll ship anywhere! Currently, we offer <strong>$20 worldwide flat rate</strong> shipping for all bulk team orders.<br/><br/>For individual products, shipping costs will vary. &nbsp;</p>",
             "page": ""
           }
         },

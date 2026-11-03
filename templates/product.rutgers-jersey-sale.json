@@ -75,7 +75,7 @@
         "vendor": {
           "type": "text",
           "settings": {
-            "text": "THIS IS A PREORDER ITEM<br>Estimated ship date is around May 25, 2026",
+            "text": "THIS IS A PREORDER ITEM<br>Estimated ship date is around January 5, 2027",
             "text_style": "subtitle"
           }
         },
@@ -101,7 +101,9 @@
         },
         "globo_product_option_app_block_Y4qA6P": {
           "type": "shopify://apps/globo-product-options/blocks/app-block/fdc9fad5-1a0f-4bd4-9c8a-1af6a6eef6b8",
-          "settings": {}
+          "settings": {
+            "product": ""
+          }
         },
         "quantity_selector": {
           "type": "quantity_selector",

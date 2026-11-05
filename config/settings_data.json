@@ -240,6 +240,7 @@
         "blocks": {
           "top_bar_item_UEiC9m": {
             "type": "top_bar_item",
+            "disabled": true,
             "settings": {
               "tb_text": "<p>October Jersey Drop is Live! &nbsp;<a href=\"/products/seattle-pike-place-sockeye-hockey-jersey\" target=\"_blank\" title=\"Seattle Pike Place Sockeye - Hockey Jersey\">Seattle Pike Place Sockeye →</a></p>",
               "color_scheme": "accent-1",

@@ -28,7 +28,7 @@
         "h2.banner__heading.h1 {background-color: rgba(0, 0, 0, 0.7); padding: 20px;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/keller-banner.png",
+        "image": "shopify://shop_images/barnmice.jpg",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "adapt_height_first_image": false,

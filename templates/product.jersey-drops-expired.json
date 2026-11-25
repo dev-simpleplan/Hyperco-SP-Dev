@@ -67,7 +67,7 @@
         "vendor": {
           "type": "text",
           "settings": {
-            "text": "THIS IS A PREORDER ITEM",
+            "text": "THIS DROP HAS EXPIRED",
             "text_style": "subtitle"
           }
         },
